@@ -19,7 +19,7 @@ var config = {
             id: 'zochtdeed',
             alignment: 'center',
             hidden: false,
-            title: 'Abstract /Slow door het Soesterkwartier',
+            title: 'Abstract',
             image: '',
             description: 'Ik zocht naar manieren om gelijkwaardigheid in buurt te vergroten. Ik zocht naar nieuwe inzichten en doelgroepen om zo een een beter beeld van een burt te krijgen. Ik wilde de beleving van een buurt en de betekeis daarvan zichtbaar maken voor de bewoners zelf maar ook voor de organisaties/overheid die in de buurt werken. Ik ging op zoek naar stemmen die je normaal niet hoort, data die je normaal niet vindt. Daarvoor ontwierp ik werkvormen die vertragen om informatie over een buurt op te halen. Door Met aandacht en langdurig aanwezig zijn levert dat nieuwe informatie op op zo vroe ik mij af? De werkvormen gericht op ontdekken, refelcteren  co creeren en meerstemmigheid vond ik in een mix van slow design, creative placemaking en datafeminis. ',
             location: {
