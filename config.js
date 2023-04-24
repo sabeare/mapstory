@@ -117,7 +117,7 @@ var config = {
             hidden: false,
             title: 'verkennen',
             image: 'images/autotuin.png',
-            description: 'dit is een test test test test test',
+            description: 'dit is test',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
