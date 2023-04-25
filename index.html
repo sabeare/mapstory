@@ -132,11 +132,11 @@
         </style>
 </head>
 <body>
+    <a style='z-index: 100000; position: absolute;' href="http://127.0.0.1:5500/mapstory/index.html#walktalk" target="walktalk">Jump to Walktalk </a>
 
 <div id="map"></div>
 <div id="mapInset"></div>
 <div id="story"></div>
-
 <script src="./config.js"></script>
 <script>
 var initLoad = true;
@@ -346,6 +346,11 @@ map.on("load", function() {
         
         response.element.classList.add('active');
         map[chapter.mapAnimation || 'flyTo'](chapter.location);
+
+        // Setting url hash parameters from chapter id 
+        const url = new URL(location);
+        url.hash = chapter.id;
+        history.pushState({}, "", url);
 
         // Incase you do not want to have a dynamic inset map,
         // rather want to keep it a static view but still change the
