@@ -338,7 +338,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Walk&talk',
-            image: '',
+            image: 'radarchart_walk&talk.png',
             description: 'hier komt meer uitleg, wandelen, mindmaps, tracks luisteren',
             location: {
                 center: [5.36400, 52.16125],
