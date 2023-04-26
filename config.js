@@ -81,7 +81,7 @@ var config = {
             hidden: false,
             title: 'opbouw Werkwijze',
             image: 'images/werkwijze_slowdatavis.png',
-            description: 'Volgen de basis indeling van verkennen, verzamelen, verbinden en verbeelden. In iedere fase neem ik je mee in de gekozen werkvormenth (links uitgelijnd) en de resultaten ervan (thinglinks?). achtergrond informatie is rechts uitgelijnd.  ',
+            description: 'Volgen de basis indeling van verkennen, verbeelden en verdiepen. In iedere fase neem ik je mee in de gekozen werkvormen en reflectie (links uitgelijnd) en de resultaten ervan toegepast in het Soesterkwartier (rechts uitgelijnd). ',
             location: {
                 center: [5.36400, 52.16125],
                 zoom: 15.00,
@@ -119,10 +119,10 @@ var config = {
             image: 'images/autotuin.png',
             description: 'dit is test',
             location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
+                center: [5.37059, 52.15687],
+                zoom: 18.47,
+                pitch: 53.65,
+                bearing: -15.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -262,69 +262,12 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: 'resultaat thinglink verkennen ',
-            image: '',
-            description: 'hoe thinglink toevoegen dit is een link of een iframe?',
+            image: ' <a href="https://www.thinglink.com/mediacard/1702291723679433508" </a>',
+            description: 'of al aan het begin van verkennen plaatsen...hoe thinglink toevoegen dit is een link of een iframe?',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
                 pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'verzamelimg',
-            alignment: 'full',
-            hidden: false,
-            title: 'verzamelen',
-            image: './path/to/image/source.png',
-            description: '',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'verzamelen',
-            alignment: 'full',
-            hidden: false,
-            title: 'verzamelen',
-            image: '',
-            description: 'infor intro over fase verzamelen',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'third-identifier',
-            alignment: 'left',
-            hidden: false,
-            title: '360 test',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [6.15116, 46.20595],
-                zoom: 12.52,
-                pitch: 8.01,
                 bearing: 0.00
             },
             mapAnimation: 'flyTo',
@@ -442,44 +385,6 @@ var config = {
             ]
         },
         {
-            id: 'verbindimg',
-            alignment: 'full',
-            hidden: false,
-            title: 'verbinden',
-            image: 'images/verbinden.png',
-            description: '',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'verbinden',
-            alignment: 'full',
-            hidden: false,
-            title: 'verbinden',
-            image: '',
-            description: 'verkennen van de buurt en verbinden van de methode...',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'verbeeldimg',
             alignment: 'full',
             hidden: false,
@@ -505,6 +410,63 @@ var config = {
             title: 'verbeelden',
             image: '',
             description: 'verkennen van de buurt en verbeelden van de methode...',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'scholen',
+            alignment: 'right',
+            hidden: false,
+            title: 'Kansengelijkheid schoolkinderen',
+            image: 'images/sk25000.png',
+            description: 'De slow datavisualisatie hiernaast laat zien naar welke scholen de kinderen uit het Soesterkwartier gaan. Het blijkt dat de meerderheid van de kinderen buiten de wijk naar school gaat (groen). Is dat erg? In veel van de wandelinterviews die ik maakte kwam deze scholenproblematiek als onderwerp ter sprake. Sommige vertelden over de afwegingen die ze gemaakt hadden over wel of niet in de buurt naar school gaan. Voor meerdere was het grove taalgebruik van kinderen op de buurtscholen een reden om naar andere scholen buiten de buurt te gaan kijken.Een van de wandelaars, die ontevreden is over de buurtscholen, stelde voor om alle scholen sluiten en één nieuwe school op nieuwe locatie inclusief nieuw docenten- en directie team te ontwikkelen. Ook vertelde iemand over de komst van een internationale school in één van de scholen vanwege de gunstige ligging bij het station en de internationale scholen in de omgeving allemaal vol zitten. Volgens haar was dit positief omdat de internationale school een samenwerking met alle scholen aangaat en zo het Engels onderwijs op alle buurtscholen kan verbeteren. Het is nog onduidelijk wat deze oplossingen teweeg kunnen brengen. Ik maakte een dataset (allecijfers.nl) over welke scholen de lagere schoolleerlingen uit de wijk Soesterkwartier bezoeken. Ik gebruikte deze data om ieder kind te eren met een geborduurd knoopje. Tijdens het borduren reflecteerde ik op de informatie en quotes die ik had gekregen tijdens de wandelinterviews.          De scholen kampen met de gevolgen van sociaal-economische segregatie. De kinderen van vooral hoger opgeleide ouders gaan buiten de wijk naar school, waardoor de scholen in de wijk in een alsmaar grotere vicieuze cirkel terecht zijn gekomen. Er is meer gelaagde informatie nodig, dan alleen cijfers van het aantal kinderen om oplossingen te vinden om alle kinderen in deze wijk dezelfde schoolkansen te bieden.',
+            location: {
+                center: [5.37006, 52.16049],
+                zoom: 15.64,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'verdiepimg',
+            alignment: 'full',
+            hidden: false,
+            title: 'verdiepen',
+            image: 'images/verbinden.png',
+            description: '',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'verdiepen',
+            alignment: 'full',
+            hidden: false,
+            title: 'verbinden',
+            image: '',
+            description: 'verkennen van de buurt en verbinden van de methode...',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
