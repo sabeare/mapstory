@@ -370,12 +370,48 @@ var config = {
             ]
         },
         {
+            id: 'stapel',
+            alignment: 'right',
+            hidden: false,
+            title: 'gestapelde huizen',
+            image: 'images/huisverheuvel.png',
+            description: 'Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. Tijdens veel wandelingen met medebewoners kwam meerdere keren naar voren dat in het Soesterkwartier regelmatig meerdere generaties na elkaar in hetzelfde huis wonen. Dat zegt voor mij iets over de verbondenheid die zij voelen met die plek.In dit huisje woont mevrouw Verheuvel, ruim negentig jaar oud, al haar hele leven. Ze is de vierde generatie die in dit huis woont: ook haar ouders, grootouders en overgrootmoeder hebben hier gewoond. Ik hoorde dit verhaal tijdens de wandelingen door de buurt. Later sprak ik de zus van mevrouw Verheuvel hierover tijdens mijn bezoek aan een dagbestedingsgroep van beginnende dementerenden. Zij vertelde me dat haar overgrootmoeder weduwe werd en met haar kinderen dit huisje mocht betrekken in ruil voor onderhoud van de naast gelegen Joodse begraafplaats. Door deze collage als slow datavisualisatie toe te voegen aan  de deepmap kan ik deze verborgen verhalen teruggeven aan de buurt',
+            location: {
+                center: [5.37019, 52.15695],
+                zoom: 17.66,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'tracksSander',
+                     opacity: 1,
+                     duration: 5000
+                 }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'tracksSander',
+                     opacity: 0
+                 }
+            ]
+        },
+        {
             id: 'track',
             alignment: 'left',
             hidden: false,
             title: 'track tracks',
             image: '',
-            description: 'hier komt meer uitleg',
+            description: '',
             location: {
                 center: [5.36400, 52.16125],
                 zoom: 15.00,
