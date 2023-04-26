@@ -77,7 +77,7 @@ var config = {
         },
         {
             id: 'opbouw',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'opbouw Werkwijze',
             image: 'images/werkwijze_slowdatavis.png',
@@ -483,7 +483,7 @@ var config = {
         },
         {
             id: 'principes',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'principes',
             image: 'images/autotuin.png',
@@ -502,7 +502,7 @@ var config = {
         },
         {
             id: 'slow',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'wat is slow design',
             image: 'images/autotuin.png',
@@ -521,7 +521,7 @@ var config = {
         },
         {
             id: 'place',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'creative placemaking',
             image: 'images/autotuin.png',
@@ -540,7 +540,7 @@ var config = {
         },
         {
             id: 'data',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'data feminisme',
             image: 'images/autotuin.png',
