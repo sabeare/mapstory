@@ -10,8 +10,8 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'Slow Stories uit het Soesterkwatier',
-    subtitle: 'Waarom subjectieve verhalen nieuwe inzichten geven',
+    title: 'Slow datavisualisatie in het Soesterkwatier',
+    subtitle: 'Hoe een geborduurd tafelkleed zorgt voor reflectie, verbinding en het omarmen van complexiteit',
     byline: 'By Baukje Rienks | 12 juni 2023',
     footer: 'gemaakt door Baukje Rienks, met behulp van X. Free en Y. lovely',
     chapters: [
@@ -49,7 +49,7 @@ var config = {
             id: 'vondweet',
             alignment: 'center',
             hidden: false,
-            title: 'Abstract /Slow door het Soesterkwartier',
+            title: '',
             image: '',
             description: 'Ik vond een manier om buurtonderzoek te doen in vier fases, elke fase heeft haar eigen werkvormen. De vier fases zijn verkennen, verzamelen, verbinden, en verdiepen. Dit is een multilayere storytelling tool die ik in kan zetten. De werkvormen die daarin passen zijn zintuigelijk of embodied, wandelen observrern, fotograferen, luisteren slow datavisualisaeren,borduren en dat samen vormt een conversation piece waar alsmaar nieuwe informatie aan toegevoegd kan worden.Dat ziet er in een schema als volgt uit. Ik weet dat door het inzetten van wandelen als methode nuances vindt die helpen om een buurt te doorgrondenen wat er nodig is om verbinding en meestemmigheid tot stand te brengen. Ik doe dit om mijn  wijze met behulp van juist  subjectieve data een brdere context zichtbaar te maken van wat er speelt in een buurt en de betekenis ervan. Door dit met diverse doelgroepen daarop door te gaan ontstaat er een conversation piece waar aan voor geborduurd kan worden en steeds rijker wordt in meerstemmigheid en onontdekte verhalen. Vertragen is verminigvuldingen Door aandacht te besteden, en te reflecteren op wat er gaan de is, door de tijd te nemen tijdens het borduurproces wat gebeurt hier eigenlijk komen er nieuwe inzichten. Door deze te delen op ontmoetingsplaatsen voor verbndiing dmv textiel ateliers zijn de eeste stappen voor een gelijkwaardige buurt gezet. wat is gelijkwaardigheid wat betekent dat voor mij! lexicon toevoegen.  ',
             location: {
