@@ -11,10 +11,29 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Slow datavisualisatie in het Soesterkwatier',
-    subtitle: 'Hoe een geborduurd tafelkleed zorgt voor reflectie, verbinding en het omarmen van complexiteit',
+    subtitle: 'Hoe een geborduurd tafelkleed zorgt voor reflectie, verbinding en het omarmen van complexiteit in een buurt',
     byline: 'By Baukje Rienks | 12 juni 2023',
     footer: 'gemaakt door Baukje Rienks, met behulp van X. Free en Y. lovely',
     chapters: [
+        {
+            id: 'kleedimg',
+            alignment: 'full',
+            hidden: false,
+            title: 'tafelkleed als conversation piece',
+            image: 'images/kleed.png',
+            description: '',
+            location: {
+                center: [5.37059, 52.15687],
+                zoom: 18.47,
+                pitch: 53.65,
+                bearing: -15.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
         {
             id: 'zochtdeed',
             alignment: 'center',
