@@ -20,7 +20,8 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: 'tafelkleed als conversation piece',
-            image: 'images/kleed.png',
+            thinglink: 'https://www.thinglink.com/mediacard/1702291723679433508',
+            image: '',
             description: '',
             location: {
                 center: [5.36207, 52.15940],
@@ -379,7 +380,8 @@ var config = {
             id: 'soesterkwartierimg',
             alignment: 'right',
             hidden: false,
-            title: 'soesterkwartier thinklink?',
+            title: 'soesterkwartier',
+            thinglink: 'https://www.thinglink.com/mediacard/1702291723679433508',
             image: '',
             description: '',
             location: {
@@ -1037,7 +1039,7 @@ var config = {
             title: 'resultaat thinglink verkennen ',
             thinglink: 'https://www.thinglink.com/mediacard/1702291723679433508',
             image: '',
-            description: 'of al aan het begin van verkennen plaatsen...hoe thinglink toevoegen dit is een link of een iframe?',
+            description: '',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
