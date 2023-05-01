@@ -1035,7 +1035,8 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: 'resultaat thinglink verkennen ',
-            image: ' <a href="https://www.thinglink.com/mediacard/1702291723679433508" </a>',
+            thinglink: 'https://www.thinglink.com/mediacard/1702291723679433508',
+            image: '',
             description: 'of al aan het begin van verkennen plaatsen...hoe thinglink toevoegen dit is een link of een iframe?',
             location: {
                 center: [5.38010, 52.15856],
