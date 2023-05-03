@@ -13,7 +13,7 @@ var config = {
     title: 'Slow datavisualisatie in het Soesterkwatier',
     subtitle: 'Hoe een geborduurd tafelkleed zorgt voor reflectie, verbinding en het omarmen van complexiteit in een buurt',
     byline: 'By Baukje Rienks | 12 juni 2023',
-    footer: 'gemaakt door Baukje Rienks, met behulp van X. Free en Y. lovely',
+    footer: 'gemaakt door Baukje Rienks, met web&tech hulp van Niene Boeijen',
     chapters: [
         {
             id: 'kleedimg',
