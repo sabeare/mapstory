@@ -62,10 +62,10 @@ var config = {
             image: 'images/autotuin.png',
             description: '',
             location: {
-                center: [5.37059, 52.15687],
-                zoom: 18.47,
-                pitch: 53.65,
-                bearing: -15.00
+                center: [5.36207, 52.15940],
+                zoom: 14.00,
+                pitch: 13.00,
+                bearing: 0.00    
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -81,10 +81,10 @@ var config = {
             image: '',
             description: 'Het gebied wat ik voor het ontwikkelen van mijn methode koos is de wijk het Soesterkwartier in Amersfoort. Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig aan te verbinden, maar het is geen voorwaarde. Het is een plek waar landelijke maatschappelijke issues zichtbaar zijn. Denk aan gentrificatie en de druk op de voorzieningen en groen ten koste van woningenbouw of het versterken van het wij-zij denken, polarisatie.             Deze voormalige arbeiderswijk ligt “boven” het station en is zon 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.  ',
             location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
+                center: [5.36207, 52.15940],
+                zoom: 14.00,
+                pitch: 13.00,
+                bearing: 0.00    
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
