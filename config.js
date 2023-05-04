@@ -22,7 +22,8 @@ var config = {
             title: 'tafelkleed als conversation piece',
             thinglink: 'https://www.thinglink.com/mediacard/1702291723679433508',
             image: '',
-            description: '',
+            description: 'Hallo check <br> hoe <span id="test">gaat<span> het?   <a href="#verdiepimg">verdiepen</a>',
+            description2: '',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -41,7 +42,7 @@ var config = {
             hidden: false,
             title: 'leesinstructie',
             image: '',
-            description: 'Je kunt deze publicatie op twee manieren lezen. De eerste manier is om via de buttons op het tafelkleed te navigeren. Zo volg je je eigen pad door de verhalen uit het Soesterkwartier en de achtergrond van de methode. De blauwe buttons gaan specifiek over het Soesterkwartier. De oranje buttons over de methode.             (dit is technisch nog niet helemaal mogelijk/evt zoekfunctie op keywords en of bidrectionallinks, wordt aan gewerkt )            Een andere mogelijkheid is om door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. De opbouw is volgens de fases van de methode: verkennen, verbeelden en verdiepen en staan links uitgelijnd. De resultaten opgehaald in de wijk soesterkwartier staan rechts uitgelijnd of als het om beeldmateriaal gaat over de volle breedte.            ',
+            description: 'Je kunt deze publicatie op twee manieren lezen. De eerste manier is om via de buttons op het tafelkleed te navigeren. Zo volg je je eigen pad door de verhalen uit het Soesterkwartier en de achtergrond van de methode. De blauwe buttons gaan specifiek over het Soesterkwartier. De oranje buttons over de methode. <br> </br>            (dit is technisch nog niet helemaal mogelijk/evt zoekfunctie op keywords en of bidrectionallinks, wordt aan gewerkt )            Een andere mogelijkheid is om door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. De opbouw is volgens de fases van de methode: verkennen, verbeelden en verdiepen en staan links uitgelijnd. De resultaten opgehaald in de wijk soesterkwartier staan rechts uitgelijnd of als het om beeldmateriaal gaat over de volle breedte.            ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
