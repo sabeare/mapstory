@@ -1,3 +1,7 @@
+// # tabbladen maken
+//  en terug naar home url zonder # als je uit eerste hoofdstuk scrollt. 
+
+
 const initLoad = true;
 const layerTypes = {
     'fill': ['fill-opacity'],
@@ -41,31 +45,31 @@ const story = document.getElementById('story');
 const features = document.createElement('div');
 features.setAttribute('id', 'features');
 
-const header = document.createElement('div');
+// const header = document.createElement('div');
 
-if (config.title) {
-    const titleText = document.createElement('h1');
-    titleText.innerText = config.title;
-    header.appendChild(titleText);
-}
+// if (config.title) {
+//     const titleText = document.createElement('h1');
+//     titleText.innerText = config.title;
+//     header.appendChild(titleText);
+// }
 
-if (config.subtitle) {
-    const subtitleText = document.createElement('h2');
-    subtitleText.innerText = config.subtitle;
-    header.appendChild(subtitleText);
-}
+// if (config.subtitle) {
+//     const subtitleText = document.createElement('h2');
+//     subtitleText.innerText = config.subtitle;
+//     header.appendChild(subtitleText);
+// }
 
-if (config.byline) {
-    const bylineText = document.createElement('p');
-    bylineText.innerText = config.byline;
-    header.appendChild(bylineText);
-}
+// if (config.byline) {
+//     const bylineText = document.createElement('p');
+//     bylineText.innerText = config.byline;
+//     header.appendChild(bylineText);
+// }
 
-if (header.innerText.length > 0) {
-    header.classList.add(config.theme);
-    header.setAttribute('id', 'header');
-    story.appendChild(header);
-}
+// if (header.innerText.length > 0) {
+//     header.classList.add(config.theme);
+//     header.setAttribute('id', 'header');
+//     story.appendChild(header);
+// }
 
 
 // Hoofdstukken genereren aan hand van config. 
@@ -89,6 +93,11 @@ config.chapters.forEach((record, idx) => {
     if (record.description) {
         const story = document.createElement('p');
         story.innerHTML = record.description;
+        chapter.appendChild(story);
+    }
+    if (record.description2) {
+        const story = document.createElement('p');
+        story.innerHTML = record.description2;
         chapter.appendChild(story);
     }
 
