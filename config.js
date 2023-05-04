@@ -805,10 +805,10 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'liter',
+            id: 'biblio',
             alignment: 'center',
             hidden: false,
-            title: 'literatuur',
+            title: 'bibliografie',
             image: '',
             description: '',
             location: {
@@ -862,7 +862,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'zochtdeed',
+            id: 'abstra',
             alignment: 'center',
             hidden: false,
             title: 'Abstract',
