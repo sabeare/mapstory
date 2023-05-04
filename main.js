@@ -1,4 +1,41 @@
 // # tabbladen maken
+
+function onTabClick(e) {
+    console.log('click', e);
+    const el = document.getElementById(e.id)
+    if (el.classList.contains('active')) {
+        el.parentNode.id === "back" ? el.style.height = '80px' : el.style.height = '40px'
+        el.classList.remove('active');
+        const content = el.querySelector('.content')
+        console.log(content)
+        content.style.visibility = 'hidden';
+    } else {
+        el.style.height = '100vh'
+        el.classList.add('active');
+        const content = el.querySelector('.content')
+        console.log(content)
+        content.style.visibility = 'visible';
+    }
+};
+
+const inhoudsopgave = document.getElementById('hoofdstuk').querySelector('.content')
+const hoofdstukken = document.createElement('ol');
+hoofdstukken.setAttribute('id', 'hoofdstukken-lijst');
+
+
+
+config.chapters.forEach((record, idx) => {
+    const entry = document.createElement('li');
+    const link = document.createElement('a')
+    link.setAttribute('id', 'H-' + record.id);
+    link.innerHTML = record.title;
+    link.href = '#' + record.id;
+    entry.appendChild(link)
+    hoofdstukken.appendChild(entry);
+});
+
+inhoudsopgave.appendChild(hoofdstukken)
+
 //  en terug naar home url zonder # als je uit eerste hoofdstuk scrollt. 
 
 
@@ -101,11 +138,11 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(story);
     }
 
-    if (record.thinglink){
+    if (record.thinglink) {
         const thinglink = document.createElement('iframe');
         thinglink.src = record.thinglink;
         thinglink.height = "500"
-        thinglink.width="100%"
+        thinglink.width = "100%"
         chapter.appendChild(thinglink)
     }
 

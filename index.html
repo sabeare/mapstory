@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset='utf-8' />
+  <head>
+    <meta charset="utf-8" />
     <title>Mapbox Storytelling</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <link rel="icon" type="image/x-icon"
-        href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg">
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet' />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://raw.githubusercontent.com/mapbox/assembly/publisher-staging/src/svgs/mapbox.svg"
+    />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- <div id="mapInset"></div> -->
     <div id="tabblad-footer">
-        <div class="tabblad" ><a href="#" >Home </a><br></div>
-        <div class="tabblad" ><a href="#verkenimg" >verkennen </a><br></div>
-        <div class="tabblad" ><a href="#verbeeldimg" >verbeelden</a><br></div>
-        <div class="tabblad" ><a href="#verdiepimg" >verdiepen</a></div>
-        
+      <div id="back" class="tab-row">
+        <div id="hoofdstuk" class="tabblad" onclick="onTabClick(this)">
+          <h3>Inhoudsopgave</h3>
+          <div class="content">
+            <p>Hier komt de inhoud en tekst in tekst</p>
+            <a href="#">Terug naar home</a><br />
+          </div>
+        </div>
+        <div id="samenvatting" class="tabblad" onclick="onTabClick(this)">
+          <h3>Samenvatting</h3>
+          <div class="content"></div>
+        </div>
+      </div>
+
+      <div id="front" class="tab-row">
+        <div id="lexicon" class="tabblad" onclick="onTabClick(this)">
+          <h3>Lexicon</h3>
+
+          <div class="content"></div>
+        </div>
+        <div id="colofon" class="tabblad" onclick="onTabClick(this)">
+          <h3>Colofon</h3>
+
+          <div class="content"></div>
+        </div>
+        <div id="overig" class="tabblad" onclick="onTabClick(this)">
+          <h3>Overig</h3>
+
+          <div class="content"></div>
+        </div>
+      </div>
     </div>
-    <div id="openingsFoto"> 
-        <h1>Nog een titel</h1>
+    <div id="openingsFoto">
+      <h1>Nog een titel</h1>
     </div>
     <div id="map"></div>
     <div id="story"></div>
     <script src="./config.js"></script>
-    <script src="main.js"> </script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
