@@ -1,28 +1,48 @@
-// # tabbladen maken
-
-function onTabClick(e) {
-    console.log('click', e);
-    const el = document.getElementById(e.id)
+// tabbladen maken
+function onTabClick(el) {
     if (el.classList.contains('active')) {
-        el.parentNode.id === "back" ? el.style.height = '80px' : el.style.height = '40px'
-        el.classList.remove('active');
-        const content = el.querySelector('.content')
-        console.log(content)
-        content.style.visibility = 'hidden';
     } else {
         el.style.height = '100vh'
         el.classList.add('active');
+        // Tab content
         const content = el.querySelector('.content')
-        console.log(content)
         content.style.visibility = 'visible';
+        // cross close image
+        const image = el.querySelector('.toggle-image')
+        image.classList.replace('arrow', 'cross');
     }
 };
 
+function onCrossClick(id, e) {
+    // Stop clicking on parent tab
+    if (e && e.stopPropagation) e.stopPropagation();
+    // Change tab 
+    const tab = document.getElementById(id)
+    if (tab.classList.contains('active')) {
+        tab.parentNode.id === "back" ? tab.style.height = '80px' : tab.style.height = '40px'
+        tab.classList.remove('active');
+        // Tab content
+        const content = tab.querySelector('.content')
+        content.style.visibility = 'hidden';
+        // arrow image
+        const image = tab.querySelector('.toggle-image')
+        image.classList.replace('cross', 'arrow');
+    } else {
+        tab.style.height = '100vh'
+        tab.classList.add('active');
+        // Tab content
+        const content = tab.querySelector('.content')
+        content.style.visibility = 'visible';
+        // cross close image
+        const image = tab.querySelector('.toggle-image')
+        image.classList.replace('arrow', 'cross');
+    }
+};
+
+// Inhoudsopgave maken aan de hand van config bestand. 
 const inhoudsopgave = document.getElementById('hoofdstuk').querySelector('.content')
 const hoofdstukken = document.createElement('ol');
 hoofdstukken.setAttribute('id', 'hoofdstukken-lijst');
-
-
 
 config.chapters.forEach((record, idx) => {
     const entry = document.createElement('li');
@@ -37,7 +57,6 @@ config.chapters.forEach((record, idx) => {
 inhoudsopgave.appendChild(hoofdstukken)
 
 //  en terug naar home url zonder # als je uit eerste hoofdstuk scrollt. 
-
 
 const initLoad = true;
 const layerTypes = {
