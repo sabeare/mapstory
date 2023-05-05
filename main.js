@@ -225,22 +225,22 @@ const map = new mapboxgl.Map({
     projection: config.projection
 });
 
-// Create a inset map if enabled in config.js
-if (config.inset) {
-    const insetMap = new mapboxgl.Map({
-        container: 'mapInset', // container id
-        style: 'mapbox://styles/mapbox/dark-v10', //hosted style id
-        center: config.chapters[0].location.center,
-        // Hardcode above center value if you want insetMap to be static.
-        zoom: 3, // starting zoom
-        hash: false,
-        interactive: false,
-        attributionControl: false,
-        //Future: Once official mapbox-gl-js has globe view enabled,
-        //insetmap can be a globe with the following parameter.
-        //projection: 'globe'
-    });
-}
+// // Create a inset map if enabled in config.js
+// if (config.inset) {
+//     const insetMap = new mapboxgl.Map({
+//         container: 'mapInset', // container id
+//         style: 'mapbox://styles/mapbox/dark-v10', //hosted style id
+//         center: config.chapters[0].location.center,
+//         // Hardcode above center value if you want insetMap to be static.
+//         zoom: 3, // starting zoom
+//         hash: false,
+//         interactive: false,
+//         attributionControl: false,
+//         //Future: Once official mapbox-gl-js has globe view enabled,
+//         //insetmap can be a globe with the following parameter.
+//         //projection: 'globe'
+//     });
+// }
 
 if (config.showMarkers) {
     const marker = new mapboxgl.Marker({ color: config.markerColor });
@@ -339,6 +339,14 @@ map.on("load", function () {
         .onStepExit(response => {
             const chapter = config.chapters.find(chap => chap.id === response.element.id);
             response.element.classList.remove('active');
+
+            // Reset url to empty hash when scrolling up to openings screen 
+            if (response.index === 0 && response.direction === 'up') {
+                const url = new URL(location);
+                url.hash = '';
+                history.pushState({}, "", url);
+            }
+
             if (chapter.onChapterExit.length > 0) {
                 chapter.onChapterExit.forEach(setLayerOpacity);
             }
