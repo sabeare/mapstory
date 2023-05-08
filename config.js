@@ -614,51 +614,31 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'sterk',
+            alignment: 'right',
+            hidden: false,
+            title: 'sterke vrouwen',
+            image: '',
+            description: 'Borduren inzetten om te verbinden en te verdiepen. Om ook doelgroepen die normaal niet zo zichtbaar zijn ben ik een community borduurproject gestart. De locatie heb ik bewust gekozen voor het wijkmuseum Soesterkwartier. Dit is een klein museum gerund door vrijwilligers toe aan een nieuwe impuls om voor bestaansrecht. Zij hebben verbinding met de buurt hoog in het vaandel staan en om hier een verbindende plek van verleden en toekomst te maken op de manier van bijv. de voorkamer (workshop daar ruimtekoers/voorkamer half mei, daarna verder uitwerken) <br><br>            Voor het borduurproject heb ik gekozen voor het borduren van sterke vrouwen. Vrouwen. Tijdens een bezoek aan Brussel een vergelijkbaar project bezocht.(verder uitwerken)<br><br>              Dit triggerde mij en mijn overall goal te streven naar een meer gelijkwaardigere leefomgeving. Ik ontwikkelde een eenmalig workshop op internationale vrouwendag. En benaderde mijn inmiddels opgebouwde netwerk in het Soesterkwartier met de volgende tekst.<br><br>              Wist je dat niet één straat in het Soesterkwartier naar een vrouw vernoemd is. Rondom onze wijk zullen vele nieuwe straten en pleinen komen om in te verdwalen of doorheen te gaan. Daarom is het nu een uitgelezen kans om een begin te maken met eerlijke verdeling. <br><br>              Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen voorstel doen. Neem dan een portretfoto van diegene mee. <br><br>              Dit leverde een enthousiaste groep dames op en een zeer inspirerende avond (Quotes toevoegen )               ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'sterk2',
             alignment: 'right',
             hidden: false,
             title: 'nog meer sterke vrouwen',
             image: '',
             description: 'Vervolgens ben ik ook een aantal keer als vrijwilliger deze workshop gaan doen met beginnende dementerende dames van de King Arthur groep in de wijk onder het mom van sterke vrouwen borduren sterke vrouwen en samen werken we aan een collectief geheugen. Dit leverde de volgende resultaten op (img beeld van de borduursels en verhalen toevoegen.              ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'talk',
-            alignment: 'right',
-            hidden: false,
-            title: 'walk en talk wat levert het op ',
-            image: 'images/radarchart_walk&talk.png',
-            description: 'uitleg manier van analyse enuitkomst',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        
-        {
-            id: 'reflectie',
-            alignment: 'left',
-            hidden: false,
-            title: 'reflectie alg ',
-            image: '',
-            description: '',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -691,31 +671,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'verdiepen',
-            alignment: 'full',
+            id: 'talk',
+            alignment: 'right',
             hidden: false,
-            title: 'verbinden',
-            image: '',
-            description: 'verkennen van de buurt en verbinden van de methode...',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'complex',
-            alignment: 'left',
-            hidden: false,
-            title: 'complexiteit omarmen',
-            image: '',
-            description: '',
+            title: 'walk en talk wat levert het op ',
+            image: 'images/radarchart_walk&talk.png',
+            description: 'Ik maakte een analyse van de walk&talk gesprekken die ik had. Ik gebruikte daarvoor de mindmaps die deelnemers als samenvatting hadden gemaakt en mijn eigen geschreven reflecties.  ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -734,7 +695,64 @@ var config = {
             hidden: false,
             title: 'conversation piece ',
             image: '',
-            description: 'als boek tonen en als tafelkleed',
+            description: 'Slow research, analoog werken door te wandelen en te borduren is een manier van vertragen, te luisteren en om ruimte te maken voor diepere reflecties en verbondenheid en zo dus meer recht doen aan de complexiteit van de materie. Een deep map, als topografie van zo"n plek bevat al de hier bovengenoemde elementen en is daarom een goede vorm om deze verhalen te tonen omdat de wereld waarin we leven zich niet laat reduceren tot een ordelijk simpel verhaal.  ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'vertraag',
+            alignment: 'left',
+            hidden: false,
+            title: 'vertragen is vermenigvuldigen ',
+            image: '',
+            description: 'Afb verbinding, reflectie en complexiteit<br><br>            Wat is slow in slow datavisualisatie?<br><br>            Slow is het sleutelwoord in deze methode. Vertragen? Het gaat om het waarderen van aandacht. Het gebruiken van zintuigen en analoge werkvormen gebruiken. Het gaat om Verbinding aangaan met het gebied, de betrokkenen en zo betere inzichten krijgen in de context. Vertragen helpt om te reflecteren, wat gebeurt er eigenlijk wat zien we in de gauwigheid hoe we werken vaak over het hoofd. Slow datavisualisaties borduren helpt om de tijd te nemen en te reflecteren. Als laatste onderdeel is verdiepen en de complexiteit ervan te omarmen. Het gaat niet om tot één oplossing te komen maar juist de meerstemmigheid en de complexiteit van het dagelijkse leven te tonen.           ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+                {
+            id: 'verbor',
+            alignment: 'left',
+            hidden: false,
+            title: 'verdiepen met borduren',
+            image: '',
+            description: 'Hiermee kun je eerder opgehaalde informatie delen. Bijvoorbeeld tijdens een community borduurproject. Maar juist ook om bewust in te zetten om specifiek onderwerpen te adresseren bij een specifieke doelgroep. Zo dient de conversation piece als een multilayered storytelling tool. Want door het inzetten ervan is ook ruimte bieden aan verdere aanvullingen en nieuwe lagen van informatie. Waardoor het proces van reflectie, verbinden en verdiepen zich herhaald en daarmee de conversation piece een steeds rijkere gelaagdheid en meerstemmigheid van de wijk verbeeld. ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'school',
+            alignment: 'right',
+            hidden: false,
+            title: 'scholen verdiepen',
+            image: '',
+            description: 'Verslag bespreking scholen kwestie (half mei)',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -751,9 +769,9 @@ var config = {
             id: 'vrouwsk',
             alignment: 'right',
             hidden: false,
-            title: 'sterke vrouwen sk ',
+            title: 'sterke vrouwen en aanbieden gemeente ',
             image: '',
-            description: '',
+            description: 'design aanbieden aan gemeente juli 23',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -772,7 +790,7 @@ var config = {
             hidden: false,
             title: 'conclusie',
             image: '',
-            description: '',
+            description: 'Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers?<br><br>            Beantwoorden van de subvragen die ik me daarbij stelde zijn: <br>  Hoe is de methode slow datavisualisatie opgebouwd? <br> Schema en uitleg<br><br>            Wat is slow in slow datavisualisatie?<br>            Verkennen- wandelen, met het doel om observeren nieuwe inzichten verkrijgen <br><br>            Verbeelden- mappen, analoog werken =reflecteren en verbinden, tastbaar maken plus mensen verbinden <br><br>            Verdiepen- borduren, context en complexiteit beter snappen <br><br>            Waarom subjectieve data belangrijk mbt buurt onderzoek/betrokkenen<br><br>           Nieuwe inzichten, andere dingen zien door langdurig aanwezig zijn,  meerstemmigheid, omarmen complexiteit.<br><br>            Welke nieuwe inzichten zijn door het toepassen slow datavis methode in het Soesterkwartier ontdekt?<br><br>            Democratie doe je met je handen en Behoefte aan community.<br><br>            Observeren en luisteren maar ook zelf aan community building doen om mensen te verbinden met elkaar en de buurt en het delen van deze inzichten zodat er een niuwe buurtbeweging kan ontstaan  <br><br>           Er is nog veel meer……         ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -785,24 +803,5 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: 'vertragen',
-            alignment: 'left',
-            hidden: false,
-            title: 'vertragen is vermenigvuldigen',
-            image: '',
-            description: 'verkennen van de buurt en verkennen van de methode...',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },  
     ]
 };
