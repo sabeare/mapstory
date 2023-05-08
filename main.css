@@ -123,10 +123,19 @@ a, a:hover, a:visited {
 #openingsFoto {
     z-index: 1000;
     height: 100vh;
-    background-color: purple;
+    background-color: rgb(246, 244, 246);
     margin-bottom: 500px;
-    position: relative;    
+    position: relative;   
+    text-align: center;
+    color: rgb(194, 188, 26)
    }
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
 
 
 /*  */
