@@ -17,19 +17,7 @@
 <body>
   <!-- <div id="mapInset"></div> -->
   <div id="tabblad-footer">
-    <div id="back" class="tab-row">
-      <div id="hoofdstuk" class="tabblad" onclick="onTabClick(this)">
-        <div class="head">
-          <h3>Inhoud</h3>
-          <div class="toggle-image arrow" onclick="onCrossClick('hoofdstuk', event)"></div>
-        </div>
-        <div class="content">
-          <p>
-            Dit is een automatisch overzicht van de hoofdstukken uit de config
-          </p>
-          <a href="">Terug naar home</a><br />
-        </div>
-      </div>
+    <div id="back" class="tab-row">      
       <div id="samenvatting" class="tabblad" onclick="onTabClick(this)">
         <div class="head">
           <h3>Samenvatting</h3>
@@ -74,6 +62,18 @@
           </p>
         </div>
       </div>
+      <div id="hoofdstuk" class="tabblad" onclick="onTabClick(this)">
+        <div class="head">
+          <h3>Inhoud</h3>
+          <div class="toggle-image arrow" onclick="onCrossClick('hoofdstuk', event)"></div>
+        </div>
+        <div class="content">
+          <p>
+            Dit is een automatisch overzicht van de hoofdstukken uit de config
+          </p>
+          <a href="">Terug naar home</a><br />
+        </div>
+      </div>
     </div>
 
     <div id="front" class="tab-row">
@@ -85,13 +85,18 @@
           <div class="toggle-image arrow" onclick="onCrossClick('colofon', event)"></div>
         </div>
         <div class="content">
-          <p>Hier komt de colofon</p>
+          <p>
+            <ul><li>tekst: Baukje Rienks</li> 
+                <li>img: Baukje Rienks (tenzij anders aangegeven)</li> 
+                <li>storymap in HTML en JS: Baukje Rienks en Niene Boeijen </li>
+                <li>mapstyling: Baukje Rienks (nog niet zo bijzonder maar dat komt nog.... )</li>
+            </ul>
+        </p>
         </div>
       </div>
       <div id="bilbio" class="tabblad" onclick="onTabClick(this)">
         <div class="head">
           <h3>Bibliografie</h3>
-
           <div class="toggle-image arrow" onclick="onCrossClick('bilbio', event)"></div>
         </div>
         <div class="content">
