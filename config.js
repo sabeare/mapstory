@@ -22,8 +22,7 @@ var config = {
             title: 'tafelkleed als conversation piece',
             thinglink: 'https://www.thinglink.com/mediacard/1702291723679433508',
             image: '',
-            description: 'Hallo check <br> hoe <span id="test">gaat<span> het?   <a href="#verdiepimg">verdiepen</a>',
-            description2: '',
+            description: 'voorbeeld van een aanklikbare foto die show van het Soesterkwartier geeft in img, beeld en audio (deze is nu tijdelijk extern door technische onhandigheden, wordt aan gewerkt!) ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
