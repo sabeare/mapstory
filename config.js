@@ -79,9 +79,8 @@ var config = {
             hidden: false,
             title: 'soesterkwartier',
             image: 'images/palm.png',
-            description2:'In het hofje van de Palmstraat hebben de bewoners zelf afspraken gemaakt over het parkeren van auto"s', 
+            imageDescription:'In het hofje van de Palmstraat hebben de bewoners zelf afspraken gemaakt over het parkeren van auto"s', 
             description: 'Het Soesterkwartier is het gebied wat ik voor het ontwikkelen van mijn methode koos. Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig te verbinden, maar het is geen voorwaarde. Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en groen ten koste van woningenbouw of het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
-            imageDescription: 'blablabla dit is de beschrijving van de foto',
             location: {
                 center: [5.35875, 52.15789],
                 zoom: 16.00,
