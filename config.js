@@ -78,8 +78,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'soesterkwartier',
-            image: '',
-            description: 'Het Soesterkwartier is het gebied wat ik voor het ontwikkelen van mijn methode koos is de wijk het Soesterkwartier in Amersfoort. Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig te verbinden, maar het is geen voorwaarde. Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en groen ten koste van woningenbouw of het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
+            image: 'images/palm.png',
+            description: 'Het Soesterkwartier is het gebied wat ik voor het ontwikkelen van mijn methode koos. Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig te verbinden, maar het is geen voorwaarde. Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en groen ten koste van woningenbouw of het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -97,8 +97,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'onderzoeksvraag',
-            image: '',
-            description: 'De hoofdvraag van het onderzoek is: <br><br>            Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers? <br><br>            Subvragen die ik me daarbij stelde zijn:Hoe is de methode slow datavisualisatie opgebouwd?   <br>         Wat is slow in slow datavisualisatie?<br>            Wat levert analoog werken mbt buurt onderzoek op?     <br>       Hoe helpt subjectieve data en het inzetten van een conversation piece bij het adresseren van het belang van een gelijkwaardigere leefomgeving?             ',
+            image: 'images/slowdat.jpg',
+            description: 'De hoofdvraag van het onderzoek is: <br><br>            Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers? <br><br>            Subvragen die ik me daarbij stelde zijn:<br><br> * Hoe is de methode slow datavisualisatie opgebouwd?   <br>        * Wat is slow in slow datavisualisatie?<br>           * Wat levert analoog werken mbt buurt onderzoek op?     <br>      * Hoe helpt subjectieve data en het inzetten van een conversation piece bij het adresseren van het belang van een gelijkwaardigere leefomgeving?             ',
             location: {
                 center: [5.36400, 52.16125],
                 zoom: 15.00,
