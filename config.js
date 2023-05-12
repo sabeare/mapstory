@@ -20,9 +20,9 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: 'tafelkleed als conversation piece',
-            thinglink: 'https://www.thinglink.com/mediacard/1702291723679433508',
+            thinglink: 'https://uploads.knightlab.com/scenevr/8134/94fc57b1/index.html',
             image: '',
-            description: 'voorbeeld van een aanklikbare foto die show van het Soesterkwartier geeft in img, beeld en audio (deze is nu tijdelijk extern door technische onhandigheden, wordt aan gewerkt!) ',
+            description: '',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -40,7 +40,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'leesinstructie',
-            image: 'https://photos.app.goo.gl/7gdP4GgxypAJvsKXA',
+            thinglink: '',
             description: 'Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Extra informatie is te vinden in de tabbladen onderin. Dit is ieder moment te raadplegen. Hierin vind je ook de inhoud van  de hele storymap waarmee je door het verhaal kunt hoppen. Maar ook algemene info zoals de samenvatting van deze publicatie, de bibliografie en het lexicon.              ',
             location: {
                 center: [5.36207, 52.15940],
