@@ -41,7 +41,7 @@ var config = {
             hidden: false,
             title: 'leesinstructie',
             iframe: '',
-            description: 'Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Extra informatie is te vinden in de tabbladen onderin. Dit is ieder moment te raadplegen. Hierin vind je ook de inhoud van  de hele storymap waarmee je door het verhaal kunt hoppen. Maar ook algemene info zoals de samenvatting van deze publicatie, de bibliografie en het lexicon.              ',
+            description: 'Het handigste is om deze publicatie op een computer te bekijken. Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Extra informatie is te vinden in de tabbladen onderin. Dit is ieder moment te raadplegen. Hierin vind je ook de inhoud van  de hele storymap waarmee je door het verhaal kunt hoppen. Maar ook algemene info zoals de samenvatting van deze publicatie, de bibliografie en het lexicon.              ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -77,9 +77,9 @@ var config = {
             id: 'wijk',
             alignment: 'right',
             hidden: false,
-            title: 'soesterkwartier',
+            title: 'Soesterkwartier',
             image: 'images/palm.png',
-            imageDescription:'In het hofje van de Palmstraat hebben de bewoners zelf afspraken gemaakt over het parkeren van auto"s', 
+            imageDescription:'In het hofje van de Palmstraat hebben de bewoners zelf afspraken gemaakt over het parkeren van auto`s.<br><br>', 
             description: 'Het Soesterkwartier is het gebied wat ik voor het ontwikkelen van mijn methode koos. Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig te verbinden, maar het is geen voorwaarde. Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en groen ten koste van woningenbouw of het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
             location: {
                 center: [5.35875, 52.15789],
@@ -99,6 +99,7 @@ var config = {
             hidden: false,
             title: 'onderzoeksvraag',
             image: 'images/slowdat.jpg',
+            imageDescription: 'quote en datavisualisaties van de leeftijdsopbouw in het Soesterkwartier.<br><br>',
             description: 'De hoofdvraag van het onderzoek is: <br><br>            Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers? <br><br>            Subvragen die ik me daarbij stelde zijn:<br><br> * Hoe is de methode slow datavisualisatie opgebouwd?   <br>        * Wat is slow in slow datavisualisatie?<br>           * Wat levert analoog werken mbt buurt onderzoek op?     <br>      * Hoe helpt subjectieve data en het inzetten van een conversation piece bij het adresseren van het belang van een gelijkwaardigere leefomgeving?             ',
             location: {
                 center: [5.36400, 52.16125],
