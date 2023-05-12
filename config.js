@@ -20,7 +20,7 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: 'tafelkleed als conversation piece',
-            thinglink: 'https://uploads.knightlab.com/scenevr/8134/94fc57b1/index.html',
+            iframe: 'https://uploads.knightlab.com/scenevr/8134/94fc57b1/index.html',
             image: '',
             description: '',
             location: {
@@ -40,7 +40,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'leesinstructie',
-            thinglink: '',
+            iframe: '',
             description: 'Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Extra informatie is te vinden in de tabbladen onderin. Dit is ieder moment te raadplegen. Hierin vind je ook de inhoud van  de hele storymap waarmee je door het verhaal kunt hoppen. Maar ook algemene info zoals de samenvatting van deze publicatie, de bibliografie en het lexicon.              ',
             location: {
                 center: [5.36207, 52.15940],
@@ -80,6 +80,7 @@ var config = {
             title: 'soesterkwartier',
             image: 'images/palm.png',
             description: 'Het Soesterkwartier is het gebied wat ik voor het ontwikkelen van mijn methode koos. Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig te verbinden, maar het is geen voorwaarde. Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en groen ten koste van woningenbouw of het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
+            imageDescription: 'blablabla dit is de beschrijving van de foto',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -357,7 +358,7 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: 'soesterkwartier',
-            thinglink: 'https://www.thinglink.com/mediacard/1702291723679433508',
+            iframe: 'https://www.thinglink.com/mediacard/1702291723679433508',
             image: '',
             description: 'Selectie resultaten van flaneuse (eigen ervaringen) en  zintuigwandelen in beeld (ervaringen van anderen) en teksten als…..            Overal zie je bouwbusjes. In de wijk wordt veel verduurzaamd, door zowel de woningbouw als door de bewoners van koopwoningen. Daarnaast worden de koopwoningen uitgebouwd en gemoderniseerd.             Aan de tuin kan je zien in welk deel van de wijk je bent. De huurwoningen leven mensen op straat in de meestal betegelde voortuinen of het is een parkeerplek voor de auto geworden. Bij de koopwoningen zijn de voortuinen groen en staan er fietsen. In de tuin zitten doen zij dan meestal inde achtertuin. +> evt koppelen aan hittestress kaart.             Er zijn veel mensen die een hond hebben. Hondepoep altijd ergernis nummer 1 in de wijk zie je minder op straat liggen. Er staan overal bakken met poepzakjes, niet iedereen gebruikt ze maar het is zeker verbeterd            Geuren die je ruikt, koffie branderij, het bos, heel soms een varkensstal, kerosine, bloesems in de lente, autospuiterij. (Atlas van de leefomgeving zegt niets over geur)            Berlijn:             img woorden van berlijn            img resultaten berlijn.              Hond als verbinderImg plus uitspraken            Resultaten van jenneke en monique van wandeling door de buurt            #soesterkwartier            ',
             location: {

@@ -248,7 +248,7 @@ a, a:hover, a:visited {
     opacity: 0.99999;
 }
 
-.step div {
+.step > div {
     padding: 25px 50px;
     line-height: 25px;
     font-size: 13px;
@@ -269,4 +269,13 @@ a, a:hover, a:visited {
 .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
 .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
     touch-action: unset;
+}
+
+
+/* Step with image and description */
+
+.step .image-with-desc p {
+    font-style: italic;
+    padding-bottom: 1rem;
+    text-align: justify;
 }

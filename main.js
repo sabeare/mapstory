@@ -140,7 +140,17 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(title);
     }
 
-    if (record.image) {
+    if (record.image && record.imageDescription) {
+        const imageContainer = document.createElement('div')
+        const image = new Image();
+        image.src = record.image;
+        imageContainer.appendChild(image)
+        const story = document.createElement('p');
+        story.innerHTML = record.imageDescription;
+        imageContainer.className = "image-with-desc"
+        imageContainer.appendChild(story);
+        chapter.appendChild(imageContainer);
+    } else if (record.image) {
         const image = new Image();
         image.src = record.image;
         chapter.appendChild(image);
@@ -151,18 +161,13 @@ config.chapters.forEach((record, idx) => {
         story.innerHTML = record.description;
         chapter.appendChild(story);
     }
-    if (record.description2) {
-        const story = document.createElement('p');
-        story.innerHTML = record.description2;
-        chapter.appendChild(story);
-    }
 
-    if (record.thinglink) {
-        const thinglink = document.createElement('iframe');
-        thinglink.src = record.thinglink;
-        thinglink.height = "500"
-        thinglink.width = "100%"
-        chapter.appendChild(thinglink)
+    if (record.iframe) {
+        const iframe = document.createElement('iframe');
+        iframe.src = record.iframe;
+        iframe.height = "500"
+        iframe.width = "100%"
+        chapter.appendChild(iframe)
     }
 
     container.setAttribute('id', record.id);
