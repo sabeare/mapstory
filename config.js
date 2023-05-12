@@ -40,7 +40,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'leesinstructie',
-            image: '',
+            image: 'https://photos.app.goo.gl/7gdP4GgxypAJvsKXA',
             description: 'Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Extra informatie is te vinden in de tabbladen onderin. Dit is ieder moment te raadplegen. Hierin vind je ook de inhoud van  de hele storymap waarmee je door het verhaal kunt hoppen. Maar ook algemene info zoals de samenvatting van deze publicatie, de bibliografie en het lexicon.              ',
             location: {
                 center: [5.36207, 52.15940],
@@ -58,8 +58,8 @@ var config = {
             id: 'verkenimg',
             alignment: 'full',
             hidden: false,
-            title: 'verkennen',
-            image: 'images/autotuin.png',
+            title: '',
+            image: 'images/verkennen.png',
             description: '',
             location: {
                 center: [5.36207, 52.15940],
@@ -376,8 +376,8 @@ var config = {
             id: 'verbeeldimg',
             alignment: 'full',
             hidden: false,
-            title: 'verbeelden',
-            image: './path/to/image/source.png',
+            title: '',
+            image: 'images/verbeelden.png',
             description: '',
             location: {
                 center: [5.38010, 52.15856],
@@ -655,8 +655,8 @@ var config = {
             id: 'verdiepimg',
             alignment: 'full',
             hidden: false,
-            title: 'verdiepen',
-            image: 'images/verbinden.png',
+            title: '',
+            image: 'images/verdiepen.png',
             description: '',
             location: {
                 center: [5.38010, 52.15856],
