@@ -16,32 +16,12 @@ var config = {
     footer: 'gemaakt door Baukje Rienks, met web&tech hulp van Niene Boeijen',
     chapters: [
         {
-            id: 'kleedimg',
-            alignment: 'full',
-            hidden: false,
-            title: 'tafelkleed als conversation piece',
-            iframe: 'https://uploads.knightlab.com/scenevr/8134/94fc57b1/index.html',
-            image: '',
-            description: '',
-            location: {
-                center: [5.36207, 52.15940],
-                zoom: 14.00,
-                pitch: 13.00,
-                bearing: 0.00           
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'instructie',
             alignment: 'center',
             hidden: false,
-            title: 'leesinstructie',
+            title: 'Leesinstructie',
             iframe: '',
-            description: 'Het handigste is om deze publicatie op een computer te bekijken. Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Extra informatie is te vinden in de tabbladen onderin. Dit is ieder moment te raadplegen. Hierin vind je ook de inhoud van  de hele storymap waarmee je door het verhaal kunt hoppen. Maar ook algemene info zoals de samenvatting van deze publicatie, de bibliografie en het lexicon.              ',
+            description: 'Het handigste is om deze publicatie op een computer te bekijken, omdat dan de 360 afbeeldingen beter tot z n recht komen. Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Extra informatie is te vinden in de tabbladen onderin. Dit is ieder moment te raadplegen. Hierin vind je ook de inhoud van  de hele storymap waarmee je door het verhaal kunt hoppen. Maar ook algemene info zoals de samenvatting van deze publicatie, de bibliografie en het lexicon.              ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -79,8 +59,8 @@ var config = {
             hidden: false,
             title: 'Soesterkwartier',
             image: 'images/palm.png',
-            imageDescription:'In het hofje van de Palmstraat hebben de bewoners zelf afspraken gemaakt over het parkeren van auto`s.<br><br>', 
-            description: 'Het Soesterkwartier is het gebied wat ik voor het ontwikkelen van mijn methode koos. Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig te verbinden, maar het is geen voorwaarde. Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en groen ten koste van woningenbouw of het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
+            imageDescription:'In het hofje de Palmstraat maakten de bewoners zelf afspraken over het parkeren van de auto`s.<br><br>', 
+            description: 'Het Soesterkwartier is het gebied wat ik voor het ontwikkelen van mijn methode koos. Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig aan te verbinden, maar het is geen voorwaarde. <br><br>Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en het groen ten koste van woningenbouw. Aanverwant hieraan is het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
             location: {
                 center: [5.35875, 52.15789],
                 zoom: 16.00,
@@ -97,9 +77,9 @@ var config = {
             id: 'vraag',
             alignment: 'left',
             hidden: false,
-            title: 'onderzoeksvraag',
+            title: 'Onderzoeksvraag',
             image: 'images/slowdat.jpg',
-            imageDescription: 'quote en datavisualisaties van de leeftijdsopbouw in het Soesterkwartier.<br><br>',
+            imageDescription: 'quote en een datavisualisaties over de leeftijdsopbouw in het Soesterkwartier.<br><br>',
             description: 'De hoofdvraag van het onderzoek is: <br><br>            Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers? <br><br>            Subvragen die ik me daarbij stelde zijn:<br><br> * Hoe is de methode slow datavisualisatie opgebouwd?   <br>        * Wat is slow in slow datavisualisatie?<br>           * Wat levert analoog werken mbt buurt onderzoek op?     <br>      * Hoe helpt subjectieve data en het inzetten van een conversation piece bij het adresseren van het belang van een gelijkwaardigere leefomgeving?             ',
             location: {
                 center: [5.36400, 52.16125],
@@ -134,8 +114,9 @@ var config = {
             id: 'doelgroep',
             alignment: 'left',
             hidden: false,
-            title: 'doelgroep',
-            image: '',
+            title: 'Doelgroep',
+            image: 'images/doelgroep.jpg',
+            imageDescription:'Betrokken bewoners bij een buurtbijeenkomst',
             description: 'De mensen die ik tijdens mijn onderzoek tegenkwam waren allerlei “wijkmakers”. Ze noemden zichzelf: stadmaker, kwartiermaker, wijkwerker, sociaal architect, stedebouwkundige, urban designer, design antropoloog, omgevingspsycholoog, feministisch geograaf, beleidsmaker, landschapsarchitect, information designer of gewoon betrokken bewoner. <br><br>            Deze storymap is gemaakt voor deze “wijkmakers”, iedereen die zich inzet voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve,  verbindende en tastbare manier.                       ',
             location: {
                 center: [5.38010, 52.15856],
@@ -153,9 +134,9 @@ var config = {
             id: 'methode',
             alignment: 'left',
             hidden: false,
-            title: 'slow datavisualisatie',
+            title: 'Slow datavisualisatie',
             image: 'images/werkwijze_slowdatavis.png',
-            description: 'is een methode om slow research in een gebied te doen. Het beoogt niet alleen de visuele representatie van informatie gericht op de gebruiker, maar ook om de waarde te tonen van de context met behulp van subjectieve data en anekdotes door middel van een conversation piece. Slow datavisualisaties laten ruimte om je eigen verhaal te destilleren en aan te vullen. Het proces van slow datavisualisaties wordt (deels) met de hand uitgevoerd. n mijn geval door te borduren.  <br><br>          De opbouw van deze storymap is op basis van deze methode. Via de fases van verkennen, verbeelden en verdiepen neem ik je mee langs de opbouw van de methode, de werkvormen (links uitgelijnd) en de resultaten ervan in het Soesterkwartier (rechts uitgelijnd/fullwidth).             ',
+            description: 'Slow Datavisualisatie is een methode om slow research in een gebied te doen. Het beoogt niet alleen de visuele representatie van informatie gericht op de gebruiker, maar ook om de waarde te tonen van de context met behulp van subjectieve data en anekdotes door middel van een conversation piece. Slow datavisualisaties laten ruimte om je eigen verhaal te destilleren en aan te vullen. Het proces van slow datavisualisaties wordt (deels) met de hand uitgevoerd. In mijn geval door te borduren.  <br><br>          De opbouw van deze storymap is op basis van deze methode. Via de fases van verkennen, verbeelden en verdiepen neem ik je mee langs de opbouw van de methode, de werkvormen (links uitgelijnd) en de resultaten ervan in het Soesterkwartier (rechts uitgelijnd/fullwidth).             ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -174,7 +155,7 @@ var config = {
             hidden: false,
             title: 'drie fases ',
             image: '',
-            description: 'Het slow datavisualisatie proces bestaat uit drie fases namelijk: verkennen, verbeelden en verdiepen. Het begint met de verkening van een gebied door er regelmatig aanwezig te zijn, er doorheen te wandelen, te fotograferen, zintuigen te gebruiken en zo gegevens verzamelen. <br><br>  De volgende fase is het verbeelden. Door verbinding aan te gaan met betrokken wijkmakers, door te wandelen en gesprekken te voeren en dit te mappen. Om vervolgens deze informatie en mappings te onderzoeken en daarna te verbeelden in datavisualisaties. <br><br>            De laatste fase is verdiepen. Door met betrokkenen te reflecteren op de datavisualisaties ontstaan er gelaagde verhalen waarmee nieuwe inzichten zichtbaar worden. Deze inzichten worden tastbaar gemaakt in een conversation piece. Die alsmaar met andere betrokkenen ingezet kan worden om aanvullende informatie op te halen. Hiermee verdiept het proces steeds verder door meerstemmigheid en context ruimte te geven en zo de complexiteit omarmt en daarmee betekenis geven aan inzichten.           ',
+            description: 'Het slow datavisualisatie proces bestaat uit drie fases namelijk: verkennen, verbeelden en verdiepen. Het begint met de verkenning van een gebied door er regelmatig aanwezig te zijn, er doorheen te wandelen, te fotograferen, zintuigen te gebruiken en zo gegevens verzamelen. <br><br>  De volgende fase is het verbeelden. Door verbinding aan te gaan met betrokken wijkmakers, door te wandelen en gesprekken te voeren en dit te mappen. Om vervolgens deze informatie en mappings te onderzoeken en daarna te verbeelden in datavisualisaties. <br><br>            De laatste fase is verdiepen. Door met betrokkenen te reflecteren op de datavisualisaties ontstaan er gelaagde verhalen waarmee nieuwe inzichten zichtbaar worden. Deze inzichten worden tastbaar gemaakt in een conversation piece. Die alsmaar met andere betrokkenen ingezet kan worden om aanvullende informatie op te halen. Hiermee verdiept het proces steeds verder door meerstemmigheid en context ruimte te geven en zo de complexiteit omarmt en daarmee betekenis geven aan inzichten.           ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -188,11 +169,31 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'kleedimg',
+            alignment: 'full',
+            hidden: false,
+            title: 'tafelkleed als conversation piece',
+            iframe: 'https://uploads.knightlab.com/scenevr/8134/94fc57b1/index.html',
+            image: '',
+            description: '',
+            location: {
+                center: [5.36207, 52.15940],
+                zoom: 14.00,
+                pitch: 13.00,
+                bearing: 0.00           
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'slowr',
             alignment: 'left',
             hidden: false,
             title: 'slow research',
-            image: 'images/autotuin.png',
+            image: '',
             description: 'Slow datavisualisatie is een vorm van Slow research. Het gaat om betekenis geven aan het denken door verbinding, reflectie en het omarmen van complexiteit volgens Berg & Seeber in het boek The Slow Professor uit 2017. Bij Slow research gaat het om vertragen en gebruikt daarom embodied en/of analoge werkvormen tijdens het designproces om tot nieuwe inzichten te komen.  <br><br>           Het gaat wat mij betreft vooral om tijd en ruimte maken om te reflecteren en ten tweede om meer besef te krijgen in de complexiteit van mijn onderwerp en als laatste met dit onderzoek verbinding met de context tot stand te brengen. Met het streven om ongehoorde doelgroepen zichtbaar te maken en zo nieuwe inzichten voor het verbeteren van een gebied te vinden.             ',
             location: {
                 center: [5.38010, 52.15856],
@@ -211,7 +212,6 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'slow design',
-            image: 'images/autotuin.png',
             description: 'Slow datavisualisatie methode volgt de Slow Design principes. Deze zijn ontworpen door oprichter van SlowLab Amsterdam Carolyn F. Strauss en professor in Design Research Alastair Fuad-Luke. (2008). Zij noemen Slow Design zelf een vorm van creatief activisme en evaluatie tool die nieuwe waarden levert voor design in de verschuiving naar duurzaamheid door gebruik te maken van zowel kwantitatieve, kwalitatieve en intuïtieve beoordelingsmethodes. <br><br>De 6 principes zijn: onthullen (REVEAL), uitbreiden(EXPAND) reflecteren(REFLECT), verbinden(ENGAGE), participeren(PARTICIPATE) en ontwikkelen(EVOLVE). <br><br>             De Slow datavisualisatie methode past in de traditie van Slow Designers omdat het gericht is op het waarderen van kwalitatieve informatie en daar betekenis aan te geven. Met het doel om op die manier nieuwe inzichten te vergaren (onthullen) door te verbinden van betrokkenen met elkaar en de buurt, te participeren, reflecteren waardoor kennis zich steeds verder kan uitbreiden en ontwikkelen.                    ',
             location: {
                 center: [5.38010, 52.15856],
@@ -230,7 +230,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'creative placemaking',
-            image: 'images/autotuin.png',
+            iframe:'https://www.youtube.com/embed/31PUM6cd8Fw',
             description: 'Artists are as an antenna picking up weak signals of the future and bring it tot the surface. (sara Wookey)  <br><br>          In 2006 zag ik de dans performance Love’s geography van Sara Wookey in de Melkweg Amsterdam. Gebaseerd op de gelijknamige tekst van Peggy Phelan. Deze voorstelling is me goed bijgebleven, en als ik er nu naar kijk omdat zij heel goed haar lichaam en beweging gebruikt in de publieke ruimte.  Wookey haar werk is geïnspireerd op William H. Whyte die samen met Jane Jacobs de grondleggers zijn van placemaking. Hij onderzoek de menselijke dynamiek en was overtuigd dat je dat kan doen door het observeren hoe mensen de ruimte gebruiken.  <br><br>           Placemaking is zowel een filosofie en methode die wijkmakers betrekt bij de ontwikkeling van de leefomgeving. Het is gericht op observeren en te luisteren naar de gebruikers – de experts van die openbare ruimte. Met het doel om de kwaliteit van de openbare ruimte te verbeteren maar ook netwerkvorming, gevoel van eigenaarschap en verantwoordelijkheid over deze leefomgeving te bevorderen, ervaren dat de betrokken zelf invloed hebben op de kwaliteit ervan. (pps.org)  <br><br>          Slow datavisualisatie is een vorm van creatieve placemaking. Het zet creatieve en embodied werkvormen in om het observeren en luisteren te versterken. Met het doel om op deze manier nieuwe inzichten over een buurt op te halen bij betrokkenen. Door deze informatie ook zichtbaar te maken in iets tastbaars als een conversation piece kunnen vervolgens andere betrokkenen deze informatie verdiepen en zich daarmee ook verbinden aan de verbeteringen van de leefomgeving.              ',
             location: {
                 center: [5.38010, 52.15856],
