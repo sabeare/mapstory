@@ -355,6 +355,46 @@ var config = {
             ]
         },
         {
+            id: 'blauw',
+            alignment: 'right',
+            hidden: false,
+            title: 'Blauw',
+            image: 'images/blauw.jpg',
+            imageDescription: '"Het oude buurthuis "De Sleutel" waar nu een ontmoetings- en activiteitencentrum zit. Voor de toekomst van de wijk is dit een plek waar mensen elkaar blijven ontmoeten." (afbeelding door M. Tinabu)',
+            description: '"Deze blauwe elementen hebben de route van mijn wandeling bepaald: Ik heb gekozen voor het thema kleur en daarbij voor mijn lievelingskleur blauw gekozen. Vaak wandel ik mijn vaste rondje, maar door nu het thema te volgen, ben ik toch op andere plekken beland. Aan het begin wist ik niet hoe mijn wandeling eruit zou gaan zien omdat alle opties in principe nog open waren. Een hele leuke ervaring en ga zeker ook nog een keer een ander thema te pakken😊. Manon" <br><br>Door het bewust inzetten van je zintuigen ontdek je nieuwe dingen zelfs als je in de wijk woont. Het buurthuis de Sleutel is één van de plekken waar ik later het community borduurproject "sterke vrouwen" ben gestart met beginnende dementerende vrouwen. ',
+            location: {
+                center: [5.35272, 52.16010],
+                zoom: 17.86,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'rafel',
+            alignment: 'right',
+            hidden: false,
+            title: 'Rafelrandjes',
+            image: 'images/reliefs.jpg',
+            imageDescription: '"oud relief (afbeelding door C. van der Geest)"',
+            description:'"Ik heb me gericht op gevoel/structuur.  Tijdens het wandelen viel het contrast tussen nieuw en oud me erg op. De bomen in onze wijk zijn oud met een grove structuur in de bast. Het gras is geen eentonige sprietenmat, maar er zitten mos en plantjes in verstopt die je van veraf niet ziet. Bakstenen hebben beschadigingen en brokkelen af, er zijn nog veel oude muurreliefs bewaard gebleven die een beetje verstopt zijn en niet opvallen langs grote wegen. Het verleden is tastbaar. <br>            Onder onze voeten zijn er structuren die ons de weg wijzen. Omdat we niet meer goed zien, of omdat we de stad niet kennen en het centrum niet zien.<br>            Het moderne leven brengt koude materialen de wijk in. Gladde auto"s, sterke ijzeren omheiningen. Maar nieuwe stenen blijken ook weerloos en krijgen een zacht karakter door de natuur die zelfs op de kleinste plekken wil groeien. groeten Chantal" <br><br> Naast dat het gebruik van zintuigen je anders laat kijken, helpen deze zintuigwandelingen ook om inzicht te krijgen wat wijkmakers belangrijk vinden om te delen.', 
+            location: {
+                center: [5.37950, 52.15899],
+                zoom: 16.24,
+                pitch: 28.86,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'walktl',
             alignment: 'full',
             hidden: false,
