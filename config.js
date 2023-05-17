@@ -35,6 +35,25 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'conclusie',
+            alignment: 'center',
+            hidden: false,
+            title: 'conclusie',
+            image: '',
+            description: 'Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers?<br><br>            Beantwoorden van de subvragen die ik me daarbij stelde zijn: <br>  Hoe is de methode slow datavisualisatie opgebouwd? <br> Schema en uitleg<br><br>            Wat is slow in slow datavisualisatie?<br>            Verkennen- wandelen, met het doel om observeren nieuwe inzichten verkrijgen <br><br>            Verbeelden- mappen, analoog werken =reflecteren en verbinden, tastbaar maken plus mensen verbinden <br><br>            Verdiepen- borduren, context en complexiteit beter snappen <br><br>            Waarom subjectieve data belangrijk mbt buurt onderzoek/betrokkenen<br><br>           Nieuwe inzichten, andere dingen zien door langdurig aanwezig zijn,  meerstemmigheid, omarmen complexiteit.<br><br>            Welke nieuwe inzichten zijn door het toepassen slow datavis methode in het Soesterkwartier ontdekt?<br><br>            Democratie doe je met je handen en Behoefte aan community.<br><br>            Observeren en luisteren maar ook zelf aan community building doen om mensen te verbinden met elkaar en de buurt en het delen van deze inzichten zodat er een niuwe buurtbeweging kan ontstaan  <br><br>           Er is nog veel meer……         ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'verkenimg',
             alignment: 'full',
             hidden: false,
@@ -662,6 +681,7 @@ var config = {
             hidden: false,
             title: 'sterke vrouwen',
             image: '',
+            imageDescription: 'video of the booklet sterke vrouwen', 
             description: 'Borduren inzetten om te verbinden en te verdiepen. Om ook doelgroepen die normaal niet zo zichtbaar zijn ben ik een community borduurproject gestart. De locatie heb ik bewust gekozen voor het wijkmuseum Soesterkwartier. Dit is een klein museum gerund door vrijwilligers toe aan een nieuwe impuls om voor bestaansrecht. Zij hebben verbinding met de buurt hoog in het vaandel staan en om hier een verbindende plek van verleden en toekomst te maken op de manier van bijv. de voorkamer (workshop daar ruimtekoers/voorkamer half mei, daarna verder uitwerken) <br><br>            Voor het borduurproject heb ik gekozen voor het borduren van sterke vrouwen. Vrouwen. Tijdens een bezoek aan Brussel een vergelijkbaar project bezocht.(verder uitwerken)<br><br>              Dit triggerde mij en mijn overall goal te streven naar een meer gelijkwaardigere leefomgeving. Ik ontwikkelde een eenmalig workshop op internationale vrouwendag. En benaderde mijn inmiddels opgebouwde netwerk in het Soesterkwartier met de volgende tekst.<br><br>              Wist je dat niet één straat in het Soesterkwartier naar een vrouw vernoemd is. Rondom onze wijk zullen vele nieuwe straten en pleinen komen om in te verdwalen of doorheen te gaan. Daarom is het nu een uitgelezen kans om een begin te maken met eerlijke verdeling. <br><br>              Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen voorstel doen. Neem dan een portretfoto van diegene mee. <br><br>              Dit leverde een enthousiaste groep dames op en een zeer inspirerende avond (Quotes toevoegen )               ',
             location: {
                 center: [5.38010, 52.15856],
@@ -827,24 +847,6 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: 'conclusie',
-            alignment: 'center',
-            hidden: false,
-            title: 'conclusie',
-            image: '',
-            description: 'Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers?<br><br>            Beantwoorden van de subvragen die ik me daarbij stelde zijn: <br>  Hoe is de methode slow datavisualisatie opgebouwd? <br> Schema en uitleg<br><br>            Wat is slow in slow datavisualisatie?<br>            Verkennen- wandelen, met het doel om observeren nieuwe inzichten verkrijgen <br><br>            Verbeelden- mappen, analoog werken =reflecteren en verbinden, tastbaar maken plus mensen verbinden <br><br>            Verdiepen- borduren, context en complexiteit beter snappen <br><br>            Waarom subjectieve data belangrijk mbt buurt onderzoek/betrokkenen<br><br>           Nieuwe inzichten, andere dingen zien door langdurig aanwezig zijn,  meerstemmigheid, omarmen complexiteit.<br><br>            Welke nieuwe inzichten zijn door het toepassen slow datavis methode in het Soesterkwartier ontdekt?<br><br>            Democratie doe je met je handen en Behoefte aan community.<br><br>            Observeren en luisteren maar ook zelf aan community building doen om mensen te verbinden met elkaar en de buurt en het delen van deze inzichten zodat er een niuwe buurtbeweging kan ontstaan  <br><br>           Er is nog veel meer……         ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+        
     ]
 };
