@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/sabeare/cjdapwozeb1tg2roervfarft0',
     accessToken: 'pk.eyJ1Ijoic2FiZWFyZSIsImEiOiJjbGdnam12aXMwY2M2M2NwOGQ5YzhuN2FiIn0.XV3OFsZ65Niqc9F5ulg6Ig',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -21,7 +21,7 @@ var config = {
             hidden: false,
             title: 'Leesinstructie',
             iframe: '',
-            description: 'Het handigste is om deze publicatie op een computer te bekijken, omdat dan de 360 afbeeldingen beter tot z n recht komen. Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Extra informatie is te vinden in de tabbladen onderin. Dit is ieder moment te raadplegen. Hierin vind je ook de inhoud van  de hele storymap waarmee je door het verhaal kunt hoppen. Maar ook algemene info zoals de samenvatting van deze publicatie, de bibliografie en het lexicon.              ',
+            description: 'Het handigste is om deze publicatie op een computer te bekijken. Je kunt deze publicatie op meerdere manieren lezen. Ten eerste door deze storymap te scrollen. Zo ontvouwt het hele onderzoek zich. Een andere optie is om via het tabblad, inhoud, gericht naar het gewenste hoofdstuk hoppen. <<br><br> In de andere tabbladen is extra informatie, zoals een samenvatting, het lexicon, de bibliografie en het colofon te vinden. Deze tabbladen zijn ieder moment te raadplegen. <br><br> Deze storymap is een eindpublicatie van master Design onderzoek over participatief buurtonderzoek. De opbouw is als volgt. Het begint met de conclusie om een algeheel idee van het onderzoek te krijgen. vervolgens volgt de uitleg over de methode. Daarna toon ik aan de hand van het geborduurde tafelkleed de iteraties die ik deed en de informatie die dat opleverde en ga ik als laatste dieper in op het community borduurproject "Sterke vrouwen" wat hieruit ontstond.',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -54,17 +54,74 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'methode',
+            alignment: 'center',
+            hidden: false,
+            title: 'Slow datavisualisatie',
+            image: 'images/werkwijze_slowdatavis.png',
+            description: 'Slow Datavisualisatie is een methode om slow research in een gebied te doen. Het beoogt niet alleen de visuele representatie van informatie gericht op de gebruiker, maar ook om de waarde te tonen van de context met behulp van subjectieve data en anekdotes door middel van een conversation piece. Slow datavisualisaties laten ruimte om je eigen verhaal te destilleren en aan te vullen. Het proces van slow datavisualisaties wordt (deels) met de hand uitgevoerd. In mijn geval door te borduren.',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'verkenimg',
             alignment: 'full',
             hidden: false,
             title: '',
             image: 'images/verkennen.png',
-            description: '',
+            description: '<br><br>De methode start met het Verkennen van een gebied. Je verbindt je voor langere tijd aan een gebied en de wijkmakers die daar wonen en of werken. Door alleen en met anderen daar te gaan wandelen, te observeren, te fotograferen en bewust de zintuigen inzetten. Zo krijg je inzichten over dat gebied die je niet op een andere manier had kunnen ervaren.',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
                 pitch: 13.00,
                 bearing: 0.00    
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'verbeeldimg',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: 'images/verbeelden.png',
+            description: '<br><br>De volgende stap is het verbeelden van deze informatie en subjectieve data in mappings en slow datavisualisaties. Door het verbeelden te vertragen door deze uit te borduren ontstaat er meer ruimte voor reflectie. Dit is van belang om nieuwe inzichten over de beleving van het gebied te verkrijgen. Het borduren zet ik zowel in om individueel als in een communityproject met verschillende participanten wijkmakers zoals bewoners, stedenbouwers of vrouwen met beginnende dementie.  ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'verdiepimg',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: 'images/verdiepen.png',
+            description: '<br><br> Het laatste onderdeel is het verdiepen van de opgehaalde kennis door middel van een conversation piece. In dit geval een geborduurd tafelkleed. Dit maakt de informatie tastbaar en is steeds weer in te zetten bij andere doelgroepen om ook die stemmen een plek te geven en de onderwerpen te verrijken. Deze meerstemmigheid en geeft ruimte aan vaak de complexiteit van de onderwerpen en geeft zo diepere betekenis. ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -137,44 +194,6 @@ var config = {
             image: 'images/doelgroep.jpg',
             imageDescription:'Betrokken bewoners bij een buurtbijeenkomst',
             description: 'De mensen die ik tijdens mijn onderzoek tegenkwam waren allerlei “wijkmakers”. Ze noemden zichzelf: stadmaker, kwartiermaker, wijkwerker, sociaal architect, stedebouwkundige, urban designer, design antropoloog, omgevingspsycholoog, feministisch geograaf, beleidsmaker, landschapsarchitect, information designer of gewoon betrokken bewoner. <br><br>            Deze storymap is gemaakt voor deze “wijkmakers”, iedereen die zich inzet voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve,  verbindende en tastbare manier.                       ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'methode',
-            alignment: 'left',
-            hidden: false,
-            title: 'Slow datavisualisatie',
-            image: 'images/werkwijze_slowdatavis.png',
-            description: 'Slow Datavisualisatie is een methode om slow research in een gebied te doen. Het beoogt niet alleen de visuele representatie van informatie gericht op de gebruiker, maar ook om de waarde te tonen van de context met behulp van subjectieve data en anekdotes door middel van een conversation piece. Slow datavisualisaties laten ruimte om je eigen verhaal te destilleren en aan te vullen. Het proces van slow datavisualisaties wordt (deels) met de hand uitgevoerd. In mijn geval door te borduren.  <br><br>          De opbouw van deze storymap is op basis van deze methode. Via de fases van verkennen, verbeelden en verdiepen neem ik je mee langs de opbouw van de methode, de werkvormen (links uitgelijnd) en de resultaten ervan in het Soesterkwartier (rechts uitgelijnd/fullwidth).             ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'driefases',
-            alignment: 'left',
-            hidden: false,
-            title: 'drie fases ',
-            image: '',
-            description: 'Het slow datavisualisatie proces bestaat uit drie fases namelijk: verkennen, verbeelden en verdiepen. Het begint met de verkenning van een gebied door er regelmatig aanwezig te zijn, er doorheen te wandelen, te fotograferen, zintuigen te gebruiken en zo gegevens verzamelen. <br><br>  De volgende fase is het verbeelden. Door verbinding aan te gaan met betrokken wijkmakers, door te wandelen en gesprekken te voeren en dit te mappen. Om vervolgens deze informatie en mappings te onderzoeken en daarna te verbeelden in datavisualisaties. <br><br>            De laatste fase is verdiepen. Door met betrokkenen te reflecteren op de datavisualisaties ontstaan er gelaagde verhalen waarmee nieuwe inzichten zichtbaar worden. Deze inzichten worden tastbaar gemaakt in een conversation piece. Die alsmaar met andere betrokkenen ingezet kan worden om aanvullende informatie op te halen. Hiermee verdiept het proces steeds verder door meerstemmigheid en context ruimte te geven en zo de complexiteit omarmt en daarmee betekenis geven aan inzichten.           ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -422,25 +441,6 @@ var config = {
             iframe: 'https://www.thinglink.com/mediacard/1702291723679433508',
             image: '',
             description: 'Selectie resultaten van flaneuse (eigen ervaringen) en  zintuigwandelen in beeld (ervaringen van anderen) en teksten als…..            Overal zie je bouwbusjes. In de wijk wordt veel verduurzaamd, door zowel de woningbouw als door de bewoners van koopwoningen. Daarnaast worden de koopwoningen uitgebouwd en gemoderniseerd.             Aan de tuin kan je zien in welk deel van de wijk je bent. De huurwoningen leven mensen op straat in de meestal betegelde voortuinen of het is een parkeerplek voor de auto geworden. Bij de koopwoningen zijn de voortuinen groen en staan er fietsen. In de tuin zitten doen zij dan meestal inde achtertuin. +> evt koppelen aan hittestress kaart.             Er zijn veel mensen die een hond hebben. Hondepoep altijd ergernis nummer 1 in de wijk zie je minder op straat liggen. Er staan overal bakken met poepzakjes, niet iedereen gebruikt ze maar het is zeker verbeterd            Geuren die je ruikt, koffie branderij, het bos, heel soms een varkensstal, kerosine, bloesems in de lente, autospuiterij. (Atlas van de leefomgeving zegt niets over geur)            Berlijn:             img woorden van berlijn            img resultaten berlijn.              Hond als verbinderImg plus uitspraken            Resultaten van jenneke en monique van wandeling door de buurt            #soesterkwartier            ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'verbeeldimg',
-            alignment: 'full',
-            hidden: false,
-            title: '',
-            image: 'images/verbeelden.png',
-            description: '',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -702,25 +702,6 @@ var config = {
             title: 'nog meer sterke vrouwen',
             image: '',
             description: 'Vervolgens ben ik ook een aantal keer als vrijwilliger deze workshop gaan doen met beginnende dementerende dames van de King Arthur groep in de wijk onder het mom van sterke vrouwen borduren sterke vrouwen en samen werken we aan een collectief geheugen. Dit leverde de volgende resultaten op (img beeld van de borduursels en verhalen toevoegen.              ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'verdiepimg',
-            alignment: 'full',
-            hidden: false,
-            title: '',
-            image: 'images/verdiepen.png',
-            description: '',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
