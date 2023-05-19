@@ -21,7 +21,7 @@ var config = {
             hidden: false,
             title: 'Leesinstructie',
             iframe: '',
-            description: 'Deze storymap komt het beste tot zijn recht op een computerscherm. Ik maakte dit als publicatie over participatief en ontwerpend wijkonderzoek in het kader van mijn master Design Research aan de Willem de Kooning Academy in Rotterdam. <br><br>            De opbouw is als volgt: het begint met de conclusie om een algeheel idee te krijgen. Vervolgens geef ik een beknopte uitleg over de ontwikkelde methode. Daarna toon ik aan de hand van de conversation piece, het geborduurde tafelkleed, de iteraties en wat dat heeft opgeleverd. Daarna ga ik dieper in op de rol van borduren aan de hand van het community borduurproject “sterke vrouwen”. Wat ik opzette in de wijk het Soesterkwartier. <br><br>         Je kunt deze storymap al scrollend naar benden lezen. Zo ontvouwt het hele onderzoek zich. Een andere optie is om via het tabblad: inhoud, gericht naar de gewenste hoofdstukken te hoppen. <br><br>            In de andere tabbladen onderin is aanvullende informatie te vinden, zoals een samenvatting, het lexicon, de bibliografie en het colofon. Deze tabbladen zijn ieder moment te raadplegen. <br><br>             Baukje Rienks             ',
+            description: 'Deze storymap komt het beste tot zijn recht op een computerscherm. Ik maakte dit als publicatie over participatief en ontwerpend wijkonderzoek in het kader van mijn master Design Research aan de Willem de Kooning Academy in Rotterdam. <br><br>            De opbouw is als volgt: het begint met de conclusie om een algeheel idee te krijgen. Vervolgens geef ik een beknopte uitleg over de ontwikkelde methode. Daarna toon ik aan de hand van de conversation piece, het geborduurde tafelkleed, de iteraties en wat dat heeft opgeleverd. Daarna ga ik dieper in op de rol van borduren aan de hand van het community borduurproject “sterke vrouwen”. Wat ik opzette in de wijk het Soesterkwartier. <br><br>         Deze storymap is al scrollend naar benden te lezen. Zo ontvouwt het hele onderzoek zich. Een andere optie is om via het tabblad: inhoud, gericht naar de gewenste hoofdstukken te hoppen. In de andere tabbladen onderin is aanvullende informatie te vinden, zoals een samenvatting, het lexicon, de bibliografie en het colofon. Deze tabbladen zijn ieder moment te raadplegen. <br><br>             Baukje Rienks             ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -185,26 +185,6 @@ var config = {
                      opacity: 0
                  }
             ]
-        },
-        {
-            id: 'doelgroep',
-            alignment: 'left',
-            hidden: false,
-            title: 'Doelgroep',
-            image: 'images/doelgroep.jpg',
-            imageDescription:'Betrokken bewoners bij een buurtbijeenkomst',
-            description: 'De mensen die ik tijdens mijn onderzoek tegenkwam waren allerlei “wijkmakers”. Ze noemden zichzelf: stadmaker, kwartiermaker, wijkwerker, sociaal architect, stedebouwkundige, urban designer, design antropoloog, omgevingspsycholoog, feministisch geograaf, beleidsmaker, landschapsarchitect, information designer of gewoon betrokken bewoner. <br><br>            Deze storymap is gemaakt voor deze “wijkmakers”, iedereen die zich inzet voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve,  verbindende en tastbare manier.                       ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
         },
         {
             id: 'kleedimg',
