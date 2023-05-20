@@ -21,7 +21,7 @@ var config = {
             hidden: false,
             title: 'Leesinstructie',
             iframe: '',
-            description: 'Deze storymap komt het beste tot zijn recht op een computerscherm. Ik maakte dit als publicatie over participatief en ontwerpend wijkonderzoek in het kader van mijn master Design Research aan de Willem de Kooning Academy in Rotterdam. <br><br>            De opbouw is als volgt: het begint met de conclusie om een algeheel idee te krijgen. Vervolgens geef ik een beknopte uitleg over de ontwikkelde methode. Daarna toon ik aan de hand van de conversation piece, het geborduurde tafelkleed, de iteraties en wat dat heeft opgeleverd. Daarna ga ik dieper in op de rol van borduren aan de hand van het community borduurproject “sterke vrouwen”. Wat ik opzette in de wijk het Soesterkwartier. <br><br>         Deze storymap is al scrollend naar benden te lezen. Zo ontvouwt het hele onderzoek zich. Een andere optie is om via het tabblad: inhoud, gericht naar de gewenste hoofdstukken te hoppen. In de andere tabbladen onderin is aanvullende informatie te vinden, zoals een samenvatting, het lexicon, de bibliografie en het colofon. Deze tabbladen zijn ieder moment te raadplegen. <br><br>             Baukje Rienks             ',
+            description: 'Deze storymap komt het beste tot zijn recht op een computerscherm. Ik maakte dit als publicatie over participatief en ontwerpend wijkonderzoek in het kader van mijn master Design Research aan de Willem de Kooning Academy in Rotterdam. <br><br>            De opbouw is als volgt: het begint met de conclusie om een algeheel idee te krijgen. Vervolgens geef ik een beknopte uitleg over de ontwikkelde methode. Daarna toon ik aan de hand van de conversation piece, het geborduurde tafelkleed, de iteraties en wat dat heeft opgeleverd. Ook ga ik dieper in op de rol van borduren aan de hand van het community borduurproject “sterke vrouwen”. Wat ik opzette in de wijk het Soesterkwartier. <br><br>         Deze storymap is al scrollend naar benden te lezen. Zo ontvouwt het hele onderzoek zich. Een andere optie is om via het tabblad: inhoud, gericht naar de gewenste hoofdstukken te hoppen. In de andere tabbladen onderin is aanvullende informatie te vinden, zoals een samenvatting, het lexicon, de bibliografie en het colofon. Deze tabbladen zijn ieder moment te raadplegen. <br><br>             Baukje Rienks             ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -58,7 +58,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Slow datavisualisatie',
-            image: 'images/werkwijze_slowdatavis.png',
+            image: 'images/slowdata.svg',
             description: 'Slow Datavisualisatie is een methode om slow research in een gebied te doen. Het beoogt niet alleen de visuele representatie van informatie gericht op de gebruiker, maar ook om de waarde te tonen van de context met behulp van subjectieve data en anekdotes door middel van een conversation piece. Slow datavisualisaties laten ruimte om je eigen verhaal te destilleren en aan te vullen. Het proces van slow datavisualisaties wordt (deels) met de hand uitgevoerd. In mijn geval door te borduren.',
             location: {
                 center: [5.38010, 52.15856],
