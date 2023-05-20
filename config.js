@@ -156,7 +156,7 @@ var config = {
             title: 'Onderzoeksvraag',
             image: 'images/slowdat.jpg',
             imageDescription: 'quote en een datavisualisaties over de leeftijdsopbouw in het Soesterkwartier.<br><br>',
-            description: 'De hoofdvraag van het onderzoek is: <br><br>            Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers? <br><br>            Subvragen die ik me daarbij stelde zijn:<br><br> * Hoe is de methode slow datavisualisatie opgebouwd?   <br>        * Wat is slow in slow datavisualisatie?<br>           * Wat levert analoog werken mbt buurt onderzoek op?     <br>      * Hoe helpt subjectieve data en het inzetten van een conversation piece bij het adresseren van het belang van een gelijkwaardigere leefomgeving?             ',
+            description: 'De hoofdvraag van het onderzoek is: <br><br>            Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers? <br><br>            Subvragen die ik me daarbij stelde zijn:<br><br> * Hoe is de methode slow datavisualisatie opgebouwd?   <br>        * Wat is slow in slow datavisualisatie?<br>           * Wat levert borduren en mbt participatief wijkonderzoek op?     <br>      * Hoe helpt subjectieve data en het inzetten van een conversation piece bij het adresseren van het belang van een gelijkwaardigere leefomgeving?             ',
             location: {
                 center: [5.36400, 52.16125],
                 zoom: 15.00,
