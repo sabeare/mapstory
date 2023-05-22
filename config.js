@@ -663,8 +663,28 @@ var config = {
             hidden: false,
             title: 'wijkmuseum',
             image: 'images/wijkmuseum.png',
-            imageDescription: 'wijkmuseum, is geschonken door corporatie Portaal bij het 100 jarig bestaan van deze huizen',
+            imageDescription: 'wijkmuseum, het gebouw is geschonken door corporatie Portaal bij het 100 jarig bestaan van deze huizen',
             description: 'Tijdens één Walk&Talk interview sprak ik met de voorzitter van het wijkmuseum Soesterkwartier. Zij heeft zich ook sterk gemaakt bij de gemeente voor de financiering voor de herinrichting van de Noordewierweg. <br><br>Onze wandeling eindigden we in het Wijkmuseum zelf. Bij de entree loop je een huis binnen zoals het honderd jaar geleden rook en eruit zag. Achterin is echter een moderne multifunctionele ruimte voor bijeenkomsten en wisselende exposities.  <br><br>Na overleg is het mogelijk om op internationale vrouwendag, 8 maart 2023 om het museum te gebruiken voor een community borduurworkshop Sterk Vrouwen. Het museum is gericht op het verleden van de wijk levend te houden en verbinding met de buurt tot stand te brengen. Het project Sterke Vrouwen sluit goed bij het laatste doel aan.  ',
+            location: {
+                center: [5.37172, 52.15847],
+                zoom: 17.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'straat',
+            alignment: 'right',
+            hidden: false,
+            title: 'straatnamen',
+            image: '',
+            imageDescription: 'Ik ben van de kaart',
+            description: 'Niet één straat in het Soesterkwartier is naar een vrouw vernoemd. Gemiddelde in Nederlandse steden is het rond de  vijftien procent. Rondom Het Soesterkwartier zullen de komende jaren vele nieuwe straten en pleinen komen. Daarom is het nu een uitgelezen kans om een begin te maken met een eerlijke verdeling. Dit is de reden om het community borduurproject Sterke Vrouwen op te zetten.  <br><br>Ik raakte hiertoe geïnspireerd door de brieven die mensen tijdens mijn eerste iteratie: “ik ben van de kaart” mij schreven. In meerdere brieven kwam de ongelijkwaardige situatie voor vrouwen in de publieke ruimte naar voren. Hierop besloot ik het boek invisible women van schrijfster C.C. Perez te lezen om meer te weten te komen over de bias en hoe vrouwen worden buitengesloten, ook in de stedelijke leefomgeving. <br><br>Vervolgens bezocht ik in september 2022 de "matrimonium dagen" in Brussel. Hier had ik afgesproken met feministe en grafische designer C. Allard van Klär graphics. Zij drukte samen met andere deelnemers ansichtkaarten van bekende Brusselse dames (https://www.instagram.com/datadelles/) om aandacht te vragen voor een eerlijkere straatnamen verdeling.   ',
             location: {
                 center: [5.37172, 52.15847],
                 zoom: 17.99,
@@ -684,7 +704,7 @@ var config = {
             title: 'sterke vrouwen',
             image: '',
             imageDescription: 'video of the booklet sterke vrouwen', 
-            description: 'Borduren inzetten om te verbinden en te verdiepen. Om ook doelgroepen die normaal niet zo zichtbaar zijn ben ik een community borduurproject gestart. De locatie heb ik bewust gekozen voor het wijkmuseum Soesterkwartier. Dit is een klein museum gerund door vrijwilligers toe aan een nieuwe impuls om voor bestaansrecht. Zij hebben verbinding met de buurt hoog in het vaandel staan en om hier een verbindende plek van verleden en toekomst te maken op de manier van bijv. de voorkamer (workshop daar ruimtekoers/voorkamer half mei, daarna verder uitwerken) <br><br>            Voor het borduurproject heb ik gekozen voor het borduren van sterke vrouwen. Vrouwen. Tijdens een bezoek aan Brussel een vergelijkbaar project bezocht.(verder uitwerken)<br><br>              Dit triggerde mij en mijn overall goal te streven naar een meer gelijkwaardigere leefomgeving. Ik ontwikkelde een eenmalig workshop op internationale vrouwendag. En benaderde mijn inmiddels opgebouwde netwerk in het Soesterkwartier met de volgende tekst.<br><br>              Wist je dat niet één straat in het Soesterkwartier naar een vrouw vernoemd is. Rondom onze wijk zullen vele nieuwe straten en pleinen komen om in te verdwalen of doorheen te gaan. Daarom is het nu een uitgelezen kans om een begin te maken met eerlijke verdeling. <br><br>              Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen voorstel doen. Neem dan een portretfoto van diegene mee. <br><br>              Dit leverde een enthousiaste groep dames op en een zeer inspirerende avond (Quotes toevoegen )               ',
+            description: 'Ik ontwikkelde een workshop om uit te voeren op internationale vrouwendag. Dit was de start van de aanleg van een bibliotheek met sterke vrouwen uit het Soesterkwartier, Amersfoort, Nederland en Internationaal. Het doel om de gemeente uit te dagen om het straatnamen beleid gelijkwaardiger voor vrouwen en genderminderheden te maken.  <br><br> Ik benaderde via mijn inmiddels opgebouwde netwerk in het Soesterkwartier en via de website van internationale vrouwendag met de volgende tekst: <br><br> “Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen sterke vrouw portretten meenemen”. <br><br> Er kwamen zeventien vrouwen borduren van begin twintig tot achter in de zestig. Het werd een gezellige avond met veel ruimte voor ontmoetingen en verbinding. <br><br>  Sommige borduurden de vrouwen die ik vooraf had geselecteerd, andere gaven de voorkeur aan om haar eigen moeder of zus te borduren. Mooi dat sterke vrouwen juist ook dichtbij kunnen zijn en niet per se iemand met een publieke functie. <br><br>De avond verliep zeer succesvol en vele vroegen om een vervolg tijdens de avond en ook in de mailtjes na de workshop bleek de behoefte om door te gaan.     ',
             location: {
                 center: [5.37172, 52.15847],
                 zoom: 17.99,
