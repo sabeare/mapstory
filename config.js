@@ -640,6 +640,45 @@ var config = {
         },
         {
             id: 'sterk',
+            alignment: 'full',
+            hidden: false,
+            title: 'Sterke vrouwen',
+            image: '',
+            description: 'selectie sterke vrouwen ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'wijk',
+            alignment: 'right',
+            hidden: false,
+            title: 'wijkmuseum',
+            image: 'images/wijkmuseum.png',
+            imageDescription: 'wijkmuseum, is geschonken door corporatie Portaal bij het 100 jarig bestaan van deze huizen',
+            description: 'Tijdens één Walk&Talk interview sprak ik met de voorzitter van het wijkmuseum Soesterkwartier. Zij heeft zich ook sterk gemaakt bij de gemeente voor de financiering voor de herinrichting van de Noordewierweg. <br><br>Onze wandeling eindigden we in het Wijkmuseum zelf. Bij de entree loop je een huis binnen zoals het honderd jaar geleden rook en eruit zag. Achterin is echter een moderne multifunctionele ruimte voor bijeenkomsten en wisselende exposities.  <br><br>Na overleg is het mogelijk om op internationale vrouwendag, 8 maart 2023 om het museum te gebruiken voor een community borduurworkshop Sterk Vrouwen. Het museum is gericht op het verleden van de wijk levend te houden en verbinding met de buurt tot stand te brengen. Het project Sterke Vrouwen sluit goed bij het laatste doel aan.  ',
+            location: {
+                center: [5.37172, 52.15847],
+                zoom: 17.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'sterk',
             alignment: 'right',
             hidden: false,
             title: 'sterke vrouwen',
@@ -647,8 +686,8 @@ var config = {
             imageDescription: 'video of the booklet sterke vrouwen', 
             description: 'Borduren inzetten om te verbinden en te verdiepen. Om ook doelgroepen die normaal niet zo zichtbaar zijn ben ik een community borduurproject gestart. De locatie heb ik bewust gekozen voor het wijkmuseum Soesterkwartier. Dit is een klein museum gerund door vrijwilligers toe aan een nieuwe impuls om voor bestaansrecht. Zij hebben verbinding met de buurt hoog in het vaandel staan en om hier een verbindende plek van verleden en toekomst te maken op de manier van bijv. de voorkamer (workshop daar ruimtekoers/voorkamer half mei, daarna verder uitwerken) <br><br>            Voor het borduurproject heb ik gekozen voor het borduren van sterke vrouwen. Vrouwen. Tijdens een bezoek aan Brussel een vergelijkbaar project bezocht.(verder uitwerken)<br><br>              Dit triggerde mij en mijn overall goal te streven naar een meer gelijkwaardigere leefomgeving. Ik ontwikkelde een eenmalig workshop op internationale vrouwendag. En benaderde mijn inmiddels opgebouwde netwerk in het Soesterkwartier met de volgende tekst.<br><br>              Wist je dat niet één straat in het Soesterkwartier naar een vrouw vernoemd is. Rondom onze wijk zullen vele nieuwe straten en pleinen komen om in te verdwalen of doorheen te gaan. Daarom is het nu een uitgelezen kans om een begin te maken met eerlijke verdeling. <br><br>              Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen voorstel doen. Neem dan een portretfoto van diegene mee. <br><br>              Dit leverde een enthousiaste groep dames op en een zeer inspirerende avond (Quotes toevoegen )               ',
             location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
+                center: [5.37172, 52.15847],
+                zoom: 17.99,
                 pitch: 0.00,
                 bearing: 0.00
             },
