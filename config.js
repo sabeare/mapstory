@@ -74,7 +74,7 @@ var config = {
         },
         {
             id: 'verkenimg',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Verkennen',
             image: 'images/verkennen.png',
@@ -93,7 +93,7 @@ var config = {
         },
         {
             id: 'verbeeldimg',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Verbeelden',
             image: 'images/verbeelden.png',
@@ -112,7 +112,7 @@ var config = {
         },
         {
             id: 'verdiepimg',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Verdiepen',
             image: 'images/verdiepen.png',
