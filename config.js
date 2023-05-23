@@ -59,7 +59,7 @@ var config = {
             hidden: false,
             title: 'Slow Datavisualisatie',
             image: 'images/slowdata.svg',
-            description: 'De Slow Datavisualisatie methode is gemaakt om participatief wijkonderzoek te doen. Met deze methode kun je door je langdurig aan een wijk en de wijkmakers te verbinden, verborgen informatie zichtbaar maken. Deze methode is ontwerpend ontwikkeld door Baukje Rienks. Zij deed hiervoor meerdere iteraties met diverse wijkmakers in het Soesterkwartier in Amersfoort.  <br><br>Slow datavisualisatie is een vorm van  <a href="#slowr">slow research</a> gebruik makend van  <a href="#slowd">slow design</a> principes. Met nadruk op verbinding en reflectie Aangevuld met het omarmen van complexiteit van de context van een wijk. <br><br>Het resultaat een conversation piece, in dit geval een geborduurd tafelkleed, toont de waarde van de context met behulp van subjectieve data en anekdotes. Slow datavisualisaties laten ruimte voor meerstemmigheid en je eigen verhalen te destilleren en aan te vullen. <br><br>Het slow datavisualisatie proces bestaat uit drie fases namelijk: verkennen, verbeelden en verdiepen. ',
+            description: 'De Slow Datavisualisatie methode is gemaakt om participatief wijkonderzoek te doen. Met deze methode kun je door je langdurig aan een wijk en de wijkmakers te verbinden, verborgen informatie zichtbaar maken. Deze methode is ontwerpend ontwikkeld door Baukje Rienks. Zij deed hiervoor meerdere iteraties met diverse wijkmakers in het Soesterkwartier in Amersfoort.  <br><br>Slow datavisualisatie is een vorm van  <a href="#slowr">slow research</a> gebruik makend van  <a href="#slowd">slow design</a> principes. Met nadruk op verbinding en reflectie Aangevuld met het omarmen van complexiteit van de context van een wijk. <br><br>Het resultaat een conversation piece, in dit geval een geborduurd tafelkleed, toont de waarde van de context met behulp van subjectieve data en anekdotes. Slow datavisualisaties laten ruimte voor meerstemmigheid en je eigen verhalen te destilleren en aan te vullen. <br><br>Het slow datavisualisatie proces bestaat uit drie fases namelijk: <a href="#verkenimg">verkennen</a>, <a href="#verbeeldimg">verbeelden</a>, en <a href="#verdiepimg">verdiepen</a>. ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -130,26 +130,6 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'wijk',
-            alignment: 'right',
-            hidden: false,
-            title: 'Het Soesterkwartier',
-            image: 'images/kastanje.png',         
-            imageDescription:'Drie jaar geleden starte ik, baukje Rienks/ sabeare deze actie. We maakten met de buurt een gehaakte sjaal voor de zieke kastanje. Met een succesvollle afloop. De monumentale boom mocht toch blijven staan.', 
-            description: 'Dit was mijn eerste wijkactie, drie jaar geleden. Het doet me goed dat mensen genieten van "onze" kastanje. Voor mij was het ook het startsein om het Soesterkwartier als het gebied te kiezen om mijn methode voor participatief wijkonderzoek te ontwikkelen. <br><br>            Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig aan te verbinden, maar het is geen voorwaarde. <br><br>Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en het groen ten koste van woningenbouw. Aanverwant hieraan is het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
-            location: {
-                center: [5.35875, 52.15789],
-                zoom: 16.00,
-                pitch: 0.00,
-                bearing: 0.00   
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'kleedimg',
             alignment: 'full',
             hidden: false,
@@ -181,6 +161,26 @@ var config = {
                 zoom: 14.99,
                 pitch: 0.00,
                 bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'wijk',
+            alignment: 'right',
+            hidden: false,
+            title: 'Het Soesterkwartier',
+            image: 'images/kastanje.png',         
+            imageDescription:'Drie jaar geleden starte ik, baukje Rienks/ sabeare deze actie. We maakten met de buurt een gehaakte sjaal voor de zieke kastanje. Met een succesvollle afloop. De monumentale boom mocht toch blijven staan.', 
+            description: 'Dit was mijn eerste wijkactie, drie jaar geleden. Het doet me goed dat mensen genieten van "onze" kastanje. Voor mij was het ook het startsein om het Soesterkwartier als het gebied te kiezen om mijn methode voor participatief wijkonderzoek te ontwikkelen. <br><br>            Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig aan te verbinden, maar het is geen voorwaarde. <br><br>Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en het groen ten koste van woningenbouw. Aanverwant hieraan is het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
+            location: {
+                center: [5.35875, 52.15789],
+                zoom: 16.00,
+                pitch: 0.00,
+                bearing: 0.00   
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
