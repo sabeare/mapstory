@@ -134,8 +134,8 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: 'tafelkleed als conversation piece',
-            iframe: 'https://uploads.knightlab.com/scenevr/8134/94fc57b1/index.html',
-            image: '',
+            iframe: '',
+            image: 'images/tafelkleed_quick.jpg',
             description: '',
             location: {
                 center: [5.36207, 52.15940],
@@ -155,7 +155,7 @@ var config = {
             hidden: false,
             title: 'conversation piece ',
             image: '',
-            description: 'Slow research, analoog werken door te wandelen en te borduren is een manier van vertragen, te luisteren en om ruimte te maken voor diepere reflecties en verbondenheid en zo dus meer recht doen aan de complexiteit van de materie. Een deep map, als topografie van zo"n plek bevat al de hier bovengenoemde elementen en is daarom een goede vorm om deze verhalen te tonen omdat de wereld waarin we leven zich niet laat reduceren tot een ordelijk simpel verhaal.  ',
+            description: 'Naast de methode die ik ontwerpend ontwikkelde heb ik een conversation piece met wijkmakers geborduurd. Dit is het voorlopig eindresultaat van de wandel en borduur iteraties die ik deed. Deze conversation piece is als een topografie van het gebied, het <a href="#wijk">Soesterkwartier</a>. <br><br>            Deze conversation piece kan steeds weer ingezet worden om de informatie te delen en daarmee te verdiepen, als een multilayered storytelling tool. Het is daarom een goede vorm om de verhalen te tonen omdat de wereld waarin we leven zich niet laat reduceren tot een ordelijk simpel verhaal.              ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -181,6 +181,178 @@ var config = {
                 zoom: 16.00,
                 pitch: 0.00,
                 bearing: 0.00   
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'flaneuse',
+            alignment: 'left',
+            hidden: false,
+            title: 'flaneuse',
+            image: 'images/walking.jpg',
+            description: 'Een flaneur is iemand die doelloos ronddwaalt. Diegene begrijpt de stad omdat hij die al wandelend memoriseert en een mate van onzichtbaarheid heeft om dat te doen.(Elkin p.7, 13) . Flâneuse is de titel van het boek van Lauren Elkin (2016) over hoe een vrouw past in het stadsgezicht. Dat is volgens haar meer dan een vrouwelijk vorm van flaneur. Het gaat volgens haar over iemand die gaat waar ze niet behoort te gaan, en al wandelend afstemt op het  creatieve potentieel van de stad (Elkin, p22).<br><br>            Ook neuroscienctist Shane O"mara schrijft in “in Praise of Walking” dat wandelen de beste manier is om een plek te leren kennen. De sfeer van een plek, de energie, het tempo. Te voet ben je gelijk "in touch" met het stadsleven.<br><br>            Ik ging de straten van het Soesterkwartier bewandelen en observeren. Samen met mijn hond om een soort van onzichtbaarheid te creëren. Ondertussen fotografeerde ik de dingen die me opvielen. De informatie die het me gaf nam ik mee als bagage tijdens de gesprekken die ik later voerde met wijkmakers. <br><br>          Wandelen gaat over observeren en mappen van een plek, dat doe je niet alleen door te kijken maar juist om plek te ervaren en een gevoel te krijgen; daar gebruik je meerdere zintuigen voor. wandelen als een flaneuse is daarom een goede manier om informatie op te halen voor slow datavisualisaties.                       ',
+            location: {
+                center: [5.36400, 52.16125],
+                zoom: 15.00,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'tracks',
+                     opacity: 1,
+                     duration: 5000
+                 }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'tracks',
+                     opacity: 0
+                 }
+            ]
+        },
+        {
+            id: 'auto',
+            alignment: 'right',
+            hidden: false,
+            title: 'Auto in de voortuin',
+            image: 'images/autotuin.png',
+            description: 'Door regelmatig door de wijk te flaneren en mijn zintuigen in te zetten levert informatie die je niet via reguliere databronnen te weten kan komen. Wat bijvoorbeeld opvallend is in de bloemen- en bomenbuurt in het Soesterkwartier de voortuinen vaak volledig betegeld zijn en bovendien staat regelmatig de auto erin geparkeerd. <br><br> Ik informeeerde bij de gemeente en woningbouwcorporaties….. ',
+            location: {
+                center: [5.35272, 52.16010],
+                zoom: 17.86,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'zintuig',
+            alignment: 'left',
+            hidden: false,
+            title: 'zintuigwandelen',
+            image: 'https://s3.amazonaws.com/cloud.kumu.io/accounts/320185/705557/9fc1b60a-dd98-4b07-864d-6013d0c08ac2.png',
+            imageDescription:'eerste versie van flaneuse iteratie voor wijkmakers om wandelroute te bepalen op basis van zintuigen', 
+            description:'Ik liet in een aantal iteraties ook <a href="#blauw">andere wijkmakers</a> als een flaneuse wandelen. Zij ontvingen van mij de hierboven getoonde flyer om zelf de buurt te verkennen. Dit deden ze met behulp van een zelf gekozen zintuig of een woord zoals “toegankelijkheid”. Ik merkte dat het gebruik van zintuigen de voorkeur had. De woorden vonden de deelnemers te abstract. <br><br>            De deelnemers van deze iteratie kwamen uit de wijk zelf maar ik heb ook deelnemers gevraagd die het gebied nauwelijks kennen. Beide doelgroepen gaven aan door het zintuigwandelen met andere ogen en opmerkzamer door de buurt te wandelen en het vaker willen toepassen. <br><br>            Ook testte ik verschillende manieren van delen van de wandelervaringen door naderhand de personen in groepsverband de ervaringen te laten delen en zo met elkaar kennis te laten delen. Een andere optie was door deelnemers individueel foto’s video of audio met aanvullende tekst terug te laten sturen. Allen kozen voor foto’s.            ',
+            location: {
+                center: [5.36400, 52.16125],
+                zoom: 15.00,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'tracks',
+                     opacity: 1,
+                     duration: 5000
+                 }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'tracks',
+                     opacity: 0
+                 }
+            ]
+        },
+        {
+            id: 'blauw',
+            alignment: 'right',
+            hidden: false,
+            title: 'Blauw',
+            image: 'images/blauw.jpg',
+            imageDescription: '"Het oude buurthuis "De Sleutel" waar nu een ontmoetings- en activiteitencentrum zit. Voor de toekomst van de wijk is dit een plek waar mensen elkaar blijven ontmoeten." (afbeelding door M. Tinabu)',
+            description: '"Deze blauwe elementen hebben de route van mijn wandeling bepaald: Ik heb gekozen voor het thema kleur en daarbij voor mijn lievelingskleur blauw gekozen. Vaak wandel ik mijn vaste rondje, maar door nu het thema te volgen, ben ik toch op andere plekken beland. Aan het begin wist ik niet hoe mijn wandeling eruit zou gaan zien omdat alle opties in principe nog open waren. Een hele leuke ervaring en ga zeker ook nog een keer een ander thema te pakken😊. Manon" <br><br>Door het bewust inzetten van je zintuigen ontdek je nieuwe dingen zelfs als je in de wijk woont. Het buurthuis de Sleutel is één van de plekken waar ik later het community borduurproject "sterke vrouwen" ben gestart met beginnende dementerende vrouwen. ',
+            location: {
+                center: [5.35272, 52.16010],
+                zoom: 17.86,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'rafel',
+            alignment: 'right',
+            hidden: false,
+            title: 'Rafelrandjes',
+            image: 'images/reliefs.jpg',
+            imageDescription:'oud relief  op verborgen plekken in de wijk (afbeelding door Chantal)', 
+            description: 'Ook Chantal ging alleen op pad. Ze stuurde me naderhand per mail een aantal afbeeldingen en de volgende tekst. <br><br>  "Ik heb me gericht op gevoel/structuur. Tijdens het wandelen viel het contrast tussen nieuw en oud me erg op. De bomen in onze wijk zijn oud met een grove structuur in de bast. Het gras is geen eentonige sprietenmat, maar er zitten mos en plantjes in verstopt die je van veraf niet ziet. Bakstenen hebben beschadigingen en brokkelen af, er zijn nog veel oude muur reliëfs bewaard gebleven die een beetje verstopt zijn en niet opvallen langs grote wegen. Het verleden is tastbaar. <br>            Onder onze voeten zijn er structuren die ons de weg wijzen. Omdat we niet meer goed zien, of omdat we de stad niet kennen en het centrum niet zien.<br>            Het moderne leven brengt koude materialen de wijk in. Gladde auto’s, sterke ijzeren omheiningen. Maar nieuwe stenen blijken ook weerloos en krijgen een zacht karakter door de natuur die zelfs op de kleinste plekken wil groeien. groeten Chantal" <br><br> Naast dat het gebruik van zintuigen je anders laat kijken, helpen deze zintuigwandelingen ook om inzicht te krijgen wat wijkmakers belangrijk vinden om te delen over de wijk. Chantal heeft zich bijvoorbeeld sterk gemaakt voor oa. “tegelwippen” in de Dollardstraat (tegels eruit groen erin) in de rivierenbuurt.  ', 
+            location: {
+                center: [5.37950, 52.15899],
+                zoom: 16.24,
+                pitch: 28.86,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'tuin',
+            alignment: 'right',
+            hidden: false,
+            title: 'de Voortuin',
+            image: 'images/beeldjes.jpeg',
+
+            description:'Jenneke en Monique zijn fotograaf en wonen niet in Amersfoort en hebben geen binding met het Soesterkwartier. Dit is was Jenneke terugmailde: <br><br>             “Ik vond het Soesterkwartier een mooie buurt, maar er viel mij maar 1 ding echt op: De voortuintjes en de voorliefde voor tegels, soms vermengd met kabouters en plantenbakken met (fake) planten. Het was maart, maar het was niet moeilijk om de barbecueënde bewoners hierbij in te beelden.<br><br>            Mijn oog is meer gericht op de natuur; vandaar toch ook foto’s van het mos en de verdroogde hortensia’s. De speeltjes van de bewoners zijn sociologisch interessanter, maar ze maken mij een beetje depressief. Ze doen mij namelijk denken aan de BBB, de ‘eigen ik eerst-mentaliteit, de ‘fuck de natuur’ houding.<br><br>            De contradictie: gezellig hamburgers eten met de buren in mijn plastic stoel op mijn betonnen tegels versus een plekje met groen voor de merel, de egel en de vlinder. Tegelijkertijd leidt het gebruik van de voortuin hopelijk tot gezelligheid en is het goed voor de sociale cohesie in een buurt, maar om dat te kunnen beoordelen was het nog te koud. <br><br> Misschien is dit te negatief gedacht door een ‘elitaire’ stedeling, maar de uitkomst van de provinciale verkiezingen – een week later – was helaas een bevestiging van dit gevoel. Jenneke Visser<br><br>            ', 
+            location: {
+                center: [5.37950, 52.15899],
+                zoom: 16.24,
+                pitch: 28.86,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'walktl',
+            alignment: 'full',
+            hidden: false,
+            title: 'soesterkwartier',
+            iframe: 'https://www.thinglink.com/mediacard/1702291723679433508',
+            image: '',
+            description: 'Selectie resultaten van flaneuse (eigen ervaringen) en  zintuigwandelen in beeld (ervaringen van anderen) en teksten als…..            Overal zie je bouwbusjes. In de wijk wordt veel verduurzaamd, door zowel de woningbouw als door de bewoners van koopwoningen. Daarnaast worden de koopwoningen uitgebouwd en gemoderniseerd.             Aan de tuin kan je zien in welk deel van de wijk je bent. De huurwoningen leven mensen op straat in de meestal betegelde voortuinen of het is een parkeerplek voor de auto geworden. Bij de koopwoningen zijn de voortuinen groen en staan er fietsen. In de tuin zitten doen zij dan meestal inde achtertuin. +> evt koppelen aan hittestress kaart.             Er zijn veel mensen die een hond hebben. Hondepoep altijd ergernis nummer 1 in de wijk zie je minder op straat liggen. Er staan overal bakken met poepzakjes, niet iedereen gebruikt ze maar het is zeker verbeterd            Geuren die je ruikt, koffie branderij, het bos, heel soms een varkensstal, kerosine, bloesems in de lente, autospuiterij. (Atlas van de leefomgeving zegt niets over geur)            Berlijn:             img woorden van berlijn            img resultaten berlijn.              Hond als verbinderImg plus uitspraken            Resultaten van jenneke en monique van wandeling door de buurt            #soesterkwartier            ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -265,139 +437,6 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'flaneuse',
-            alignment: 'left',
-            hidden: false,
-            title: 'flaneuse',
-            image: '',
-            description: 'Img: Walking is mapping with your feet (Lauren Elkin)<br><br>            Een flaneur is iemand die doelloos ronddwaalt. Diegene begrijpt de stad omdat hij die al wandelend memoriseert en een mate van onzichtbaarheid heeft om dat te doen.(Elkin p.7, 13) . Flâneuse is de titel van het boek van Lauren Elkin (2016) over hoe een vrouw past in het stadsgezicht. Dat is volgens haar meer dan een vrouwelijk vorm van flaneur. Het gaat volgens haar over iemand die gaat waar ze niet behoort te gaan, en al wandelend afstemt op het  creatieve potentieel van de stad (Elkin, p22).<br><br>            Ook neuroscienctist Shane O’mara schrijft in “in Praise of Walking” dat wandelen de beste manier is om een plek te leren kennen. De sfeer van een plek, de energie, het tempo. Te voet ben je gelijk ‘in touch’ met het stadsleven.<br><br>            Ik ging de straten van het Soesterkwartier bewandelen en observeren. Samen met mijn hond om een soort van onzichtbaarheid te creëren. Ondertussen fotografeerde ik de dingen die me opvielen. De informatie die het me gaf nam ik mee als bagage tijdens de gesprekken die ik later voerde met wijkmakers. <br><br>          Wandelen gaat over observeren en mappen van een plek, dat doe je niet alleen door te kijken maar juist om plek te ervaren en een gevoel te krijgen; daar gebruik je meerdere zintuigen voor. wandelen als een flaneuse is daarom een goede manier om informatie op te halen voor slow datavisualisaties.                       ',
-            location: {
-                center: [5.36400, 52.16125],
-                zoom: 15.00,
-                pitch: 0.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'tracksSander',
-                     opacity: 1,
-                     duration: 5000
-                 }
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'tracksSander',
-                     opacity: 0
-                 }
-            ]
-        },
-        {
-            id: 'zintuig',
-            alignment: 'left',
-            hidden: false,
-            title: 'zintuigwandelen',
-            image: 'https://s3.amazonaws.com/cloud.kumu.io/accounts/320185/705557/9fc1b60a-dd98-4b07-864d-6013d0c08ac2.png',
-            imageDescription:'werkvorm zintuigwandelen', 
-            description: 'Ik liet in een aantal iteraties ook anderen als een flaneuse wandelen. Zij ontdekten de buurt met behulp van een zelf gekozen zintuig of een woord zoals “toegankelijkheid”. Ik testte dit met mensen die de buurt kenden of juist op een vreemde plek waren. Beide doelgroepen gaven aan door het zintuigwandelen met andere ogen en opmerkzamer door de buurt te wandelen en het vaker willen toepassen.<br><br>      Afhankelijk van de iteratie stuurden de participanten foto’s met aanvullende tekst terug. Of in andere iteraties testte ik ook het delen van de wandelervaringen naderhand met het uitborduren van de ervaringen in groepsverband. Om zo de uitwisseling en meerstemmigheid over het onderwerp gelijk onderling te laten delen.                        ',
-            location: {
-                center: [5.36400, 52.16125],
-                zoom: 15.00,
-                pitch: 0.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'tracksSander',
-                     opacity: 1,
-                     duration: 5000
-                 }
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'tracksSander',
-                     opacity: 0
-                 }
-            ]
-        },
-        {
-            id: 'blauw',
-            alignment: 'right',
-            hidden: false,
-            title: 'Blauw',
-            image: 'images/blauw.jpg',
-            imageDescription: '"Het oude buurthuis "De Sleutel" waar nu een ontmoetings- en activiteitencentrum zit. Voor de toekomst van de wijk is dit een plek waar mensen elkaar blijven ontmoeten." (afbeelding door M. Tinabu)',
-            description: '"Deze blauwe elementen hebben de route van mijn wandeling bepaald: Ik heb gekozen voor het thema kleur en daarbij voor mijn lievelingskleur blauw gekozen. Vaak wandel ik mijn vaste rondje, maar door nu het thema te volgen, ben ik toch op andere plekken beland. Aan het begin wist ik niet hoe mijn wandeling eruit zou gaan zien omdat alle opties in principe nog open waren. Een hele leuke ervaring en ga zeker ook nog een keer een ander thema te pakken😊. Manon" <br><br>Door het bewust inzetten van je zintuigen ontdek je nieuwe dingen zelfs als je in de wijk woont. Het buurthuis de Sleutel is één van de plekken waar ik later het community borduurproject "sterke vrouwen" ben gestart met beginnende dementerende vrouwen. ',
-            location: {
-                center: [5.35272, 52.16010],
-                zoom: 17.86,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'rafel',
-            alignment: 'right',
-            hidden: false,
-            title: 'Rafelrandjes',
-            image: 'images/reliefs.jpg',
-            imageDescription: '"oud relief  op verborgen plekken in de wijk(afbeelding door C. van der Geest)"',
-            description:'"Ik heb me gericht op gevoel/structuur.  Tijdens het wandelen viel het contrast tussen nieuw en oud me erg op. De bomen in onze wijk zijn oud met een grove structuur in de bast. Het gras is geen eentonige sprietenmat, maar er zitten mos en plantjes in verstopt die je van veraf niet ziet. Bakstenen hebben beschadigingen en brokkelen af, er zijn nog veel oude muurreliefs bewaard gebleven die een beetje verstopt zijn en niet opvallen langs grote wegen. Het verleden is tastbaar. <br>            Onder onze voeten zijn er structuren die ons de weg wijzen. Omdat we niet meer goed zien, of omdat we de stad niet kennen en het centrum niet zien.<br>            Het moderne leven brengt koude materialen de wijk in. Gladde auto"s, sterke ijzeren omheiningen. Maar nieuwe stenen blijken ook weerloos en krijgen een zacht karakter door de natuur die zelfs op de kleinste plekken wil groeien. groeten Chantal" <br><br> Naast dat het gebruik van zintuigen je anders laat kijken, helpen deze zintuigwandelingen ook om inzicht te krijgen wat wijkmakers belangrijk vinden om te delen over de wijk.', 
-            location: {
-                center: [5.37950, 52.15899],
-                zoom: 16.24,
-                pitch: 28.86,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'walktl',
-            alignment: 'full',
-            hidden: false,
-            title: 'soesterkwartier',
-            iframe: 'https://www.thinglink.com/mediacard/1702291723679433508',
-            image: '',
-            description: 'Selectie resultaten van flaneuse (eigen ervaringen) en  zintuigwandelen in beeld (ervaringen van anderen) en teksten als…..            Overal zie je bouwbusjes. In de wijk wordt veel verduurzaamd, door zowel de woningbouw als door de bewoners van koopwoningen. Daarnaast worden de koopwoningen uitgebouwd en gemoderniseerd.             Aan de tuin kan je zien in welk deel van de wijk je bent. De huurwoningen leven mensen op straat in de meestal betegelde voortuinen of het is een parkeerplek voor de auto geworden. Bij de koopwoningen zijn de voortuinen groen en staan er fietsen. In de tuin zitten doen zij dan meestal inde achtertuin. +> evt koppelen aan hittestress kaart.             Er zijn veel mensen die een hond hebben. Hondepoep altijd ergernis nummer 1 in de wijk zie je minder op straat liggen. Er staan overal bakken met poepzakjes, niet iedereen gebruikt ze maar het is zeker verbeterd            Geuren die je ruikt, koffie branderij, het bos, heel soms een varkensstal, kerosine, bloesems in de lente, autospuiterij. (Atlas van de leefomgeving zegt niets over geur)            Berlijn:             img woorden van berlijn            img resultaten berlijn.              Hond als verbinderImg plus uitspraken            Resultaten van jenneke en monique van wandeling door de buurt            #soesterkwartier            ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'walktalk',
             alignment: 'left',
             hidden: false,
@@ -421,14 +460,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'tracksSander',
+                     layer: 'tracks',
                      opacity: 1,
                      duration: 5000
                  }
             ],
             onChapterExit: [
                  {
-                     layer: 'tracksSander',
+                     layer: 'tracks',
                      opacity: 0
                  }
             ]
@@ -457,14 +496,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'tracksSander',
+                     layer: 'tracks',
                      opacity: 1,
                      duration: 5000
                  }
             ],
             onChapterExit: [
                  {
-                     layer: 'tracksSander',
+                     layer: 'tracks',
                      opacity: 0
                  }
             ]
@@ -588,14 +627,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'tracksSander',
+                     layer: 'tracks',
                      opacity: 1,
                      duration: 5000
                  }
             ],
             onChapterExit: [
                  {
-                     layer: 'tracksSander',
+                     layer: 'tracks',
                      opacity: 0
                  }
             ]
@@ -855,14 +894,14 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'tracksSander',
+                     layer: 'tracks',
                      opacity: 1,
                      duration: 5000
                  }
             ],
             onChapterExit: [
                  {
-                     layer: 'tracksSander',
+                     layer: 'tracks',
                      opacity: 0
                  }
             ]
