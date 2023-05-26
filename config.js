@@ -341,6 +341,94 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'walktalk',
+            alignment: 'left',
+            hidden: false,
+            title: 'Walk&talk',
+            image: 'images/walk&talk.svg',
+            description: 'Om verdere verbinding aan te gaan met de wijk en haar wijkmakers ontwierp ik vervolgens de Walk&Talk interview methode. Ik benaderde drie wijkmakers om mee te starten. Met eenieder maakte ik een wandeling. Zij bepaalden de route en we hadden een open gesprek met de vraag “Hoe gaat het met Soesterkwartier?” Naderhand adviseerden zij mij over nieuwe participanten om te benaderen. Ik kreeg op deze manier een goed inzicht in het <a href="#net">netwerk</a> van wie actief zijn in de wijk en hoe deze mensen met elkaar verbonden zijn. <br><br>            De meeste wandelingen duurden langer dan anderhalf uur, sommige waren begrensd op een uur, maar dan had diegene vooraf al aangegeven beperkt tijd te hebben. De Walk&Talk methode is tijdsintensief en werkt alleen als je zelf bereid bent om te vertragen en te luisteren.<br><br>            Doordat het gesprek in de buitenruimte plaatsvindt dienen gespreksonderwerpen en voorbeelden zich als vanzelf aan. Een kapot bushokje levert meerdere verhalen over de buurt op. Dit maakt ook dat een gesprek heel naturel verloopt. Wat me verder opviel is dat er op deze manier ruimte is voor veel meer persoonlijkere gesprekken over hoe mensen in het leven staan en wat belangrijk voor hen is al dan niet in relatie tot de buurt. Wellicht komt het door de nabijheid als je met elkaar wandelt maar meestal niet oogcontact hebt.                     ',
+            location: {
+                center: [5.36400, 52.16125],
+                zoom: 15.00,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'netwerk',
+            alignment: 'right',
+            hidden: false,
+            title: 'netwerk',
+            image: '',
+            description: 'Ik merkte dat de participanten grotendeels betrokkenen zijn die al vaker te horen zijn in de wijk via de media en op het stadhuis. Maar ik sprak ook deelnemers die organisaties vertegenwoordigen met meer onzichtbare stemmen, zoals bijv. kinderen (kinderwijkraad) en ouderen met beginnende dementie (King Arthur groep). Via deze manier van werken kon ik relatief eenvoudig ook deze verborgen doelgroepen zichtbaar maken.....                    ',
+            location: {
+                center: [5.36400, 52.16125],
+                zoom: 15.00,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'talk',
+            alignment: 'right',
+            hidden: false,
+            title: 'walk en talk wat levert het op ',
+            image: 'images/radarchart_walk&talk.png',
+            description: 'Ik maakte een analyse van de walk&talk gesprekken die ik had. Ik gebruikte daarvoor de mindmaps die deelnemers als samenvatting hadden gemaakt en mijn eigen geschreven reflecties.  ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'mental',
+            alignment: 'left',
+            hidden: false,
+            title: 'mental maps',
+            image: '',
+            description: 'Na ieder Walk&Talk interview maakte de deelnemer een samenvatting van de wandeling die we samen maakten in de vorm van een mental map. Ik nam altijd tekenspullen mee. Voor sommige was het best een drempel om te tekenen. Ik moedigde ze aan door te zeggen dat een route tekenen en kleine teksten erbij oke zijn of icoontjes te gebruiken. <br><br>            Eerder had ik het maken van een mental maps van je eigen omgeving getest met eerste- en derdejaars studenten van de opleiding Geo Media en Design van Aeres Hogeschool in Almere. Na een korte introductie over het belang van herinneringen op het beeld wat je hebt over een plek, gingen de studenten aan de slag. Ik liet de derdejaars vooraf oriëntatiepunten en herinneringen opschrijven. Dat gaf ze meer houvast om de mental map te tekenen. Het doel van de opdracht was om een kaart voor een vreemde te tekenen naar het huis van de maker. Met de derdejaars besprak ik de mental maps resultaten in combinatie met de vraag hoe gendergelijkwaardig de eigen omgeving eigenlijk is. Verbetering van veiligheid door bijvoorbeeld goede lantaarnverlichting.   <br><br>            In de één op één situatie na de Walk&Talk volgde soms een soort samenvattend gesprek bij het ophalen van waar we over gesprotken hadden. Andere deelnemers waren juist heel geconcentreerd alleen bezig. Na een aantal iteraties te hebben gedaan koos ik er bewust voor om me niet meer met de inhoud van de mapping te bemoeien om het zoveel mogelijk de samenvatting van deze participant te laten zijn. Vervolgens schreef ik thuis mijn eigen reflectie uit al dan niet aangevuld online-informatie van diegene.  <br><br>                     ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'walktl',
             alignment: 'full',
             hidden: false,
@@ -437,42 +525,6 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'walktalk',
-            alignment: 'left',
-            hidden: false,
-            title: 'Walk&talk',
-            image: 'images/walk&talk.svg',
-            description: 'Om verdere verbinding aan te gaan met de wijk en haar wijkmakers ontwierp ik de walk&talk methode. Ik benaderde drie wijkmakers voor een wandeling om mee te starten. Met een ieder maakte ik een wandeling. Zij bepaalden de route en we hadden een open gesprek met de vraag “Hoe gaat het met Soesterkwartier?”. Naderhand adviseerden zij mij voor nieuwe participanten om te benaderen. Ik kreeg op deze manier een goed inzicht in het netwerk van wie actief zijn in de wijk en hoe deze mensen met elkaar verbonden zijn. <br><br>            Ik merkte dat de participanten grotendeels betrokkenen zijn die al vaker te horen zijn in de wijk via de media en op het stadhuis. Maar ik sprak ook deelnemers die organisaties vertegenwoordigen met meer onzichtbare stemmen, zoals bijv. kinderen (kinderwijkraad) en ouderen met beginnende dementie (King Arthur groep). Via deze manier van werken kon ik relatief eenvoudig ook deze verborgen doelgroepen zichtbaar maken. <br><br>            De meeste wandelingen duurden langer anderhalf uur, sommige waren begrenst op een uur, maar dan had diegene vooraf al aangegeven beperkt tijd te hebben. De walk&talk methode is tijdsintensief en werkt alleen als je zelf bereid bent om te vertragen en te luisteren.<br><br>            Doordat het gesprek in de buitenruimte plaatsvindt dienen gespreksonderwerpen en voorbeelden zich als vanzelf aan. Een kapot bushokje levert meerdere verhalen over de buurt op. Dit maakt ook dat een gesprek heel naturel verloopt. Wat me verder opviel is dat er op deze manier ruimte is voor veel meer persoonlijkere gesprekken over hoe mensen in het leven staan en wat belangrijk voor hen is al dan niet in relatie tot de buurt. Wellicht komt het door de nabijheid als je met elkaar wandelt maar meestal niet oogcontact hebt.           ',
-            location: {
-                center: [5.36400, 52.16125],
-                zoom: 15.00,
-                pitch: 0.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'tracks',
-                     opacity: 1,
-                     duration: 5000
-                 }
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'tracks',
-                     opacity: 0
-                 }
-            ]
-        },
-        {
             id: 'stapel',
             alignment: 'right',
             hidden: false,
@@ -566,29 +618,10 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'mindmap',
-            alignment: 'left',
-            hidden: false,
-            title: 'mindmaps',
-            image: '',
-            description: 'Na iedere walk&talk interview maakten de participanten een mindmap  (een handgetekende kaart ) als een samenvatting van de wandeling die we samen maakten. Ik nam altijd een etui met tekenspullen mee. Voor sommige was het best een drempel om te tekenen. Ik moedigde ze aan door te zeggen dat een route tekenen en kleine teksten erbij oke zijn of icoontjes te gebruiken.<br><br>            Soms volgde een soort samenvattend gesprek, soms waren de deelnemers heel geconcentreerd alleen bezig. Na een aantal iteraties te hebben gedaan koos ik er bewust voor om niet met de inhoud van de mapping te bemoeien om het zoveel mogelijk de samenvatting van deze participant te laten zijn. Vervolgens schreef ik thuis mijn eigen reflectie uit al dan niet aangevuld online informatie van diegene. <br><br>            Evt. Uitleg wat is een mindmap….           Evt. Eerdere iteraties getest met studenten van Aeres hogeschool           ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'mindmapsk',
+            id: 'mentalsk',
             alignment: 'right',
             hidden: false,
-            title: 'mindmaps soesterkwartier',
+            title: 'mental maps soesterkwartier',
             image: '',
             description: '',
             location: {
@@ -646,25 +679,6 @@ var config = {
             title: 'tracks sk',
             image: '',
             description: 'img tracks Soesterkwartier <br><br>            Wat opvalt is dat er veel langs de groengordel van het Soesterkwatier wordt gewandeld. Hier zijn de stoepen breed en is het aangenaam om langs te gaan. Volgens O’Mara vinden mensen groene ruimte het meest enjoyable om te wandelen.<br><br>            Wat verder opvalt is dat de nieuwbouw delen worden overgeslagen, dat voelt niet als soesterkwartier met uitzondering van de wagenwerkplaats waarmee de wijk vanaf het eerste begin mee verbonden is. (verder uitleg nodig)<br><br>            De bloemen en de rivierenbuurt worden vaak beide als tegenstelling van elkaar bewandeld. Deze tegenstelling komt ook vaak in de verhalen terug (img bijnamen in het soesterkwartier)            Verder uitwerken met meer show!            ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'talk',
-            alignment: 'right',
-            hidden: false,
-            title: 'walk en talk wat levert het op ',
-            image: 'images/radarchart_walk&talk.png',
-            description: 'Ik maakte een analyse van de walk&talk gesprekken die ik had. Ik gebruikte daarvoor de mindmaps die deelnemers als samenvatting hadden gemaakt en mijn eigen geschreven reflecties.  ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
