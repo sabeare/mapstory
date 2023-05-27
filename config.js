@@ -560,12 +560,31 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'verdiep',
+            alignment: 'left',
+            hidden: false,
+            title: 'vertragen is vermenigvuldigen',
+            image: '',
+            description: '   De fase van verdiepen bij slow datavisualisaties gaat over het inzetten van de opgehaalde informatie over een wijk uit de verkenningsfase, verbeeld in een conversation piece als multilayered storytelling tool. Door deze vervolgens in te zetten om meerstemmigheid en verdieping van de kennis en nog meer verbinding in de wijk tot stand te brengen. <br><br>            Het gaat om het waarderen van aandacht. Het gebruiken van zintuigen en analoge werkvormen gebruiken. Het gaat om verbinding aangaan met het gebied, de betrokkenen en zo betere inzichten krijgen in de context. Vertragen helpt om te reflecteren, wat gebeurt er eigenlijk wat zien we in de gauwigheid hoe we werken vaak over het hoofd. Slow datavisualisaties borduren helpt om de tijd te nemen en te reflecteren. Als laatste onderdeel is verdiepen en de complexiteit ervan te omarmen. Het gaat niet om tot één oplossing te komen maar juist de meerstemmigheid en de complexiteit van het dagelijkse leven te tonen. Vertragen is vermenigvuldigen <br><br>            De conversation piece kan op verschillende manieren ingezet worden. Bijvoorbeeld om een bepaald thema wat tijden de<a href="#walktalk"> Walk&Talk </a> vaak genoemd werd,  bijvoorbeeld in dit geval de <a href="#school"> scholen </a> verder te verdiepen. Door betrokken wijkmakers rondom dit thema uit te nodigen en de conversation piece in te zetten om de dit onderwerp te bespreken en informatie te delen op een gelijkwaardige manier.            Een andere optie is om in de conversation piece in te zetten om eerder opgehaalde informatie te koppelen juist aan nieuwe ontwikkelingen in de wijk. Daarvoor zette ik een community borduurproject Sterke vrouwen op.                    ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'sterk',
-            alignment: 'full',
+            alignment: 'right',
             hidden: false,
             title: 'Sterke vrouwen',
             image: '',
-            description: 'De fase van verdiepen bij slow datavisualisaties gaat over het inzetten van de opgehaalde informatie over een wijk uit de verkenningsfase, verbeeld in een conversation piece vervolgens in te zetten op meerstemmigheid en verdieping van de kennis en verbinding. <br><br> Ik ontwikkelde een workshop om uit te voeren op internationale vrouwendag. Dit was de start van de aanleg van een bibliotheek met sterke vrouwen uit het Soesterkwartier, Amersfoort, Nederland en Internationaal. Het doel om de gemeente uit te dagen om het straatnamen beleid gelijkwaardiger voor vrouwen en genderminderheden te maken.  <br><br> Ik benaderde via mijn inmiddels opgebouwde netwerk in het Soesterkwartier en via de website van internationale vrouwendag met de volgende tekst: <br><br> “Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen sterke vrouw portretten meenemen”. <br><br> Er kwamen zeventien vrouwen borduren van begin twintig tot achter in de zestig. Het werd een gezellige avond met veel ruimte voor ontmoetingen en verbinding. <br><br> Sommige borduurden de vrouwen die ik vooraf had geselecteerd, andere gaven de voorkeur aan om haar eigen moeder of zus te borduren. Mooi dat sterke vrouwen juist ook dichtbij kunnen zijn en niet per se iemand met een publieke functie. <br><br>De avond verliep zeer succesvol en vele vroegen om een vervolg tijdens de avond en ook in de mailtjes na de workshop bleek de behoefte om door te gaan.  ',
+            description: 'Ik ontwikkelde het community borduurproject “sterke vrouwen” om eenmalig uit te voeren op internationale vrouwendag. Het doel was om samen sterke vrouwen te borduren uit het Soesterkwartier, Amersfoort, Nederland en Internationaal. Om aandacht te vragen voor de ongelijke genderverdeling van straatnamen. Rondom het Soesterkwartier zullen de komende jaren zo’n 5000 woningen en dus nieuwe <a href="#straat"> straten </a>  komen. <br><br>             Ik benaderde via mijn inmiddels opgebouwde netwerk in het Soesterkwartier en via de website van internationale vrouwendag met de volgende tekst: <br><br> “Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen sterke vrouw portretten meenemen”. <br><br>             Sommige borduurden de vrouwen die ik vooraf had geselecteerd, andere gaven de voorkeur aan eigen idolen zoals hardloopster Femke Bol of klimaatactivist Greta Thunberg. Daarnaast gaven een aantal aan juist haar eigen moeder of zus te willen eren. Mooi dat sterke vrouwen juist ook dichtbij kunnen zijn en niet per se iemand met een publieke functie. <br><br>             Rondom het tafelkleed kwamen zeventien vrouwen borduren van begin twintig tot achter in de zestig. Het werd een gezellige avond met veel ruimte voor ontmoetingen en verbinding over sterke vrouwen. Maar er was ook ruimte om de informatie op de conversation piece te delen. Zoals het verhaal van mevr Verheuvel en een open gesprek over de keuzes om kinderen wel of niet naar school in de wijk te laten gaan. <br><br>             Vele deelnemers vroegen om een vervolg tijdens de avond en ook in de berichtjes na de workshop bleek de behoefte om te verbinden met elkaar en de wijk aanstekelijk. Zodoende heb ik een subsidie aanvraag gedaan en gekregen om het project “Sterke Vrouwen” verder uit te rollen.               ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -584,7 +603,7 @@ var config = {
             hidden: false,
             title: 'wijkmuseum',
             image: 'images/wijkmuseum.png',
-            imageDescription: 'Tijdens één Walk&Talk interview sprak ik met Bets de voorzitter van het wijkmuseum Soesterkwartier. Zij heeft zich ook sterk gemaakt bij de gemeente voor de financiering voor de herinrichting van de Noordewierweg. <br><br>Onze wandeling eindigde in het Wijkmuseum. Bij de entree loop je een huis binnen zoals het honderd jaar geleden rook en eruitzag. Achterin is echter een moderne multifunctionele ruimte voor bijeenkomsten en wisselende exposities.  <br><br>Na overleg is het mogelijk om op internationale vrouwendag, 8 maart 2023 om het museum te gebruiken voor een community borduurworkshop Sterk Vrouwen. Het museum is gericht op het verleden van de wijk levend te houden en verbinding met de buurt tot stand te brengen. Het project Sterke Vrouwen stimuleert de onderlinge verbinding en is het begin van nieuwe samenwerking voor een wijkmuseum met ook waarde in het nu.            ',
+            imageDescription: 'Voor de locatie van het community borduurproject “Sterke vrouwen” heb ik bewust gekozen voor het Wijkmuseum. Het museum is gericht op het verleden van de wijk levend te houden en verbinding met de wijk tot stand te brengen. Het project Sterke Vrouwen stimuleert de onderlinge verbinding en de verbinding met de wijk. <br><br>            Tijdens één Walk&Talk interview sprak ik met Bets de voorzitter van het wijkmuseum Soesterkwartier. Zij heeft zich onder andere ook sterk gemaakt bij de gemeente voor de financiering voor de herinrichting van de Noordewierweg. <br><br>Onze wandeling eindigde in het Wijkmuseum. Bij de entree loop je een huis binnen zoals het honderd jaar geleden rook en eruitzag. Achterin is echter een moderne multifunctionele ruimte voor bijeenkomsten en wisselende exposities. Deze ruimte is wat mij betreft een prachtige plek om meer wijkactiviteiten te organiseren. De vrijwilligers van het wijkmuseum gaven aan hiervoor open te staan om meer bezoekers te trekken en het bestaansrecht te versterken.                            ',
             location: {
                 center: [5.37172, 52.15847],
                 zoom: 17.99,
@@ -604,10 +623,29 @@ var config = {
             title: 'straatnamen',
             image: '',
             imageDescription: 'Ik ben van de kaart',
-            description: 'Niet één straat in het Soesterkwartier is naar een vrouw vernoemd. Gemiddelde in Nederlandse steden is het rond de  vijftien procent. Rondom Het Soesterkwartier zullen de komende jaren vele nieuwe straten en pleinen komen. Daarom is het nu een uitgelezen kans om een begin te maken met een eerlijke verdeling. Dit is de reden om het community borduurproject Sterke Vrouwen op te zetten.  <br><br>Ik raakte hiertoe geïnspireerd door de brieven die mensen tijdens mijn eerste iteratie: “ik ben van de kaart” mij schreven. In meerdere brieven kwam de ongelijkwaardige situatie voor vrouwen in de publieke ruimte naar voren. Hierop besloot ik het boek invisible women van schrijfster C.C. Perez te lezen om meer te weten te komen over de bias en hoe vrouwen worden buitengesloten, ook in de stedelijke leefomgeving. <br><br>Vervolgens bezocht ik in september 2022 de "matrimonium dagen" in Brussel. Hier had ik afgesproken met feministe en grafische designer C. Allard van Klär graphics. Zij drukte samen met andere deelnemers ansichtkaarten van bekende Brusselse dames (https://www.instagram.com/datadelles/) om aandacht te vragen voor een eerlijkere straatnamen verdeling.   ',
+            description: 'Niet één straat in het Soesterkwartier is naar een vrouw vernoemd. Gemiddeld in Nederlandse steden is het rond de vijftien procent. Rondom Het Soesterkwartier zullen de komende jaren vele nieuwe straten en pleinen komen. Daarom is het nu een uitgelezen kans om een begin te maken met een eerlijke verdeling. Dit is de reden om het community borduurproject Sterke Vrouwen op te zetten.  <br><br>            Ik raakte hiertoe geïnspireerd door de brieven die mensen mij schreven naar aanleiding van mijn eerste iteratie: “ik ben van de kaart”. In meerdere brieven kwam de ongelijkwaardige situatie voor vrouwen in de publieke ruimte naar voren. Hierop besloot ik me daar verder in te verdiepen door het boek invisible women van schrijfster C.C. Perez te lezen en meer te weten te komen over de bias en hoe vrouwen worden buitengesloten, ook in de stedelijke leefomgeving. <br><br>Vervolgens bezocht ik in september 2022 de ‘matrimonium dagen’ in Brussel. Hier had ik afgesproken met feministe en grafische designer C. Allard van Klär graphics. Zij drukte samen met andere deelnemers ansichtkaarten van bekende <a href=" https://www.instagram.com/datadelles/"> Brusselse vrouwen </a> om aandacht te vragen voor een eerlijkere straatnamen verdeling voor vrouwen en genderminderheden. <br><br>            Onlangs bezocht ik Wenen met een aantal <a href="https://www.urbanistasrdam.nl/ "> urbanistas </a>. Dit is een netwerkgroep en platform voor vrouwxn die werken in stedelijke ontwikkeling. Wenen staat bekend om haar gendergelijkwaardig ruimtelijk beleid. Een prachtig voorbeeld is het bewust inzetten op een gender gelijkwaardige verdeling van straatnamen. Dit doen ze door alle straatnamen in de nieuwbouw wijk Aspern Seestadt, zo groot als het centrum van Wenen zelf alleen naar vrouwen te vernoemen.  <br><br>            Tijdens de zomerparade op 7 juli 2023 exposeren we de sterke vrouwen op de Noordewierweg en overhandigen we een publicatie hierover aan de wethouder van de gemeente Amersfoort voor een gelijkwaardiger straatnamenbeleid in het Soesterkwartier  en heel Amersfoort.              ',
             location: {
                 center: [5.37172, 52.15847],
                 zoom: 17.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'sterk2',
+            alignment: 'right',
+            hidden: false,
+            title: 'nog meer sterke vrouwen',
+            image: '',
+            description: 'Om ook doelgroepen die vaak onzichtbaar zijn te verbinden benaderde ik de King Arthur groep om de workshop Sterke Vrouwen met beginnende dementerende vrouwen te doen. We spraken af dat ik vier ochtenden met hen zou borduren. <br><br>             Het steeds voller rakende geborduurde tafelkleed ging weer mee. Daarop kwam de materialen en de kopjes koffie. Zo borduurden we samen met de begeleiding vier dinsdagochtenden. Sterke vrouwen borduren sterke vrouwen en samen werken we aan een collectief geheugen. Ondertussen deelden we verhalen over de buurt. <br><br>            Het community project sterke vrouwen verbindt buurtbewoners op verschillende plekken in de wijk. Zo is het dankzij de subsidie die ik aanvroeg mogelijk om een excursie naar het wijkmuseum te regelen voor borduursters van de King Arthur groep om daar met de andere vrouwen samen verder te werken aan het “sterke vrouwen project. Dit gaat begin september 2023 plaatsvinden.                  ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
                 pitch: 0.00,
                 bearing: 0.00
             },
@@ -676,108 +714,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'school',
-            alignment: 'right',
-            hidden: false,
-            title: 'scholen verdiepen',
-            image: '',
-            description: 'Verslag bespreking scholen kwestie (half mei)',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'vorm',
             alignment: 'left',
             hidden: false,
             title: 'werkvormen',
             image: '',
             description: 'De vertragende werkvormen die ik inzet voor het verzamelen en verbeelden van informatie zijn: wandelen, borduren en het tastbaar maken ervan in een conversation piece. In al deze werkvormen zit ook het embodied en zintuiglijke manier van onderzoeken. Het bied de mogelijkheid voor reflectie door langdurig bezig te zijn door bewust de informatie analoog te verwerken.  <br><br>           Gesprekken zijn persoonlijker als je met elkaar wandelt of borduurt en de tijd neemt voor reflecteren op wat er gezegd werd levert nieuwe inzichten. De betrokkenen  waren allen bereid om hun tijd hierin te steken en voelden zich gehoord omdat er letterlijk meer ruimte en tijd was om naar elkaar te luisteren. <br><br>            om nieuwe inzichten te krijgen over een locatie/gebied of buurt helpt het om creatieve en innovatieve werkvormen in te zetten. Iedere fase in het proces gebruikt variaties van het wandelen en borduren in combinatie met visualiseren door middel van mapping en/of fotografie. Maar ook het inzetten van workshops en het gebruik van digitale middelen dragen er aan toe bij.   <br><br>         In de verkennende en het begin van de verbeelden fase is het mogelijk om zelfstandig informatie op te halen. Maar om meerstemmigheid te benadrukken ligt de focus in de verbeeldende en verdiepende fase op participatieve en en co-creatie werkvormen toe te passen. We zijn in het werk in zijn algemeen zo gericht op efficiency gericht, dat we niet meer in de gaten hebben dat we zoveel betekenisvolle informatie over het hoofd zien. Deze werkvormen zijn juist bedoeld om door je langdurig aan een gebied te verbinden, met aandacht werkvormen uit te voeren en zo de beleving zichtbaar te maken en daar betekenis aan hechten. Vertragen is vermenigvuldigen dus.           ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'mentalsk',
-            alignment: 'right',
-            hidden: false,
-            title: 'mental maps soesterkwartier',
-            image: '',
-            description: '',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'sterk',
-            alignment: 'right',
-            hidden: false,
-            title: 'sterke vrouwen',
-            image: '',
-            imageDescription: 'video of the booklet sterke vrouwen', 
-            description: 'Ik ontwikkelde een workshop om uit te voeren op internationale vrouwendag. Dit was de start van de aanleg van een bibliotheek met sterke vrouwen uit het Soesterkwartier, Amersfoort, Nederland en Internationaal. Het doel om de gemeente uit te dagen om het straatnamen beleid gelijkwaardiger voor vrouwen en genderminderheden te maken.  <br><br> Ik benaderde via mijn inmiddels opgebouwde netwerk in het Soesterkwartier en via de website van internationale vrouwendag met de volgende tekst: <br><br> “Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen sterke vrouw portretten meenemen”. <br><br> Er kwamen zeventien vrouwen borduren van begin twintig tot achter in de zestig. Het werd een gezellige avond met veel ruimte voor ontmoetingen en verbinding. <br><br>  Sommige borduurden de vrouwen die ik vooraf had geselecteerd, andere gaven de voorkeur aan om haar eigen moeder of zus te borduren. Mooi dat sterke vrouwen juist ook dichtbij kunnen zijn en niet per se iemand met een publieke functie. <br><br>De avond verliep zeer succesvol en vele vroegen om een vervolg tijdens de avond en ook in de mailtjes na de workshop bleek de behoefte om door te gaan.     ',
-            location: {
-                center: [5.37172, 52.15847],
-                zoom: 17.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'sterk2',
-            alignment: 'right',
-            hidden: false,
-            title: 'nog meer sterke vrouwen',
-            image: '',
-            description: 'Vervolgens ben ik ook een aantal keer als vrijwilliger deze workshop gaan doen met beginnende dementerende dames van de King Arthur groep in de wijk onder het mom van sterke vrouwen borduren sterke vrouwen en samen werken we aan een collectief geheugen. Dit leverde de volgende resultaten op (img beeld van de borduursels en verhalen toevoegen.              ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'vrouwsk',
-            alignment: 'right',
-            hidden: false,
-            title: 'sterke vrouwen en aanbieden gemeente ',
-            image: '',
-            description: 'design aanbieden aan gemeente juli 23',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
