@@ -371,7 +371,7 @@ var config = {
             hidden: false,
             title: 'netwerk',
             image: '',
-            description: 'Ik merkte dat de participanten grotendeels betrokkenen zijn die al vaker te horen zijn in de wijk via de media en op het stadhuis. Maar ik sprak ook deelnemers die organisaties vertegenwoordigen met meer onzichtbare stemmen, zoals bijv. kinderen (kinderwijkraad) en ouderen met beginnende dementie (King Arthur groep). Via deze manier van werken kon ik relatief eenvoudig ook deze verborgen doelgroepen zichtbaar maken.....                    ',
+            description: 'Ik merkte dat de veel wijkmakers die ik sprak, grotendeels betrokkenen zijn die al vaker te horen zijn in de wijk via de media en op het stadhuis. Maar ik sprak ook wijkmakers die organisaties vertegenwoordigen met meer onzichtbare doelgroepen, zoals bijv. kinderen (kinderwijkraad) en ouderen met beginnende dementie (King Arthur groep). Via de walk&talk interviews kon ik mijn eigen netwerk in de wijk uitbreiden, wat me verde hielp om contact te krijgen met de meer verborgen doelgroepen.                   ',
             location: {
                 center: [5.36400, 52.16125],
                 zoom: 15.00,
@@ -415,7 +415,7 @@ var config = {
             hidden: false,
             title: 'analoog werken',
             image: '',
-            description: 'Het slow in <a href="#methode"> slow datavisualisaties </a> slow datavisualisaties gaat niet alleen over wandelen en zo te vertragen om informatie op te halen, maar juist ook om te de opgehaalde informatie te <a href="#verbeeldimg">verbeelden</a> op een analoge manier. Wat is het belang hiervan vroeg ik me af.<br><br>            Graphic novel auteur Lynda Barry stelt dat door met de hand te schrijven, te tekenen of te maken, creative concentration ontstaat. Het gaat er hierbij niet om of een tekening mooi of lelijk is, maar om een state of mind die juist ontstaat als je analoog werkt. Met open aandacht kun je zowel het geheel als de details beschouwen (Barry, 2014).   <br><br>            Giorgia Lupi is een information designer die veel van haar datavisualisaties met de hand schetst. Volgens haar zorgt dit voor langer tijd spenderen met de inhoud ervoor dat je beter begrijpt hoe de structuur van de data is en hoe je deze kunt organiseren en visualiseren. Zo ontstaat er meer ruimte voor contextuele details. Zonder het gebruik van digitale techniek en standaard grafieken word je bovendien meer uitgedaagd om andere manieren van visualiseren te vinden. Lupi zegt hierover: Hoe complexer de vraagstukken, hoe belangrijker het is om unieke, contextuele, persoonlijke verhalen en anekdotische details toe te voegen. Zo zorg je volgens haar voor rijkere data en meer verbonden kennis. Op deze manier is het mogelijk om een laag dieper te gaan en zo onvoorziene informatie te ontsluiten (Lupi, 2017). <br><br>            Volgens information designer Federica Fragapane krijg je betekenisvollere verhalen als je verbinding aangaat met de context van je onderzoek. Het gaat niet alleen om communicatie maar ook een stem geven aan mensen die niet vanzelfsprekend een platform hebben om dat te doen. (Fragapane, 2021)                 ',
+            description: 'Wat is slow in slow datavisualisaties vroeg ik me af. Het slow in <a href="#methode"> slow datavisualisaties </a> slow datavisualisaties gaat niet alleen over wandelen en zo te vertragen om informatie op te halen, maar juist ook om te de opgehaalde informatie te borduren en daarmee te<a href="#verbeeldimg">verbeelden</a> op een analoge manier om ruimte te maken voor reflectie en verdiepen van de complexiteit van de context.  <br><br>          Graphic novel auteur Lynda Barry stelt dat door met de hand te schrijven, te tekenen of te maken, creative concentration ontstaat. Het gaat er hierbij niet om of een tekening mooi of lelijk is, maar om een state of mind die juist ontstaat als je analoog werkt. Met open aandacht kun je zowel het geheel als de details beschouwen (Barry, 2014).   <br><br>            Giorgia Lupi is een information designer die veel van haar datavisualisaties met de hand schetst. Volgens haar zorgt dit voor langer tijd spenderen met de inhoud ervoor dat je beter begrijpt hoe de structuur van de data is en hoe je deze kunt organiseren en visualiseren. Zo ontstaat er meer ruimte voor contextuele details. Zonder het gebruik van digitale techniek en standaard grafieken word je bovendien meer uitgedaagd om andere manieren van visualiseren te vinden. Lupi zegt hierover: Hoe complexer de vraagstukken, hoe belangrijker het is om unieke, contextuele, persoonlijke verhalen en anekdotische details toe te voegen. Zo zorg je volgens haar voor rijkere data en meer verbonden kennis. Op deze manier is het mogelijk om een laag dieper te gaan en zo onvoorziene informatie te ontsluiten (Lupi, 2017). <br><br>            Volgens information designer Federica Fragapane krijg je betekenisvollere verhalen als je verbinding aangaat met de context van je onderzoek. Het gaat niet alleen om communicatie maar ook een stem geven aan mensen die niet vanzelfsprekend een platform hebben om dat te doen. (Fragapane, 2021)                 ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -434,7 +434,7 @@ var config = {
             hidden: false,
             title: 'gestapelde huizen',
             image: 'images/huisverheuvel.png',
-            description: 'Tijdens veel wandelingen met medebewoners kwam meerdere keren naar voren dat in het Soesterkwartier regelmatig meerdere generaties na elkaar in hetzelfde huis wonen. Dat zegt voor mij iets over de verbondenheid die zij voelen met die plek. In dit huisje woont mevrouw Verheuvel, ruim negentig jaar oud, al haar hele leven. Ze is de vierde generatie die in dit huis woont: ook haar ouders, grootouders en overgrootmoeder hebben hier gewoond.<br><br>           Ik hoorde dit verhaal tijdens de wandelingen door de buurt. Later sprak ik de zus van mevrouw Verheuvel hierover tijdens mijn bezoek aan een dagbestedingsgroep van beginnende dementerenden. Zij vertelde me dat haar overgrootmoeder weduwe werd en met haar kinderen dit huisje mocht betrekken in ruil voor onderhoud van de naast gelegen Joodse begraafplaats. Door deze collage als slow datavisualisatie toe te voegen aan de conversation piece kan ik deze verborgen verhalen teruggeven aan de buurt.           ',
+            description: 'Tijdens veel wandelingen met medebewoners kwam meerdere keren naar voren dat in het Soesterkwartier regelmatig meerdere generaties na elkaar in hetzelfde huis wonen. Dat zegt voor mij iets over de verbondenheid die zij voelen met die plek. In dit huisje woont mevrouw Verheuvel, ruim negentig jaar oud, al haar hele leven. Ze is de vierde generatie die in dit huis woont: ook haar ouders, grootouders en overgrootmoeder hebben hier gewoond.<br><br>            Ik hoorde dit verhaal tijdens de wandelingen door de buurt. Later sprak ik de zus van mevrouw Verheuvel hierover tijdens mijn bezoek aan een dagbestedingsgroep van beginnende dementerenden. Zij vertelde me dat haar overgrootmoeder weduwe werd en met haar kinderen dit huisje mocht betrekken in ruil voor onderhoud van de naat gelegen Joodse begraafplaats. Door deze collage als slow datavisualisatie toe te voegen aan de conversation piece heb ik dit verhaal zichtbaar gemaakt en kan ik dit delen met andere wijkmakers in het Soesterkwartier.          ',
             location: {
                 center: [5.37019, 52.15695],
                 zoom: 17.66,
@@ -485,7 +485,7 @@ var config = {
         },
         {
             id: 'mental',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'mental maps',
             image: '',
@@ -656,83 +656,6 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'walktl',
-            alignment: 'full',
-            hidden: false,
-            title: 'soesterkwartier',
-            iframe: 'https://www.thinglink.com/mediacard/1702291723679433508',
-            image: '',
-            description: 'Selectie resultaten van flaneuse (eigen ervaringen) en  zintuigwandelen in beeld (ervaringen van anderen) en teksten als…..            Overal zie je bouwbusjes. In de wijk wordt veel verduurzaamd, door zowel de woningbouw als door de bewoners van koopwoningen. Daarnaast worden de koopwoningen uitgebouwd en gemoderniseerd.             Aan de tuin kan je zien in welk deel van de wijk je bent. De huurwoningen leven mensen op straat in de meestal betegelde voortuinen of het is een parkeerplek voor de auto geworden. Bij de koopwoningen zijn de voortuinen groen en staan er fietsen. In de tuin zitten doen zij dan meestal inde achtertuin. +> evt koppelen aan hittestress kaart.             Er zijn veel mensen die een hond hebben. Hondepoep altijd ergernis nummer 1 in de wijk zie je minder op straat liggen. Er staan overal bakken met poepzakjes, niet iedereen gebruikt ze maar het is zeker verbeterd            Geuren die je ruikt, koffie branderij, het bos, heel soms een varkensstal, kerosine, bloesems in de lente, autospuiterij. (Atlas van de leefomgeving zegt niets over geur)            Berlijn:             img woorden van berlijn            img resultaten berlijn.              Hond als verbinderImg plus uitspraken            Resultaten van jenneke en monique van wandeling door de buurt            #soesterkwartier            ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'vertraag',
-            alignment: 'left',
-            hidden: false,
-            title: 'vertragen is vermenigvuldigen ',
-            image: '',
-            description: 'Afb verbinding, reflectie en complexiteit<br><br>            Wat is slow in slow datavisualisatie?<br><br>            Slow is het sleutelwoord in deze methode. Vertragen? Het gaat om het waarderen van aandacht. Het gebruiken van zintuigen en analoge werkvormen gebruiken. Het gaat om Verbinding aangaan met het gebied, de betrokkenen en zo betere inzichten krijgen in de context. Vertragen helpt om te reflecteren, wat gebeurt er eigenlijk wat zien we in de gauwigheid hoe we werken vaak over het hoofd. Slow datavisualisaties borduren helpt om de tijd te nemen en te reflecteren. Als laatste onderdeel is verdiepen en de complexiteit ervan te omarmen. Het gaat niet om tot één oplossing te komen maar juist de meerstemmigheid en de complexiteit van het dagelijkse leven te tonen.           ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-                {
-            id: 'verbor',
-            alignment: 'left',
-            hidden: false,
-            title: 'verdiepen met borduren',
-            image: '',
-            description: 'Hiermee kun je eerder opgehaalde informatie delen. Bijvoorbeeld tijdens een community borduurproject. Maar juist ook om bewust in te zetten om specifiek onderwerpen te adresseren bij een specifieke doelgroep. Zo dient de conversation piece als een multilayered storytelling tool. Want door het inzetten ervan is ook ruimte bieden aan verdere aanvullingen en nieuwe lagen van informatie. Waardoor het proces van reflectie, verbinden en verdiepen zich herhaald en daarmee de conversation piece een steeds rijkere gelaagdheid en meerstemmigheid van de wijk verbeeld. ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'vorm',
-            alignment: 'left',
-            hidden: false,
-            title: 'werkvormen',
-            image: '',
-            description: 'De vertragende werkvormen die ik inzet voor het verzamelen en verbeelden van informatie zijn: wandelen, borduren en het tastbaar maken ervan in een conversation piece. In al deze werkvormen zit ook het embodied en zintuiglijke manier van onderzoeken. Het bied de mogelijkheid voor reflectie door langdurig bezig te zijn door bewust de informatie analoog te verwerken.  <br><br>           Gesprekken zijn persoonlijker als je met elkaar wandelt of borduurt en de tijd neemt voor reflecteren op wat er gezegd werd levert nieuwe inzichten. De betrokkenen  waren allen bereid om hun tijd hierin te steken en voelden zich gehoord omdat er letterlijk meer ruimte en tijd was om naar elkaar te luisteren. <br><br>            om nieuwe inzichten te krijgen over een locatie/gebied of buurt helpt het om creatieve en innovatieve werkvormen in te zetten. Iedere fase in het proces gebruikt variaties van het wandelen en borduren in combinatie met visualiseren door middel van mapping en/of fotografie. Maar ook het inzetten van workshops en het gebruik van digitale middelen dragen er aan toe bij.   <br><br>         In de verkennende en het begin van de verbeelden fase is het mogelijk om zelfstandig informatie op te halen. Maar om meerstemmigheid te benadrukken ligt de focus in de verbeeldende en verdiepende fase op participatieve en en co-creatie werkvormen toe te passen. We zijn in het werk in zijn algemeen zo gericht op efficiency gericht, dat we niet meer in de gaten hebben dat we zoveel betekenisvolle informatie over het hoofd zien. Deze werkvormen zijn juist bedoeld om door je langdurig aan een gebied te verbinden, met aandacht werkvormen uit te voeren en zo de beleving zichtbaar te maken en daar betekenis aan hechten. Vertragen is vermenigvuldigen dus.           ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'slowr',
             alignment: 'left',
             hidden: false,
@@ -775,7 +698,7 @@ var config = {
             hidden: false,
             title: 'creative placemaking',
             iframe:'https://www.youtube.com/embed/31PUM6cd8Fw',
-            description: 'Artists are as an antenna picking up weak signals of the future and bring it tot the surface. (sara Wookey)  <br><br>          In 2006 zag ik de dans performance Love’s geography van Sara Wookey in de Melkweg Amsterdam. Gebaseerd op de gelijknamige tekst van Peggy Phelan. Deze voorstelling is me goed bijgebleven, en als ik er nu naar kijk omdat zij heel goed haar lichaam en beweging gebruikt in de publieke ruimte.  Wookey haar werk is geïnspireerd op William H. Whyte die samen met Jane Jacobs de grondleggers zijn van placemaking. Hij onderzoek de menselijke dynamiek en was overtuigd dat je dat kan doen door het observeren hoe mensen de ruimte gebruiken.  <br><br>           Placemaking is zowel een filosofie en methode die wijkmakers betrekt bij de ontwikkeling van de leefomgeving. Het is gericht op observeren en te luisteren naar de gebruikers – de experts van die openbare ruimte. Met het doel om de kwaliteit van de openbare ruimte te verbeteren maar ook netwerkvorming, gevoel van eigenaarschap en verantwoordelijkheid over deze leefomgeving te bevorderen, ervaren dat de betrokken zelf invloed hebben op de kwaliteit ervan. (pps.org)  <br><br>          Slow datavisualisatie is een vorm van creatieve placemaking. Het zet creatieve en embodied werkvormen in om het observeren en luisteren te versterken. Met het doel om op deze manier nieuwe inzichten over een buurt op te halen bij betrokkenen. Door deze informatie ook zichtbaar te maken in iets tastbaars als een conversation piece kunnen vervolgens andere betrokkenen deze informatie verdiepen en zich daarmee ook verbinden aan de verbeteringen van de leefomgeving.              ',
+            description: 'Artists are as an antenna picking up weak signals of the future and bring it to the surface. (Sara Wookey)<br><br>            In 2006 zag ik de dans performance Love’s geography van Sara Wookey in de Melkweg Amsterdam. Gebaseerd op de gelijknamige tekst van Peggy Phelan. Deze voorstelling is me goed bijgebleven.<br><br>            Wookey is geïnspireerd door William H. Whyte. Hij was samen met Jane Jacobs ervan overtuigd dat je veel kunt leren door het observeren van mensen in de publieke ruimte. Zij waren de grondleggers van het ontwikkelen van steden voor mensen; placemaking. .<br><br>            Placemaking is zowel een filosofie en methode die wijkmakers betrekt bij de ontwikkeling van de leefomgeving. Het is gericht op observeren en te luisteren naar de gebruikers – de experts van die openbare ruimte. Met het doel om de kwaliteit van de openbare ruimte te verbeteren maar ook netwerkvorming, gevoel van eigenaarschap en verantwoordelijkheid over deze leefomgeving te bevorderen, ervaren dat de betrokken zelf invloed hebben op de kwaliteit ervan. (pps.org) .<br><br>            Slow datavisualisatie is een vorm van creatieve placemaking. Het zet creatieve en embodied werkvormen in om het observeren en het luisteren te versterken. Met het doel om op deze manier nieuwe inzichten over een buurt op te halen bij betrokkenen. Ik ontdekte dat door deze informatie ook zichtbaar te maken in iets tastbaars als een conversation piece andere betrokkenen deze informatie kunnen verdiepen en zich daarmee ook verbinden aan de verbeteringen van de leefomgeving.                          ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -806,44 +729,6 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
-        {
-            id: 'vraag',
-            alignment: 'left',
-            hidden: false,
-            title: 'Onderzoeksvraag',
-            image: 'images/slowdat.jpg',
-            imageDescription: 'quote en een datavisualisaties over de leeftijdsopbouw in het Soesterkwartier.<br><br>',
-            description: 'De hoofdvraag van het onderzoek is: <br><br>            Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een gebied zichtbaar te maken voor en met wijkmakers? <br><br>            Subvragen die ik me daarbij stelde zijn:<br><br> * Hoe is de methode slow datavisualisatie opgebouwd?   <br>        * Wat is slow in slow datavisualisatie?<br>           * Wat levert borduren en mbt participatief wijkonderzoek op?     <br>      * Hoe helpt subjectieve data en het inzetten van een conversation piece bij het adresseren van het belang van een gelijkwaardigere leefomgeving?             ',
-            location: {
-                center: [5.36400, 52.16125],
-                zoom: 15.00,
-                pitch: 0.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'tracks',
-                     opacity: 1,
-                     duration: 5000
-                 }
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'tracks',
-                     opacity: 0
-                 }
-            ]
-        },
-        
+        },        
     ]
 };
