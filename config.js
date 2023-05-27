@@ -396,7 +396,7 @@ var config = {
             hidden: false,
             title: 'walk en talk wat levert het op ',
             image: 'images/radarchart_walk&talk.png',
-            description: 'Ik maakte een analyse van de walk&talk gesprekken die ik had. Ik gebruikte daarvoor de mindmaps die deelnemers als samenvatting hadden gemaakt en mijn eigen geschreven reflecties.  ',
+            description: 'Ik maakte een analyse van de Walk&Talk gesprekken die ik had. Ik gebruikte daarvoor de het <a href="#mental">mental maps</a> die deelnemers als samenvatting hadden gemaakt en mijn eigen geschreven reflecties. Ik ordende de onderwerpen waar over gesproken is. Deze waren vervolgens in de vier categorieën in te delen: jongeren, gentrificatie, democratie en vergroenen. Vervolgens maakte ik een score indeling om het visueel uit te kunnen zetten in een grafiek gekoppeld aan hoe lang iemand in het Soesterkwartier woont. <br><br>            Je ziet dat diegene die het langst in het Soesterkwartier wonen het meest over jongeren en gentrification hebben. Zij ondervinden de veranderingen het sterkst. Ook is heeft deze groep het meest over vergroenen. Dat is niet heel raar aangezien deze personen in de bloemenbuurt wonen en hebben weinig groen in de omgeving. (grafiek erbij toevoegen ). Diegene die het kortst in de wijk wonen, wonen in de rivierenbuurt of op de wagenwerkplaats. Zij zijn meer gericht op gentrificatie en democratie gericht op verbinding in de buurt.              ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
@@ -410,15 +410,204 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'mental',
+            id: 'analoog',
             alignment: 'left',
             hidden: false,
-            title: 'mental maps',
+            title: 'analoog werken',
             image: '',
-            description: 'Na ieder Walk&Talk interview maakte de deelnemer een samenvatting van de wandeling die we samen maakten in de vorm van een mental map. Ik nam altijd tekenspullen mee. Voor sommige was het best een drempel om te tekenen. Ik moedigde ze aan door te zeggen dat een route tekenen en kleine teksten erbij oke zijn of icoontjes te gebruiken. <br><br>            Eerder had ik het maken van een mental maps van je eigen omgeving getest met eerste- en derdejaars studenten van de opleiding Geo Media en Design van Aeres Hogeschool in Almere. Na een korte introductie over het belang van herinneringen op het beeld wat je hebt over een plek, gingen de studenten aan de slag. Ik liet de derdejaars vooraf oriëntatiepunten en herinneringen opschrijven. Dat gaf ze meer houvast om de mental map te tekenen. Het doel van de opdracht was om een kaart voor een vreemde te tekenen naar het huis van de maker. Met de derdejaars besprak ik de mental maps resultaten in combinatie met de vraag hoe gendergelijkwaardig de eigen omgeving eigenlijk is. Verbetering van veiligheid door bijvoorbeeld goede lantaarnverlichting.   <br><br>            In de één op één situatie na de Walk&Talk volgde soms een soort samenvattend gesprek bij het ophalen van waar we over gesprotken hadden. Andere deelnemers waren juist heel geconcentreerd alleen bezig. Na een aantal iteraties te hebben gedaan koos ik er bewust voor om me niet meer met de inhoud van de mapping te bemoeien om het zoveel mogelijk de samenvatting van deze participant te laten zijn. Vervolgens schreef ik thuis mijn eigen reflectie uit al dan niet aangevuld online-informatie van diegene.  <br><br>                     ',
+            description: 'Het slow in <a href="#methode"> slow datavisualisaties </a> slow datavisualisaties gaat niet alleen over wandelen en zo te vertragen om informatie op te halen, maar juist ook om te de opgehaalde informatie te <a href="#verbeeldimg">verbeelden</a> op een analoge manier. Wat is het belang hiervan vroeg ik me af.<br><br>            Graphic novel auteur Lynda Barry stelt dat door met de hand te schrijven, te tekenen of te maken, creative concentration ontstaat. Het gaat er hierbij niet om of een tekening mooi of lelijk is, maar om een state of mind die juist ontstaat als je analoog werkt. Met open aandacht kun je zowel het geheel als de details beschouwen (Barry, 2014).   <br><br>            Giorgia Lupi is een information designer die veel van haar datavisualisaties met de hand schetst. Volgens haar zorgt dit voor langer tijd spenderen met de inhoud ervoor dat je beter begrijpt hoe de structuur van de data is en hoe je deze kunt organiseren en visualiseren. Zo ontstaat er meer ruimte voor contextuele details. Zonder het gebruik van digitale techniek en standaard grafieken word je bovendien meer uitgedaagd om andere manieren van visualiseren te vinden. Lupi zegt hierover: Hoe complexer de vraagstukken, hoe belangrijker het is om unieke, contextuele, persoonlijke verhalen en anekdotische details toe te voegen. Zo zorg je volgens haar voor rijkere data en meer verbonden kennis. Op deze manier is het mogelijk om een laag dieper te gaan en zo onvoorziene informatie te ontsluiten (Lupi, 2017). <br><br>            Volgens information designer Federica Fragapane krijg je betekenisvollere verhalen als je verbinding aangaat met de context van je onderzoek. Het gaat niet alleen om communicatie maar ook een stem geven aan mensen die niet vanzelfsprekend een platform hebben om dat te doen. (Fragapane, 2021)                 ',
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stapel',
+            alignment: 'right',
+            hidden: false,
+            title: 'gestapelde huizen',
+            image: 'images/huisverheuvel.png',
+            description: 'Tijdens veel wandelingen met medebewoners kwam meerdere keren naar voren dat in het Soesterkwartier regelmatig meerdere generaties na elkaar in hetzelfde huis wonen. Dat zegt voor mij iets over de verbondenheid die zij voelen met die plek. In dit huisje woont mevrouw Verheuvel, ruim negentig jaar oud, al haar hele leven. Ze is de vierde generatie die in dit huis woont: ook haar ouders, grootouders en overgrootmoeder hebben hier gewoond.<br><br>           Ik hoorde dit verhaal tijdens de wandelingen door de buurt. Later sprak ik de zus van mevrouw Verheuvel hierover tijdens mijn bezoek aan een dagbestedingsgroep van beginnende dementerenden. Zij vertelde me dat haar overgrootmoeder weduwe werd en met haar kinderen dit huisje mocht betrekken in ruil voor onderhoud van de naast gelegen Joodse begraafplaats. Door deze collage als slow datavisualisatie toe te voegen aan de conversation piece kan ik deze verborgen verhalen teruggeven aan de buurt.           ',
+            location: {
+                center: [5.37019, 52.15695],
+                zoom: 17.66,
+                pitch: 0.00,
+                bearing: 0.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'tracks',
+                     opacity: 1,
+                     duration: 5000
+                 }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'tracks',
+                     opacity: 0
+                 }
+            ]
+        },
+        {
+            id: 'school',
+            alignment: 'right',
+            hidden: false,
+            title: 'Kansengelijkheid schoolkinderen',
+            image: 'images/sk25000.png',
+            description: 'De slow datavisualisatie hierboven laat zien naar welke scholen de kinderen uit het Soesterkwartier gaan. Het blijkt dat de meerderheid van de kinderen buiten de wijk naar school gaat (groen). Is dat erg? In veel van de walk&talk interviews die ik maakte kwam deze scholenproblematiek als onderwerp ter sprake.<br><br>            Sommige vertelden over de afwegingen die ze gemaakt hadden over wel of niet in de buurt naar school gaan. Voor meerdere was het grove taalgebruik van kinderen op de buurtscholen een reden om naar andere scholen buiten de buurt te gaan kijken.<br><br>            Een van de wandelaars, die ontevreden is over de buurtscholen, stelde voor om alle scholen sluiten en één nieuwe school op nieuwe locatie inclusief nieuw docenten- en directie team te ontwikkelen.<br><br>            Ook vertelde iemand over de komst van een internationale school in één van de scholen vanwege de gunstige ligging bij het station en de internationale scholen in de omgeving allemaal vol zitten. Volgens haar was dit positief omdat de internationale school een samenwerking met alle scholen aangaat en zo het Engels onderwijs op alle buurtscholen kan verbeteren.<br><br>            Het is nog onduidelijk wat deze oplossingen teweeg kunnen brengen. Ik maakte een dataset over welke scholen de lagere schoolleerlingen uit de wijk Soesterkwartier bezoeken met gegevens via verkregen via basisscholen overzicht van allecijfes.nl (allecijfers.nl/basisscholen-overzicht/amersfoort/). Ik gebruikte deze data om ieder kind te eren met een geborduurd knoopje. Tijdens het borduren reflecteerde ik op de informatie en quotes die ik had gekregen tijdens de wandelinterviews. <br><br>            De scholen kampen met de gevolgen van sociaal-economische segregatie. De kinderen van vooral hoger opgeleide ouders gaan buiten de wijk naar school, waardoor de scholen in de wijk in een alsmaar grotere vicieuze cirkel terecht zijn gekomen. Er is meer gelaagde informatie nodig, dan alleen cijfers van het aantal kinderen om oplossingen te vinden om alle kinderen in deze wijk dezelfde schoolkansen te bieden.            ',
+            location: {
+                center: [5.37006, 52.16049],
+                zoom: 15.64,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'mental',
+            alignment: 'right',
+            hidden: false,
+            title: 'mental maps',
+            image: '',
+            description: 'Na ieder <a href="#walktalk"> Walk&Talk </a> interview maakte de deelnemer een samenvatting van de wandeling die we samen maakten in de vorm van een mental map. Ik nam altijd tekenspullen mee. Voor sommige was het best een drempel om te tekenen. Ik moedigde ze aan door te zeggen dat een route tekenen en kleine teksten erbij oke zijn of icoontjes te gebruiken. <br><br>           Eerder had ik het maken van een mental maps van je eigen omgeving getest met eerste- en derdejaars studenten van de opleiding Geo Media en Design van Aeres Hogeschool in Almere. Na een korte introductie over het belang van herinneringen op het beeld wat je hebt over een plek, gingen de studenten aan de slag. Ik liet de derdejaars vooraf oriëntatiepunten en herinneringen opschrijven. Dat gaf ze meer houvast om de mental map te tekenen. Het doel van de opdracht was om een kaart voor een vreemde te tekenen naar het huis van de maker. Met de derdejaars besprak ik de mental maps resultaten in combinatie met de vraag hoe gendergelijkwaardig de eigen omgeving eigenlijk is. Verbetering van veiligheid door bijvoorbeeld goede lantaarnverlichting.   <br><br>            In de één op één situatie na de Walk&Talk volgde soms een soort samenvattend gesprek bij het ophalen van waar we over gesprotken hadden. Andere deelnemers waren juist heel geconcentreerd alleen bezig. Na een aantal iteraties te hebben gedaan koos ik er bewust voor om me niet meer met de inhoud van de mapping te bemoeien om het zoveel mogelijk de samenvatting van deze participant te laten zijn. Vervolgens schreef ik thuis mijn eigen reflectie uit al dan niet aangevuld online-informatie van diegene.  <br><br>                     ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'tracks',
+            alignment: 'right',
+            hidden: false,
+            title: 'tracks sk',
+            image: '',
+            description: 'Als onderdeel van elk <a href="#walktalk"> Walk&Talk </a> interview trackte ik met de OSM tracker app de route. Deze informatie verzamelde ik met QGIS. Ik was benieuwd of daar ook informatie uit op te halen viel. Welke delen van de wijk wandelden we en wat zijn de onontdekte delen.  <br><br>            Wat opvalt is dat er veel langs de groengordel van het Soesterkwartier wordt gewandeld. Hier zijn de stoepen breed en is het aangenaam om langs te gaan. Volgens O’Mara vinden mensen groene ruimte het meest ‘plezierig’ om te wandelen. <br><br>            Wat verder opvalt is dat de nieuwbouw delen worden overgeslagen, dat voelt blijkbaar niet als soesterkwartier. De uitzondering is de wagenwerkplaats waarmee de wijk vanaf het eerste begin mee verbonden is. Dit buurtje is via CPO tot stand is gekomen en daar waren veel wijkbewoners bij betrokken.  <br><br>            De bloemen- en de rivierenbuurt worden vaak beide als tegenstelling van elkaar bewandeld. Deze tegenstelling komt ook vaak in de verhalen terug.                  ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'noord',
+            alignment: 'right',
+            hidden: false,
+            title: 'Noordewierweg',
+            image: '',
+            description: 'De Noordewierweg is de straat die de Bloemenbuurt met vooral huurwoningen en de Rivierenbuurt met vooral koopwoningen scheidt. Het is een lange rechte weg die uitnodigt om hard te rijden. ’s Ochtends en ’s middags steken vele kinderen de straat over om naar de <a href="#school"> scholen </a> scholen in de rivierenwijk te kunnen. Daar waar het kan fietsen vele jonge fietsers en ouders om, via de rustigere en groenere Dollardstraat. <br><br>            Zoals uit de bijnamen, opgehaald tijdens de <a href="#walktalk"> Walk&Talk </a> interviews blijkt, is deze weg een barrière. Met één uitzondering: De kleine Albert Heyn in het midden van de straat. Op deze plek komen de bewoners van beide delen samen. Hier kun je ook iets met het personeel regelen, dat je achteraf betaalt. Zodat je demente moeder zelf nog een boodschapje mag gaan doen, zonder af te rekenen.  Dit vernam ik van de begeleidster van de King Arthur groep.                              ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'borduur',
+            alignment: 'left',
+            hidden: false,
+            title: 'borduren',
+            image: '',
+            description: 'Borduren is een manier van analoog werken om het slow in de slow datavisualisaties extra te benadrukken. Maar het is meer dan dat. Borduren is het middel waar alles samenkomt. <br><br>  Ten eerste het helpt om te reflecteren op de opgehaalde informatie in de verkennende fase en zo nieuwe ontdekkingen te doen en deze te visualiseren. Ten tweede leent borduren zich goed om in te zetten als verbinder in community projecten waar voortgebouwd wordt op de zaken die in de wijk spelen. Ten derde door het inzetten van de reeds geborduurde slow datavisualisaties als conversation piece, in dit geval een tafelkleed ruimte creëert voor het verdiepen van de informatie met nieuwe aanvullingen en meerstemmigheid. <br><br>            Het boek Record, Map and Capture (2022) van borduurexpert Jordan Cunliffe gaat over geborduurde datavisualisaties. Cunliffe schrijft, documenteert, tekent en ontwerpt analoog. “Waarom werkt dat zo goed? Heb je ook ervaring met digitaal?”, vroeg ik haar op Instagram. Ze antwoordde me: “Ik heb het nodig dat alles fysiek voor me ligt. Je kunt ‘in het echte leven’ het zo om je heen ordenen; dat kan ik niet zo op een scherm reproduceren!” Volgens Cunliffe geef je een stem aan wat verborgen bleef, door letterlijk tijd te spenderen aan het onderwerp, Het gaat volgens haar over nadenktijd en diepere betekenis geven aan persoonlijke, subjectieve verhalen. Terwijl Cunliffe de herhalende beweging van het borduren maakt, komt ze in een probleemoplossende staat, heeft ze ontdekt. (Cunliffe, 2022) <br><br>            Mijn ervaringen komen ook overeen met wat activist-met-naald-en-draad Sara Vrugt zegt. Ze ziet haar werk als een pleidooi om steeds beter te kijken, te reflecteren én zo impact te maken. In essentie wil ze een heel nieuwe wereld borduren, waarin meer ruimte is voor waarachtigheid (Vrugt, 2022). En was de aanleiding om een community borduurproject “Sterke Vrouwen” in het Soesterkwartier op te gaan zetten.            ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'sterk',
+            alignment: 'full',
+            hidden: false,
+            title: 'Sterke vrouwen',
+            image: '',
+            description: 'De fase van verdiepen bij slow datavisualisaties gaat over het inzetten van de opgehaalde informatie over een wijk uit de verkenningsfase, verbeeld in een conversation piece vervolgens in te zetten op meerstemmigheid en verdieping van de kennis en verbinding. <br><br> Ik ontwikkelde een workshop om uit te voeren op internationale vrouwendag. Dit was de start van de aanleg van een bibliotheek met sterke vrouwen uit het Soesterkwartier, Amersfoort, Nederland en Internationaal. Het doel om de gemeente uit te dagen om het straatnamen beleid gelijkwaardiger voor vrouwen en genderminderheden te maken.  <br><br> Ik benaderde via mijn inmiddels opgebouwde netwerk in het Soesterkwartier en via de website van internationale vrouwendag met de volgende tekst: <br><br> “Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen sterke vrouw portretten meenemen”. <br><br> Er kwamen zeventien vrouwen borduren van begin twintig tot achter in de zestig. Het werd een gezellige avond met veel ruimte voor ontmoetingen en verbinding. <br><br> Sommige borduurden de vrouwen die ik vooraf had geselecteerd, andere gaven de voorkeur aan om haar eigen moeder of zus te borduren. Mooi dat sterke vrouwen juist ook dichtbij kunnen zijn en niet per se iemand met een publieke functie. <br><br>De avond verliep zeer succesvol en vele vroegen om een vervolg tijdens de avond en ook in de mailtjes na de workshop bleek de behoefte om door te gaan.  ',
+            location: {
+                center: [5.38010, 52.15856],
+                zoom: 14.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'wijk',
+            alignment: 'right',
+            hidden: false,
+            title: 'wijkmuseum',
+            image: 'images/wijkmuseum.png',
+            imageDescription: 'Tijdens één Walk&Talk interview sprak ik met Bets de voorzitter van het wijkmuseum Soesterkwartier. Zij heeft zich ook sterk gemaakt bij de gemeente voor de financiering voor de herinrichting van de Noordewierweg. <br><br>Onze wandeling eindigde in het Wijkmuseum. Bij de entree loop je een huis binnen zoals het honderd jaar geleden rook en eruitzag. Achterin is echter een moderne multifunctionele ruimte voor bijeenkomsten en wisselende exposities.  <br><br>Na overleg is het mogelijk om op internationale vrouwendag, 8 maart 2023 om het museum te gebruiken voor een community borduurworkshop Sterk Vrouwen. Het museum is gericht op het verleden van de wijk levend te houden en verbinding met de buurt tot stand te brengen. Het project Sterke Vrouwen stimuleert de onderlinge verbinding en is het begin van nieuwe samenwerking voor een wijkmuseum met ook waarde in het nu.            ',
+            location: {
+                center: [5.37172, 52.15847],
+                zoom: 17.99,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'straat',
+            alignment: 'right',
+            hidden: false,
+            title: 'straatnamen',
+            image: '',
+            imageDescription: 'Ik ben van de kaart',
+            description: 'Niet één straat in het Soesterkwartier is naar een vrouw vernoemd. Gemiddelde in Nederlandse steden is het rond de  vijftien procent. Rondom Het Soesterkwartier zullen de komende jaren vele nieuwe straten en pleinen komen. Daarom is het nu een uitgelezen kans om een begin te maken met een eerlijke verdeling. Dit is de reden om het community borduurproject Sterke Vrouwen op te zetten.  <br><br>Ik raakte hiertoe geïnspireerd door de brieven die mensen tijdens mijn eerste iteratie: “ik ben van de kaart” mij schreven. In meerdere brieven kwam de ongelijkwaardige situatie voor vrouwen in de publieke ruimte naar voren. Hierop besloot ik het boek invisible women van schrijfster C.C. Perez te lezen om meer te weten te komen over de bias en hoe vrouwen worden buitengesloten, ook in de stedelijke leefomgeving. <br><br>Vervolgens bezocht ik in september 2022 de "matrimonium dagen" in Brussel. Hier had ik afgesproken met feministe en grafische designer C. Allard van Klär graphics. Zij drukte samen met andere deelnemers ansichtkaarten van bekende Brusselse dames (https://www.instagram.com/datadelles/) om aandacht te vragen voor een eerlijkere straatnamen verdeling.   ',
+            location: {
+                center: [5.37172, 52.15847],
+                zoom: 17.99,
                 pitch: 0.00,
                 bearing: 0.00
             },
@@ -525,99 +714,6 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'stapel',
-            alignment: 'right',
-            hidden: false,
-            title: 'gestapelde huizen',
-            image: 'images/huisverheuvel.png',
-            description: 'Tijdens veel wandelingen met medebewoners kwam meerdere keren naar voren dat in het Soesterkwartier regelmatig meerdere generaties na elkaar in hetzelfde huis wonen. Dat zegt voor mij iets over de verbondenheid die zij voelen met die plek. In dit huisje woont mevrouw Verheuvel, ruim negentig jaar oud, al haar hele leven. Ze is de vierde generatie die in dit huis woont: ook haar ouders, grootouders en overgrootmoeder hebben hier gewoond.<br><br>           Ik hoorde dit verhaal tijdens de wandelingen door de buurt. Later sprak ik de zus van mevrouw Verheuvel hierover tijdens mijn bezoek aan een dagbestedingsgroep van beginnende dementerenden. Zij vertelde me dat haar overgrootmoeder weduwe werd en met haar kinderen dit huisje mocht betrekken in ruil voor onderhoud van de naast gelegen Joodse begraafplaats. Door deze collage als slow datavisualisatie toe te voegen aan de conversation piece kan ik deze verborgen verhalen teruggeven aan de buurt.           ',
-            location: {
-                center: [5.37019, 52.15695],
-                zoom: 17.66,
-                pitch: 0.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'tracks',
-                     opacity: 1,
-                     duration: 5000
-                 }
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'tracks',
-                     opacity: 0
-                 }
-            ]
-        },
-        {
-            id: 'analoog',
-            alignment: 'left',
-            hidden: false,
-            title: 'analoog werken',
-            image: '',
-            description: 'Het slow in slow datavisualisaties gaat niet alleen over wandelen en zo te vertragen om informatie op te halen. Het gaat ook over analoog werken tijdens het designproces. Wat is het belang hiervan vroeg ik me af<br><br>            Graphic novel auteur Lynda Barry stelt dat door met de hand te schrijven, te tekenen of te maken, creative concentration ontstaat. Het gaat er hierbij niet om of een tekening mooi of lelijk is, maar om een state of mind die juist ontstaat als je analoog werkt. Met open aandacht kun je zowel het geheel als de details beschouwen (Barry, 2014). <br><br>            Giorgia Lupi is een information designer die veel van haar datavisualisaties met de hand schetst. Volgens haar zorgt dit voor langer tijd spenderen met de inhoud ervoor dat je beter begrijpt hoe de structuur van de data is en hoe je deze kunt organiseren en visualiseren. Zo ontstaat er meer ruimte voor contextuele details. Zonder het gebruik van digitale techniek en standaard grafieken word je bovendien meer uitgedaagd om andere manieren van visualiseren te vinden. Lupi zegt hierover: Hoe complexer de vraagstukken, hoe belangrijker het is om unieke, contextuele, persoonlijke verhalen en anekdotische details toe te voegen. Zo zorg je volgens haar voor rijkere data en meer verbonden kennis. Op deze manier is het mogelijk om een laag dieper te gaan en zo onvoorziene informatie te ontsluiten (Lupi, 2017).<br><br>            Volgens information designer Federica Fragapane krijg je betekenisvollere verhalen als je verbinding aangaat met de context van je onderzoek. Het gaat niet alleen om communicatie maar ook een stem geven aan mensen die niet vanzelfsprekend een platform hebben om dat te doen. (Fragapane, 2021) <br><br>            Het boek Record, Map and Capture (2022) van borduurexpert Jordan Cunliffe gaat over geborduurde datavisualisaties. Cunliffe schrijft, documenteert, tekent en ontwerpt analoog. “Waarom werkt dat zo goed? Heb je ook ervaring met digitaal?”, vroeg ik haar op Instagram. Ze antwoordde me: “Ik heb het nodig dat alles fysiek voor me ligt. Je kunt "in het echte leven" het zo om je heen ordenen; dat kan ik niet zo op een scherm reproduceren!” Volgens Cunliffe geef je een stem aan wat verborgen bleef, door letterlijk tijd te spenderen aan het onderwerp, Het gaat volgens haar over nadenktijd en diepere betekenis geven aan persoonlijke, subjectieve verhalen. Terwijl Cunliffe de herhalende beweging van het borduren maakt, komt ze in een probleemoplossende staat, heeft ze ontdekt. (Cunliffe, 2022) <br><br> Mijn ervaringen komen ook overeen met wat activist-met-naald-en-draad Sara Vrugt zegt. Ze ziet haar werk als een pleidooi om steeds beter te kijken, te reflecteren én zo impact te maken. In essentie wil ze een heel nieuwe wereld borduren, waarin meer ruimte is voor waarachtigheid (Vrugt, 2022).       ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'borduur',
-            alignment: 'left',
-            hidden: false,
-            title: 'borduren',
-            image: '',
-            description: 'Borduren is een manier van analoog werken om het slow in de slow datavisualisaties extra te benadrukken. Maar het is meer dan dat. Borduren is het middel waar alles samenkomt. <br><br>            Ten eerste het helpt om te reflecteren op de opgehaalde informatie in de verkennende fase en zo nieuwe ontdekkingen te doen en deze te visualiseren.<br><br>             Ten tweede leent borduren zich goed om in te zetten als verbinder in community projecten waar voortgebouwd wordt op de zaken die in de wijk spelen. <br><br>            Ten derde door het inzetten van de reeds geborduurde slow datavisualisaties als conversation piece, in dit geval een tafelkleed ruimte creëert voor het verdiepen van de informatie met nieuwe aanvullingen en meerstemmigheid.  ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'school',
-            alignment: 'right',
-            hidden: false,
-            title: 'Kansengelijkheid schoolkinderen',
-            image: 'images/sk25000.png',
-            description: 'De slow datavisualisatie hierboven laat zien naar welke scholen de kinderen uit het Soesterkwartier gaan. Het blijkt dat de meerderheid van de kinderen buiten de wijk naar school gaat (groen). Is dat erg? In veel van de walk&talk interviews die ik maakte kwam deze scholenproblematiek als onderwerp ter sprake.<br><br>            Sommige vertelden over de afwegingen die ze gemaakt hadden over wel of niet in de buurt naar school gaan. Voor meerdere was het grove taalgebruik van kinderen op de buurtscholen een reden om naar andere scholen buiten de buurt te gaan kijken.<br><br>            Een van de wandelaars, die ontevreden is over de buurtscholen, stelde voor om alle scholen sluiten en één nieuwe school op nieuwe locatie inclusief nieuw docenten- en directie team te ontwikkelen.<br><br>            Ook vertelde iemand over de komst van een internationale school in één van de scholen vanwege de gunstige ligging bij het station en de internationale scholen in de omgeving allemaal vol zitten. Volgens haar was dit positief omdat de internationale school een samenwerking met alle scholen aangaat en zo het Engels onderwijs op alle buurtscholen kan verbeteren.<br><br>            Het is nog onduidelijk wat deze oplossingen teweeg kunnen brengen. Ik maakte een dataset over welke scholen de lagere schoolleerlingen uit de wijk Soesterkwartier bezoeken met gegevens via verkregen via basisscholen overzicht van allecijfes.nl (allecijfers.nl/basisscholen-overzicht/amersfoort/). Ik gebruikte deze data om ieder kind te eren met een geborduurd knoopje. Tijdens het borduren reflecteerde ik op de informatie en quotes die ik had gekregen tijdens de wandelinterviews. <br><br>            De scholen kampen met de gevolgen van sociaal-economische segregatie. De kinderen van vooral hoger opgeleide ouders gaan buiten de wijk naar school, waardoor de scholen in de wijk in een alsmaar grotere vicieuze cirkel terecht zijn gekomen. Er is meer gelaagde informatie nodig, dan alleen cijfers van het aantal kinderen om oplossingen te vinden om alle kinderen in deze wijk dezelfde schoolkansen te bieden.            ',
-            location: {
-                center: [5.37006, 52.16049],
-                zoom: 15.64,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'mentalsk',
             alignment: 'right',
             hidden: false,
@@ -627,120 +723,6 @@ var config = {
             location: {
                 center: [5.38010, 52.15856],
                 zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'track',
-            alignment: 'left',
-            hidden: false,
-            title: 'track tracks',
-            image: '',
-            description: 'img geborduurde tracks<br><br>            Iedere walk&talk interview trackte ik met de OSM tracker app. Deze informatie verzamelde ik met QGIS. Ik was benieuwd of daar ook informatie uit op te halen viel. Welke delen van de wijk wandelden we en wat zijn de onontdekte delen.           ',
-            location: {
-                center: [5.36400, 52.16125],
-                zoom: 15.00,
-                pitch: 0.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'tracks',
-                     opacity: 1,
-                     duration: 5000
-                 }
-            ],
-            onChapterExit: [
-                 {
-                     layer: 'tracks',
-                     opacity: 0
-                 }
-            ]
-        },
-        {
-            id: 'tracksk',
-            alignment: 'right',
-            hidden: false,
-            title: 'tracks sk',
-            image: '',
-            description: 'img tracks Soesterkwartier <br><br>            Wat opvalt is dat er veel langs de groengordel van het Soesterkwatier wordt gewandeld. Hier zijn de stoepen breed en is het aangenaam om langs te gaan. Volgens O’Mara vinden mensen groene ruimte het meest enjoyable om te wandelen.<br><br>            Wat verder opvalt is dat de nieuwbouw delen worden overgeslagen, dat voelt niet als soesterkwartier met uitzondering van de wagenwerkplaats waarmee de wijk vanaf het eerste begin mee verbonden is. (verder uitleg nodig)<br><br>            De bloemen en de rivierenbuurt worden vaak beide als tegenstelling van elkaar bewandeld. Deze tegenstelling komt ook vaak in de verhalen terug (img bijnamen in het soesterkwartier)            Verder uitwerken met meer show!            ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'sterk',
-            alignment: 'full',
-            hidden: false,
-            title: 'Sterke vrouwen',
-            image: '',
-            description: 'selectie sterke vrouwen ',
-            location: {
-                center: [5.38010, 52.15856],
-                zoom: 14.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'wijk',
-            alignment: 'right',
-            hidden: false,
-            title: 'wijkmuseum',
-            image: 'images/wijkmuseum.png',
-            imageDescription: 'wijkmuseum, het gebouw is geschonken door corporatie Portaal bij het 100 jarig bestaan van deze huizen',
-            description: 'Tijdens één Walk&Talk interview sprak ik met de voorzitter van het wijkmuseum Soesterkwartier. Zij heeft zich ook sterk gemaakt bij de gemeente voor de financiering voor de herinrichting van de Noordewierweg. <br><br>Onze wandeling eindigden we in het Wijkmuseum zelf. Bij de entree loop je een huis binnen zoals het honderd jaar geleden rook en eruit zag. Achterin is echter een moderne multifunctionele ruimte voor bijeenkomsten en wisselende exposities.  <br><br>Na overleg is het mogelijk om op internationale vrouwendag, 8 maart 2023 om het museum te gebruiken voor een community borduurworkshop Sterk Vrouwen. Het museum is gericht op het verleden van de wijk levend te houden en verbinding met de buurt tot stand te brengen. Het project Sterke Vrouwen sluit goed bij het laatste doel aan.  ',
-            location: {
-                center: [5.37172, 52.15847],
-                zoom: 17.99,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'straat',
-            alignment: 'right',
-            hidden: false,
-            title: 'straatnamen',
-            image: '',
-            imageDescription: 'Ik ben van de kaart',
-            description: 'Niet één straat in het Soesterkwartier is naar een vrouw vernoemd. Gemiddelde in Nederlandse steden is het rond de  vijftien procent. Rondom Het Soesterkwartier zullen de komende jaren vele nieuwe straten en pleinen komen. Daarom is het nu een uitgelezen kans om een begin te maken met een eerlijke verdeling. Dit is de reden om het community borduurproject Sterke Vrouwen op te zetten.  <br><br>Ik raakte hiertoe geïnspireerd door de brieven die mensen tijdens mijn eerste iteratie: “ik ben van de kaart” mij schreven. In meerdere brieven kwam de ongelijkwaardige situatie voor vrouwen in de publieke ruimte naar voren. Hierop besloot ik het boek invisible women van schrijfster C.C. Perez te lezen om meer te weten te komen over de bias en hoe vrouwen worden buitengesloten, ook in de stedelijke leefomgeving. <br><br>Vervolgens bezocht ik in september 2022 de "matrimonium dagen" in Brussel. Hier had ik afgesproken met feministe en grafische designer C. Allard van Klär graphics. Zij drukte samen met andere deelnemers ansichtkaarten van bekende Brusselse dames (https://www.instagram.com/datadelles/) om aandacht te vragen voor een eerlijkere straatnamen verdeling.   ',
-            location: {
-                center: [5.37172, 52.15847],
-                zoom: 17.99,
                 pitch: 0.00,
                 bearing: 0.00
             },
