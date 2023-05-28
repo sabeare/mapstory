@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/sabeare/cjdapwozeb1tg2roervfarft0',
+    style: 'mapbox://styles/sabeare/cli6zn62202qs01qyhghphbos',
     accessToken: 'pk.eyJ1Ijoic2FiZWFyZSIsImEiOiJjbGdnam12aXMwY2M2M2NwOGQ5YzhuN2FiIn0.XV3OFsZ65Niqc9F5ulg6Ig',
     showMarkers: false,
     markerColor: '#3FB1CE',
