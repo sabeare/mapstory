@@ -33,7 +33,7 @@ a, a:hover, a:visited {
 #tabblad-footer #front .tabblad {
     height: 40px;
     width: 33%;
-    background-color: grey;
+    background-color: rgb(140, 122, 150);
 }
 
 #tabblad-footer #back {}
@@ -41,7 +41,7 @@ a, a:hover, a:visited {
 #tabblad-footer #back .tabblad {
     height: 80px;
     width: 50%;
-    background-color: #444;
+    background-color: rgb(74, 61, 82);
 }
 
 #tabblad-footer .tabblad {
@@ -104,7 +104,7 @@ a, a:hover, a:visited {
     padding-top: 48px;
     padding-left: 1rem;
     padding-right: 3rem;
-    mask-image: linear-gradient(to bottom, transparent 0%, rgb(74, 61, 82) 48px, rgb(74, 61, 82)calc(100% - 48px), transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 48px, black calc(100% - 48px), transparent 100%);
 }
 
 #tabblad-footer .tabblad a {
