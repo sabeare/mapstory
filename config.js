@@ -169,10 +169,10 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'wijk',
+            id: 'kastanje',
             alignment: 'right',
             hidden: false,
-            title: 'Het Soesterkwartier',
+            title: 'de kastanje',
             image: 'images/kastanje.png',         
             imageDescription:'Drie jaar geleden starte ik, baukje Rienks/ sabeare deze actie. We maakten met de buurt een gehaakte sjaal voor de zieke kastanje. Met een succesvollle afloop. De monumentale boom mocht toch blijven staan.', 
             description: 'Dit was mijn eerste wijkactie, drie jaar geleden. Het doet me goed dat mensen genieten van "onze" kastanje. Voor mij was het ook het startsein om het Soesterkwartier als het gebied te kiezen om mijn methode voor participatief wijkonderzoek te ontwikkelen. <br><br>            Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig aan te verbinden, maar het is geen voorwaarde. <br><br>Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en het groen ten koste van woningenbouw. Aanverwant hieraan is het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
@@ -511,15 +511,18 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [{
+            onChapterEnter: [
+                {
                 layer: 'tracks-color',
                 opacity: 1,
-                duration: 5000
-            }],
-            onChapterExit: [{
+                }
+            ],
+            onChapterExit: [
+                {
                 layer: 'tracks-color',
                 opacity: 0
-            }]
+                }
+            ]
         },
         {
             id: 'noord',
