@@ -399,8 +399,9 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'netwerk',
-            image: '',
-            description: 'Ik merkte dat de veel wijkmakers die ik sprak, grotendeels betrokkenen zijn die al vaker te horen zijn in de wijk via de media en op het stadhuis. Maar ik sprak ook wijkmakers die organisaties vertegenwoordigen met meer onzichtbare doelgroepen, zoals bijv. kinderen (kinderwijkraad) en ouderen met beginnende dementie (King Arthur groep). Via de walk&talk interviews kon ik mijn eigen netwerk in de wijk uitbreiden, wat me verde hielp om contact te krijgen met de meer verborgen doelgroepen.                   ',
+            image: 'images/netwerk.png',
+            imageDescription:'netwerkschema van walk&talk deelnemers',
+            description: 'Ik merkte dat de veel wijkmakers die ik sprak (rood), grotendeels betrokkenen zijn die al vaker te horen zijn in de wijk via de media en op het stadhuis. Maar ik sprak ook wijkmakers die organisaties (mintgroen) vertegenwoordigen met meer onzichtbare doelgroepen, zoals bijv. kinderen (kinderwijkraad) en ouderen met beginnende dementie (King Arthur groep). Via de walk&talk interviews kon ik mijn eigen netwerk in de wijk uitbreiden, wat me verder hielp om contact te krijgen met de meer verborgen doelgroepen.                   ',
             location: {
                 center: [5.36276, 52.16034],
                 zoom: 15.00,
