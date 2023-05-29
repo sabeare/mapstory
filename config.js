@@ -214,7 +214,7 @@ var config = {
             onChapterExit: [
                 {
                     layer: 'flaneuse3',
-                    opacity: 1
+                    opacity: 0
                     }
             ]
         },
@@ -362,6 +362,35 @@ var config = {
             onChapterExit: [
                 {
                 layer: 'tracks-color',
+                }
+            ]
+        },
+        {
+            id: 'tracks',
+            alignment: 'right',
+            hidden: false,
+            title: 'tracks ',
+            image: '',
+            description: 'Als onderdeel van elk <a href="#walktalk"> Walk&Talk </a> interview trackte ik met de OSM tracker app de route. Deze informatie verzamelde ik met QGIS. Ik was benieuwd of daar ook informatie uit op te halen viel. Welke delen van de wijk wandelden we en wat zijn de onontdekte delen.  <br><br>            Wat opvalt is dat er veel langs de groengordel van het Soesterkwartier wordt gewandeld. Hier zijn de stoepen breed en is het aangenaam om langs te gaan. Volgens O’Mara vinden mensen groene ruimte het meest ‘plezierig’ om te wandelen. <br><br>            Wat verder opvalt is dat de nieuwbouw delen worden overgeslagen, dat voelt blijkbaar niet als soesterkwartier. De uitzondering is de wagenwerkplaats waarmee de wijk vanaf het eerste begin mee verbonden is. Dit buurtje is via CPO tot stand is gekomen en daar waren veel wijkbewoners bij betrokken.  <br><br>            De bloemen- en de rivierenbuurt worden vaak beide als tegenstelling van elkaar bewandeld. Deze tegenstelling komt ook vaak in de verhalen terug.                  ',
+            location: {
+                center: [5.36276, 52.16034],
+                zoom: 15.00,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                layer: 'tracks-color',
+                opacity: 1,
+                }
+            ],
+            onChapterExit: [
+                {
+                layer: 'tracks-color',
+                opacity: 0
                 }
             ]
         },
@@ -514,35 +543,6 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
-        {
-            id: 'tracks',
-            alignment: 'right',
-            hidden: false,
-            title: 'tracks ',
-            image: '',
-            description: 'Als onderdeel van elk <a href="#walktalk"> Walk&Talk </a> interview trackte ik met de OSM tracker app de route. Deze informatie verzamelde ik met QGIS. Ik was benieuwd of daar ook informatie uit op te halen viel. Welke delen van de wijk wandelden we en wat zijn de onontdekte delen.  <br><br>            Wat opvalt is dat er veel langs de groengordel van het Soesterkwartier wordt gewandeld. Hier zijn de stoepen breed en is het aangenaam om langs te gaan. Volgens O’Mara vinden mensen groene ruimte het meest ‘plezierig’ om te wandelen. <br><br>            Wat verder opvalt is dat de nieuwbouw delen worden overgeslagen, dat voelt blijkbaar niet als soesterkwartier. De uitzondering is de wagenwerkplaats waarmee de wijk vanaf het eerste begin mee verbonden is. Dit buurtje is via CPO tot stand is gekomen en daar waren veel wijkbewoners bij betrokken.  <br><br>            De bloemen- en de rivierenbuurt worden vaak beide als tegenstelling van elkaar bewandeld. Deze tegenstelling komt ook vaak in de verhalen terug.                  ',
-            location: {
-                center: [5.36276, 52.16034],
-                zoom: 15.00,
-                pitch: 0.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                layer: 'tracks-color',
-                opacity: 1,
-                }
-            ],
-            onChapterExit: [
-                {
-                layer: 'tracks-color',
-                opacity: 0
-                }
-            ]
         },
         {
             id: 'noord',
