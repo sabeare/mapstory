@@ -219,6 +219,36 @@ var config = {
             ]
         },
         {
+            id: 'autopark',
+            alignment: 'full',
+            hidden: false,
+            title: 'autopark',
+            image: 'images/autopark.png',
+            description: '             ',
+            location: {
+                center: [5.37171, 52.15778],
+                zoom: 15.22,
+                pitch: 0.00,
+                bearing: 0.00
+                
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'flaneuse3',
+                    opacity: 1,
+                    }
+             ],
+            onChapterExit: [
+                {
+                    layer: 'flaneuse3',
+                    opacity: 0
+                    }
+            ]
+        },
+        {
             id: 'auto',
             alignment: 'right',
             hidden: false,
