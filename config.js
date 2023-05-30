@@ -244,7 +244,7 @@ var config = {
             onChapterExit: [
                 {
                     layer: 'flaneuse3',
-                    opacity: 0
+                    opacity: 1
                     }
             ]
         },
