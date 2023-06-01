@@ -20,7 +20,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Leesinstructie',
-            iframe: '',
+            image: 'images/borduurt.jpg',
             description: 'Deze publicatie in de vorm van een storymap komt het beste tot zijn recht op een computerscherm.  Het is gemaakt voor “wijkmakers”, iedereen die zich inzet voor het gelijkwaardiger maken en verbeteren van de lokale leefomgeving op een creatieve,  verbindende en tastbare manier. <br><br>            Ik maakte deze publicatie over participatief en ontwerpend wijkonderzoek in het kader van mijn master Design Research aan de Willem de Kooning Academy in Rotterdam. <br><br>            De opbouw is als volgt: het begint met de conclusie om een algeheel idee te krijgen. Vervolgens geef ik een beknopte uitleg over de ontwikkelde methode; slow datavisualisatie. Daarna toon ik aan de hand van de conversation piece, het geborduurde tafelkleed, de iteraties en wat dat heeft opgeleverd. Als laatste ga ik dieper in op de rol van borduren aan de hand van het community borduurproject “sterke vrouwen”. Wat ik opzette in de wijk het Soesterkwartier.<br><br>            Deze storymap is al scrollend naar beneden te lezen. Zo ontvouwt het hele onderzoek zich. Een andere optie is om via de hypelinks in de tekst of via het tabblad: inhoud, gericht naar de gewenste hoofdstukken te hoppen. In de andere tabbladen onderin is aanvullende informatie te vinden, zoals een samenvatting, het colofon, de bibliografie en het lexicon. Deze tabbladen zijn ieder moment te raadplegen. <br><br>             Baukje Rienks            ',
             location: {
                 center: [5.36808, 52.16647],
@@ -31,8 +31,47 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'amersfoort',
+                    opacity: 1,
+                    }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'amersfoort',
+                    opacity: 0
+                    }
+            ]
+        },
+        {
+            id: 'vrouw',
+            alignment: 'full',
+            hidden: false,
+            title: 'sterke vrouwen portretten',
+            image: 'images/sterk.svg',
+            description: '                  ',
+            location: {
+                center: [5.36207, 52.15940],
+                zoom: 12.00,
+                pitch: 13.00,
+                bearing: 0.00 
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'amersfoort',
+                    opacity: 1,
+                    }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'amersfoort',
+                    opacity: 0
+                    }
+            ]
         },
         {
             id: 'conclusie',
@@ -620,25 +659,6 @@ var config = {
             title: 'borduren',
             image: '',
             description: 'Borduren is een manier van analoog werken om het slow in de slow datavisualisaties extra te benadrukken. Maar het is meer dan dat. Borduren is het middel waar alles samenkomt. <br><br>  Ten eerste het helpt om te reflecteren op de opgehaalde informatie in de verkennende fase en zo nieuwe ontdekkingen te doen en deze te visualiseren. Ten tweede leent borduren zich goed om in te zetten als verbinder in community projecten waar voortgebouwd wordt op de zaken die in de wijk spelen. Ten derde door het inzetten van de reeds geborduurde slow datavisualisaties als conversation piece, in dit geval een tafelkleed ruimte creëert voor het verdiepen van de informatie met nieuwe aanvullingen en meerstemmigheid. <br><br>            Het boek Record, Map and Capture (2022) van borduurexpert Jordan Cunliffe gaat over geborduurde datavisualisaties. Cunliffe schrijft, documenteert, tekent en ontwerpt analoog. “Waarom werkt dat zo goed? Heb je ook ervaring met digitaal?”, vroeg ik haar op Instagram. Ze antwoordde me: “Ik heb het nodig dat alles fysiek voor me ligt. Je kunt ‘in het echte leven’ het zo om je heen ordenen; dat kan ik niet zo op een scherm reproduceren!” Volgens Cunliffe geef je een stem aan wat verborgen bleef, door letterlijk tijd te spenderen aan het onderwerp, Het gaat volgens haar over nadenktijd en diepere betekenis geven aan persoonlijke, subjectieve verhalen. Terwijl Cunliffe de herhalende beweging van het borduren maakt, komt ze in een probleemoplossende staat, heeft ze ontdekt. (Cunliffe, 2022) <br><br>            Mijn ervaringen komen ook overeen met wat activist-met-naald-en-draad Sara Vrugt zegt. Ze ziet haar werk als een pleidooi om steeds beter te kijken, te reflecteren én zo impact te maken. In essentie wil ze een heel nieuwe wereld borduren, waarin meer ruimte is voor waarachtigheid (Vrugt, 2022). En was de aanleiding om een community borduurproject “Sterke Vrouwen” in het Soesterkwartier op te gaan zetten.            ',
-            location: {
-                center: [5.36207, 52.15940],
-                zoom: 14.00,
-                pitch: 13.00,
-                bearing: 0.00 
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'vrouw',
-            alignment: 'full',
-            hidden: false,
-            title: 'sterke vrouwen portretten',
-            image: 'images/sterk.svg',
-            description: '                  ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
