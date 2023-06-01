@@ -49,7 +49,7 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: 'sterke vrouwen portretten',
-            image: 'images/sterk.svg',
+            image: 'images/nel.svg',
             description: '                  ',
             location: {
                 center: [5.36207, 52.15940],
