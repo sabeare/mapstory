@@ -255,7 +255,7 @@ map.on("load", function () {
             },
             type: 'circle',
             paint: {
-                'circle-color': 'rgba(100,100,25,0.9)',
+                'circle-color': 'rgba(169,204,142,0.9)',
                 'circle-radius': 100,
                 'circle-blur': 0.5,
                 'circle-pitch-alignment': 'map',
