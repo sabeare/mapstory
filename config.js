@@ -301,6 +301,7 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
+            setMarker:true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
