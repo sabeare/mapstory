@@ -230,61 +230,44 @@ const map = new mapboxgl.Map({
     projection: config.projection
 });
 
-// // Create a inset map if enabled in config.js
-// if (config.inset) {
-//     const insetMap = new mapboxgl.Map({
-//         container: 'mapInset', // container id
-//         style: 'mapbox://styles/mapbox/dark-v10', //hosted style id
-//         center: config.chapters[0].location.center,
-//         // Hardcode above center value if you want insetMap to be static.
-//         zoom: 3, // starting zoom
-//         hash: false,
-//         interactive: false,
-//         attributionControl: false,
-//         //Future: Once official mapbox-gl-js has globe view enabled,
-//         //insetmap can be a globe with the following parameter.
-//         //projection: 'globe'
-//     });
-// }
-
-if (config.showMarkers) {
-    const marker = new mapboxgl.Marker({ color: config.markerColor });
-    marker.setLngLat(config.chapters[0].location.center).addTo(map);
-}
-
-
 // SCROLLAMA 
 
 // instantiate the scrollama
 const scroller = scrollama();
 
 map.on("load", function () {
-    if (config.use3dTerrain) {
-        map.addSource('mapbox-dem', {
-            'type': 'raster-dem',
-            'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
-            'tileSize': 512,
-            'maxzoom': 14
-        });
-        // add the DEM source as a terrain layer with exaggerated height
-        map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+    console.log(map.getStyle())
+    map.addLayer(
+        {
+            id: 'focus-area',
+            source: {
+                type: 'geojson',
+                data: {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "coordinates": [
+                            0, 0
+                        ],
+                        "type": "Point"
+                    }
+                }
+            },
+            type: 'circle',
+            paint: {
+                'circle-color': 'rgba(100,100,25,0.9)',
+                'circle-radius': 100,
+                'circle-blur': 0.5,
+                'circle-pitch-alignment': 'map',
 
-        // add a sky layer that will show when the map is highly pitched
-        map.addLayer({
-            'id': 'sky',
-            'type': 'sky',
-            'paint': {
-                'sky-type': 'atmosphere',
-                'sky-atmosphere-sun': [0.0, 0.0],
-                'sky-atmosphere-sun-intensity': 15
+            },
+            layout: {
             }
-        });
-    };
+        }
 
-    // As the map moves, grab and update bounds in inset map.
-    if (config.inset) {
-        map.on('move', getInsetBounds);
-    }
+
+    )
+
     // setup the instance, pass callback functions
     scroller
         .setup({
@@ -303,6 +286,36 @@ map.on("load", function () {
             const url = new URL(location);
             url.hash = chapter.id;
             history.pushState({}, "", url);
+
+
+            // Set location on center
+
+
+            if (chapter.location.center && chapter.setMarker) {
+                map.getSource('focus-area').setData(
+                    {
+                        "type": "Feature",
+                        "properties": {},
+                        "geometry": {
+                            "coordinates": chapter.location.center,
+                            "type": "Point"
+                        }
+                    }
+                )
+
+            } else {
+                map.getSource('focus-area').setData(
+                    {
+                        "type": "Feature",
+                        "properties": {},
+                        "geometry": {
+                            "coordinates": [0, 0],
+                            "type": "Point"
+                        }
+                    }
+                )
+
+            }
 
             // Incase you do not want to have a dynamic inset map,
             // rather want to keep it a static view but still change the
@@ -363,86 +376,8 @@ map.on("load", function () {
     }
 });
 
-// Helper functions for insetmap
-function getInsetBounds() {
-    let bounds = map.getBounds();
 
-    let boundsJson = {
-        "type": "FeatureCollection",
-        "features": [{
-            "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            bounds._sw.lng,
-                            bounds._sw.lat
-                        ],
-                        [
-                            bounds._ne.lng,
-                            bounds._sw.lat
-                        ],
-                        [
-                            bounds._ne.lng,
-                            bounds._ne.lat
-                        ],
-                        [
-                            bounds._sw.lng,
-                            bounds._ne.lat
-                        ],
-                        [
-                            bounds._sw.lng,
-                            bounds._sw.lat
-                        ]
-                    ]
-                ]
-            }
-        }]
-    }
 
-    if (initLoad) {
-        addInsetLayer(boundsJson);
-        initLoad = false;
-    } else {
-        updateInsetLayer(boundsJson);
-    }
-
-}
-
-function addInsetLayer(bounds) {
-    insetMap.addSource('boundsSource', {
-        'type': 'geojson',
-        'data': bounds
-    });
-
-    insetMap.addLayer({
-        'id': 'boundsLayer',
-        'type': 'fill',
-        'source': 'boundsSource', // reference the data source
-        'layout': {},
-        'paint': {
-            'fill-color': '#fff', // blue color fill
-            'fill-opacity': 0.2
-        }
-    });
-    // // Add a black outline around the polygon.
-    insetMap.addLayer({
-        'id': 'outlineLayer',
-        'type': 'line',
-        'source': 'boundsSource',
-        'layout': {},
-        'paint': {
-            'line-color': '#000',
-            'line-width': 1
-        }
-    });
-}
-
-function updateInsetLayer(bounds) {
-    insetMap.getSource('boundsSource').setData(bounds);
-}
 
 
 
