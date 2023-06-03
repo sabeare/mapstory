@@ -16,12 +16,12 @@ var config = {
     footer: '',
     chapters: [
         {
-            id: 'instructie',
+            id: 'welkom',
             alignment: 'center',
             hidden: false,
-            title: 'Leesinstructie',
+            title: 'Welkom',
             image: 'images/borduurt.jpg',
-            description: 'Deze publicatie in de vorm van een storymap komt het beste tot zijn recht op een computerscherm.  Het is gemaakt voor “wijkmakers”, iedereen die zich inzet voor het gelijkwaardiger maken en verbeteren van de lokale leefomgeving op een creatieve,  verbindende en tastbare manier. <br><br>            Ik maakte deze publicatie over participatief en ontwerpend wijkonderzoek in het kader van mijn master Design Research aan de Willem de Kooning Academy in Rotterdam. <br><br>            De opbouw is als volgt: het begint met de conclusie om een algeheel idee te krijgen. Vervolgens geef ik een beknopte uitleg over de ontwikkelde methode; slow datavisualisatie. Daarna toon ik aan de hand van de conversation piece, het geborduurde tafelkleed, de iteraties en wat dat heeft opgeleverd. Als laatste ga ik dieper in op de rol van borduren aan de hand van het community borduurproject “sterke vrouwen”. Wat ik opzette in de wijk het Soesterkwartier.<br><br>            Deze storymap is al scrollend naar beneden te lezen. Zo ontvouwt het hele onderzoek zich. Een andere optie is om via de hypelinks in de tekst of via het tabblad: inhoud, gericht naar de gewenste hoofdstukken te hoppen. In de andere tabbladen onderin is aanvullende informatie te vinden, zoals een samenvatting, het colofon, de bibliografie en het lexicon. Deze tabbladen zijn ieder moment te raadplegen. <br><br>             Baukje Rienks            ',
+            description: 'Deze publicatie in de vorm van een storymap is gemaakt voor <em>wijkmakers</em>: iedereen die zich inzet voor het gelijkwaardiger maken en verbeteren van de lokale leefomgeving, op een creatieve, verbindende en tastbare manier. Deze publicatie komt het beste tot zijn recht op een computerscherm.  <br><br>            Ik maakte deze publicatie over participatief en ontwerpend wijkonderzoek in het kader van mijn master Design Research aan de Willem de Kooning Academy in Rotterdam. Ik hoop je te kunnen inspireren om in je werk te vertragen om zo andere inzichten over een gebied te onthullen en in kaart te kunnen brengen.<br><br>            Ga je mee op reis? We vertrekken bij de conclusie om een algeheel idee te krijgen. Vervolgens geef ik een beknopte uitleg over de door mij ontwikkelde en toegepaste slow datavisualisatie methode. Daarna toon ik aan de hand van de conversation piece, het geborduurde tafelkleed, de iteraties en een aantal verhalen uit het Soesterkwartier. Als laatste ga ik dieper in op de rol van borduren aan de hand van het community borduurproject “sterke vrouwen”, welke ik opzette. <br><br>            Deze storymap is al scrollend naar beneden te lezen. Zo ontvouwt het hele onderzoek zich. Een andere optie is om via de hyperlinks in de tekst of via het tabblad: ‘Inhoud’ gericht naar de gewenste hoofdstukken te gaan. In de andere tabbladen onderin is aanvullende informatie te vinden, zoals een samenvatting, het colofon, de bibliografie en het lexicon. Deze tabbladen zijn ieder moment te raadplegen. <br><br>            Amersfoort, juni 2023 <br>Baukje Rienks                                   ',
             location: {
                 center: [5.36808, 52.16647],
                 zoom: 8.75,
@@ -48,7 +48,7 @@ var config = {
             id: 'vrouw',
             alignment: 'full',
             hidden: false,
-            title: 'sterke vrouwen portretten',
+            title: 'sterke vrouwen portret',
             image: 'images/nel.svg',
             description: '                  ',
             location: {
@@ -79,7 +79,7 @@ var config = {
             hidden: false,
             title: 'Conclusie',
             image: '',
-            description: 'In dit onderzoek is gezocht naar antwoord op de vraag: “Hoe kan ik slow datavisualisatie als methode inzetten om de beleving en de betekenis van een wijk zichtbaar te maken voor en met wijkmakers?” Hiervoor is de slow datavisualisatie methode ontwerpend ontwikkeld om wijkonderzoek te doen die andere inzichten over een gebied zichtbaar maken, met het doel om bij te dragen aan gelijkwaardigere leefomgeving.  <br><br>Het resultaat is een conversation piece die is opgebouwd via verkennen, verbeelden en verdiepen en zorgt voor reflectie op en verbinding met de leefomgeving. <br><br>Het slow in de slow datavisualisatie methode is terug te zien in de gebruikte werkvormen, zoals wandelen en borduren. Tijdens de verkenningsfase is wandelen in co-creatie op verschillende manieren ingezet met het doel om te observeren, zintuigen te gebruiken en langdurig aanwezig te zijn. Dit heeft inzichten opgeleverd die niet op andere manieren verkregen kunnen worden. <br><br>Borduren is op drie manieren belangrijk geweest in het vertragen in dit onderzoek. Ten eerste door mappings, anekdotes en datavisualisaties al bordurend uit te werken met de bedoeling om dieper te kunnen reflecteren op de context. Ten tweede heeft borduren bijgedragen aan het verbinden van participanten door middel van een community art project. Als laatste speelt borduren een rol in het tastbaar maken van de conversation piece. Dit heeft ruimte gemaakt om meerstemmigheid te faciliteren en de complexiteit te omarmen van de onderwerpen en zo bijgedragen aan het verdiepen van de context. <br><br>De methode is in co-creatie ontwikkeld met wijkmakers uit de wijk het Soesterkwartier in Amersfoort. Wijkmakers zijn diegene die zich inzetten voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve, verbindende en tastbare manier. Dit betreft een breed spectrum van participanten van betrokken burger tot urban designer. <br><br>Uit dit onderzoek is gebleken dat de slow datavisualisatie methode bijdraagt aan gelaagde meerstemmige informatie en daarmee nieuwe inzichten kunt delen en daarmee vertragen is vermenigvuldigen.         ',
+            description: 'In dit onderzoek zocht ik naar het antwoord op de vraag: <em>Hoe draagt de slow datavisualisatie methode bij aan het zichtbaar maken van beleving en de betekenis van een wijk voor en met wijkmakers?</em> Hiervoor deed ik ontwerpend onderzoek en ontwikkelde zo de slow datavisualisatie methode in de Amersfoortse wijk het Soesterkwartier. Met deze methode zocht ik naar manieren om andere inzichten over het gebied zichtbaar maken, met als doel om zo bij te dragen aan een gelijkwaardigere leefomgeving.  <br><br>            Het resultaat is een conversation piece die dient als een multilayered storytelling tool.  Deze conversation piece is via de fases verkennen, verbeelden en verdiepen tot stand gekomen. Het zorgt voor verbinding van wijkmakers met de leefomgeving, het versterken van reflectie en omarmen van de complexiteit op de thema s die spelen in een wijk. <br><br>             Het <em>slow</em> uit slow datavisualisatie is terug te zien in de gebruikte werkvormen, zoals wandelen en het analoog verbeelden door te borduren. Activiteiten die bewust vertragen. Tijdens de verkenningsfase is wandelen op verschillende manieren ingezet met als doel om te observeren, zintuigen te gebruiken en langdurig aanwezig te kunnen zijn. Dit heeft inzichten opgeleverd die op andere manieren niet naar boven waren gekomen. <br><br>            Borduren is op drie manieren belangrijk geweest bij het vertragen in dit onderzoek. Ten eerste door mappings, anekdotes en datavisualisaties al bordurend uit te werken met de bedoeling om dieper te kunnen reflecteren op de context. Ten tweede heeft het samen borduren van dit community project bijgedragen aan het verbinden van participanten. Als laatste speelt borduren een rol in het tastbaar maken van de conversation piece. Dit heeft ruimte gemaakt om meerstemmigheid te faciliteren en de complexiteit van de onderwerpen te omarmen. Op deze manieren heeft het borduren bijgedragen aan het verdiepen van de context. <br><br>            De methode is in co-creatie ontwikkeld met wijkmakers uit de Amersfoortse wijk het Soesterkwartier. Wijkmakers zijn diegene die zich inzetten voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve, verbindende en tastbare manier. Dit betreft een breed spectrum van participanten: van betrokken burgers tot urban designers. <br><br>            Uit mijn onderzoek blijkt dat de slow datavisualisatie methode wel degelijk effectief bijdraagt aan gelaagde meerstemmige informatie en dat je door het toepassen van deze methode nieuwe inzichten kunt delen. Hieruit blijkt dat vertragen vermenigvuldigen is.           ', 
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -98,7 +98,7 @@ var config = {
             hidden: false,
             title: 'Slow Datavisualisatie',
             image: 'images/slowdata.svg',
-            description: 'De Slow Datavisualisatie methode is gemaakt om participatief wijkonderzoek te doen. Met deze methode kun je door je langdurig aan een wijk en de wijkmakers te verbinden, verborgen informatie zichtbaar maken. Deze methode is ontwerpend ontwikkeld door Baukje Rienks. Zij deed hiervoor meerdere iteraties met diverse wijkmakers in het Soesterkwartier in Amersfoort.  <br><br>Slow datavisualisatie is een vorm van  <a href="#slowr">slow research</a> gebruik makend van  <a href="#slowd">slow design</a> principes. Met nadruk op verbinding en reflectie Aangevuld met het omarmen van complexiteit van de context van een wijk. <br><br>Het resultaat een conversation piece, in dit geval een geborduurd tafelkleed, toont de waarde van de context met behulp van subjectieve data en anekdotes. Slow datavisualisaties laten ruimte voor meerstemmigheid en je eigen verhalen te destilleren en aan te vullen. <br><br>Het slow datavisualisatie proces bestaat uit drie fases namelijk: <a href="#verkenimg">verkennen</a>, <a href="#verbeeldimg">verbeelden</a>, en <a href="#verdiepimg">verdiepen</a>. ',
+            description: 'Slow datavisualisatie is een vorm van <a href="#slowr">slow research</a> gebruik makend van <a href="#slowd">slow design</a> principes. Slow datavisualisaties laten ruimte voor meerstemmigheid en geven ruimte om je eigen verhalen te destilleren en aan te vullen. Ik heb mijn Slow Datavisualisatie methode ontwerpend ontwikkeld om participatief wijkonderzoek te doen. Met deze methode kun je, door je langdurig aan een wijk en de wijkmakers te verbinden, verborgen informatie zichtbaar maken. Ik heb meerdere iteraties met diverse wijkmakers in het Soesterkwartier gedaan. Deze waren gericht op verbinding, reflectie en het omarmen van de complexiteit van de context van de wijk.   <br><br>             Het resultaat is een conversation piece. In dit geval een geborduurd tafelkleed, welke de waarde van die context toont met behulp van subjectieve data en anekdotes. Slow datavisualisaties laten ruimte voor meerstemmigheid en je eigen verhalen te destilleren en aan te vullen. <br><br>            Het slow datavisualisatie proces bestaat uit drie fases namelijk: <a href="#verkenimg">verkennen</a>, <a href="#verbeeldimg">verbeelden</a> en <a href="#verdiepimg">verdiepen</a>. In iedere fase staat een andere tool centraal. Namelijk: wandelen, borduren en de conversation piece             ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -117,7 +117,7 @@ var config = {
             hidden: false,
             title: 'Verkennen',
             image: 'images/verkennen.png',
-            description: '<br><br>De methode start met het Verkennen van een gebied. Je verbindt je voor langere tijd aan een gebied en de wijkmakers die daar wonen en of werken. Door alleen en met anderen daar te gaan wandelen, te observeren, te fotograferen en bewust de zintuigen inzetten. Zo krijg je inzichten over dat gebied die je niet op een andere manier had kunnen ervaren.',
+            description: 'De methode start met het verkennen van het gebied. Ik heb mij voor langere tijd verbonden aan de wijk het Soesterkwartier en de wijkmakers die daar wonen en/of werken. Dit heb ik gedaan door alleen en met anderen daar te gaan wandelen, te observeren, te fotograferen en daarbij bewust de zintuigen in te zetten. Zo heb ik verassende en bijzondere inzichten over de wijk gekregen die ik op andere manieren niet had kunnen ervaren.',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -136,7 +136,7 @@ var config = {
             hidden: false,
             title: 'Verbeelden',
             image: 'images/verbeelden.png',
-            description: '<br><br>De volgende stap is het verbeelden van deze informatie en subjectieve data in mappings en slow datavisualisaties. Door het verbeelden te vertragen door deze uit te borduren ontstaat er meer ruimte voor reflectie. Dit is van belang om nieuwe inzichten over de beleving van het gebied te verkrijgen. Het borduren zet ik zowel in om individueel als in een communityproject met verschillende participanten wijkmakers zoals bewoners, stedenbouwers of vrouwen met beginnende dementie.  ',
+            description: 'De tweede stap is het verbeelden van de vergaarde informatie en subjectieve data in mappings en slow datavisualisaties. Door het verbeelden bewust te vertragen door middel van borduren, ontstaat er meer ruimte voor reflectie. Dit is van belang om zodoende nieuwe inzichten over de beleving van de wijk te verkrijgen. Het borduren zette ik zowel individueel in als samen, in een community project met verschillende participanten, wijkmakers zoals bewoners, stedenbouwers of vrouwen met beginnende dementie. Dit laatste leidde tot bijzondere ontmoetingen, gesprekken en verhalen.   ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -155,7 +155,7 @@ var config = {
             hidden: false,
             title: 'Verdiepen',
             image: 'images/verdiepen.png',
-            description: '<br><br> Het laatste onderdeel is het verdiepen van de opgehaalde kennis door middel van een conversation piece. In dit geval een geborduurd tafelkleed. Dit maakt de informatie tastbaar en is steeds weer in te zetten bij andere doelgroepen om ook die stemmen een plek te geven en de onderwerpen te verrijken. Deze meerstemmigheid en geeft ruimte aan vaak de complexiteit van de onderwerpen en geeft zo diepere betekenis. ',
+            description: 'Het laatste onderdeel is het verdiepen van de opgehaalde kennis door samen met <em>wijkmakers</em> te borduren rondom de conversation piece. Voor mijn project heb ik gekozen voor een geborduurd tafelkleed. Dit maakt de informatie niet alleen tastbaar, maar ook meerdere malen inzetbaar. Een tafelkleed ligt letterlijk te midden van de groep en is steeds weer in te zetten bij andere doelgroepen. Op deze manier geeft het tafelkleed ruimte aan ieders stem om zo de slow datavisualisaties ook letterlijk te verrijken. Deze meerstemmigheid laat tegelijkertijd de complexiteit van de onderwerpen zien en geeft zo diepere betekenis. ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -172,7 +172,7 @@ var config = {
             id: 'kleedimg',
             alignment: 'full',
             hidden: false,
-            title: 'tafelkleed als conversation piece',
+            title: 'Tafelkleed als conversation piece',
             iframe: '',
             image: 'images/tafelkleed_quick.jpg',
             description: '',
@@ -192,9 +192,9 @@ var config = {
             id: 'conver',
             alignment: 'left',
             hidden: false,
-            title: 'conversation piece ',
+            title: 'Conversation piece ',
             image: '',
-            description: 'Naast de methode die ik ontwerpend ontwikkelde heb ik een conversation piece met wijkmakers geborduurd. Dit is het voorlopig eindresultaat van de wandel en borduur iteraties die ik deed. Deze conversation piece is als een topografie van het gebied, het <a href="#wijk">Soesterkwartier</a>. <br><br>            Deze conversation piece kan steeds weer ingezet worden om de informatie te delen en daarmee te verdiepen, als een multilayered storytelling tool. Het is daarom een goede vorm om de verhalen te tonen omdat de wereld waarin we leven zich niet laat reduceren tot een ordelijk simpel verhaal.              ',
+            description: 'Naast de methode die ik ontwerpend ontwikkelde heb ik als conversation piece gedurende het traject individueel en samen met wijkmakers een tafelkleed geborduurd. Dit is het voorlopige eindresultaat van de wandel en borduur iteraties die ik in de wijk deed. Deze conversation piece is als een topografie van dat gebied, de Amersfoortse wijk het <a href="#wijk">Soesterkwartier</a>. <br><br>            Deze conversation piece kan steeds weer ingezet worden om de informatie te delen en daarmee te verdiepen, als een <b>multilayered storytelling tool*.</B> Het is daarom een goede vorm om de verhalen uit de wijk te tonen, omdat de wereld waarin we leven zich niet laat reduceren tot een ordelijk en simpel verhaal.  <br><br> * Een <b> multilayered storytelling tool</b> is het inzetten van de slow datavisualisatie methode om ruimte te bieden aan verdere aanvullingen en nieuwe lagen van informatie. Waardoor het proces van verbinden,  reflectie en verdiepen van complexiteit zich herhaalt en daarmee de conversation piece een steeds rijkere gelaagdheid en meerstemmigheid van een wijk toont.                  ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -211,10 +211,10 @@ var config = {
             id: 'kastanje',
             alignment: 'right',
             hidden: false,
-            title: 'de kastanje',
+            title: 'De kastanje',
             image: 'images/kastanje.png',         
-            imageDescription:'Drie jaar geleden starte ik, baukje Rienks/ sabeare deze actie. We maakten met de buurt een gehaakte sjaal voor de zieke kastanje. Met een succesvollle afloop. De monumentale boom mocht toch blijven staan.', 
-            description: 'Dit was mijn eerste wijkactie, drie jaar geleden. Het doet me goed dat mensen genieten van "onze" kastanje. Voor mij was het ook het startsein om het Soesterkwartier als het gebied te kiezen om mijn methode voor participatief wijkonderzoek te ontwikkelen. <br><br>            Deze jaren dertig wijk ligt in Amerfsoort Het is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig aan te verbinden, maar het is geen voorwaarde. <br><br>Op deze plek komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en het groen ten koste van woningenbouw. Aanverwant hieraan is het versterken van het wij-zij denken, polarisatie. <br><br>            Deze voormalige arbeiderswijk ligt “boven” het station en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat het dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn: bloemen-, bomen- en rivierenbuurt.               ',
+            imageDescription:'De reddingsactie van een monumentale boom is na drie jaar nog niet vergeten.  ', 
+            description: 'Het redden van een monumentale boom was mijn eerste wijkactie, drie jaar geleden. We maakten met de buurt een gehaakte sjaal voor de zieke kastanje aan de Ijsselstraat in Amersfoort. Met een succesvolle afloop! De monumentale boom mocht blijven staan. Het doet me goed dat mensen genieten van <em>onze</em> kastanje. Voor mij was het ook het startsein om het Soesterkwartier als het gebied te kiezen om mijn methode voor participatief wijkonderzoek te ontwikkelen.  <br><br>              Deze jaren dertig wijk ligt in Amersfoort en is mijn eigen leefomgeving. De nabijheid werkt als een voordeel om je er langdurig aan te verbinden, maar het is geen voorwaarde. <br><br>            In deze wijk komen veel maatschappelijke issues samen. Denk aan gentrificatie en de druk op de voorzieningen en het groen ten koste van woningbouw. Aanverwant hieraan is het toenemen van het wij-zij denken, de polarisatie binnen de wijk. <br><br>                Deze voormalige volksbuurt ligt <em>boven</em> het treinstation van Amersfoort en is zo’n 100 jaar oud. Vanwege het spoor heeft het Soesterkwartier een wat geïsoleerde ligging. Ondanks dat de wijk dicht bij het centrum ligt, groeten de mensen elkaar hier op straat, alsof het een dorp is. De wijk bestaat uit meerdere buurten. De belangrijkste zijn de: bloemen-, bomen- en rivierenbuurt.                  ',
             location: {
                 center: [5.37209, 52.16003],
                 zoom: 18.10,
@@ -232,9 +232,10 @@ var config = {
             id: 'flaneuse',
             alignment: 'left',
             hidden: false,
-            title: 'flaneuse',
+            title: 'Flaneuse',
             image: 'images/walking.jpg',
-            description: 'Een flaneur is iemand die doelloos ronddwaalt. Diegene begrijpt de stad omdat hij die al wandelend memoriseert en een mate van onzichtbaarheid heeft om dat te doen.(Elkin p.7, 13) . Flâneuse is de titel van het boek van Lauren Elkin (2016) over hoe een vrouw past in het stadsgezicht. Dat is volgens haar meer dan een vrouwelijk vorm van flaneur. Het gaat volgens haar over iemand die gaat waar ze niet behoort te gaan, en al wandelend afstemt op het  creatieve potentieel van de stad (Elkin, p22).<br><br>            Ook neuroscienctist Shane O"mara schrijft in “in Praise of Walking” dat wandelen de beste manier is om een plek te leren kennen. De sfeer van een plek, de energie, het tempo. Te voet ben je gelijk "in touch" met het stadsleven.<br><br>            Ik ging de straten van het Soesterkwartier bewandelen en observeren. Samen met mijn hond om een soort van onzichtbaarheid te creëren. Ondertussen fotografeerde ik de dingen die me opvielen. De informatie die het me gaf nam ik mee als bagage tijdens de gesprekken die ik later voerde met wijkmakers. <br><br>          Wandelen gaat over observeren en mappen van een plek, dat doe je niet alleen door te kijken maar juist om plek te ervaren en een gevoel te krijgen; daar gebruik je meerdere zintuigen voor. wandelen als een flaneuse is daarom een goede manier om informatie op te halen voor slow datavisualisaties.                       ',
+            imageDescription: 'Geborduurde quote uit het boek Flaneuse van Lauren Elkin (p21.)', 
+            description: 'Een flaneur is manspersoon die doelloos ronddwaalt. Diegene begrijpt de stad omdat hij die al wandelend memoriseert en een mate van onzichtbaarheid heeft om dat te doen (Elkin p.7, 13). Flâneuse is de titel van het boek van Lauren Elkin (2016) over hoe een vrouw past in het stadsgezicht. Dat is volgens haar meer dan een vrouwelijke vorm van flaneur. Volgens haar is het een vrouwpersoon, die al wandelend gaat waar ze niet behoort te gaan en daarbij afstemt op het creatieve potentieel van de stad (Elkin, p22). <br><br>            Ook neurowetenschapper Shane O’Mara schrijft in zijn boek <em>In Praise of Walking</em> dat wandelen de beste manier is om een plek te leren kennen. De sfeer van een plek, de energie, het tempo. Te voet ben je gelijk <em>in touch</em> met het stadsleven. <br><br>            In de verkenningsfase ging ik de straten van het Soesterkwartier bewandelen en observeren. Dit deed ik samen met mijn hond om zo een soort van onzichtbaarheid als een flaneuse te creëren. Ondertussen fotografeerde ik de dingen die me opvielen zoals de vele aannemersbusjes voor verbouwingen of het <a href="#autopark">parkeren van auto’s </a> in de voortuin. De informatie die het me gaf nam ik mee als bagage tijdens de gesprekken die ik later voerde met <em>wijkmakers</em>. br><br>            Wandelen gaat over observeren en <em>mappen</em> van een plek. Dat doe je niet alleen door te kijken. Om de plek in zijn geheel te ervaren gebruik je daarbij ook andere zintuigen, zoals ruiken en voelen. Wandelen als een flaneuse is daarom een goede manier om informatie op te halen voor slow datavisualisaties.                                  ',
             location: {
                 center: [5.37171, 52.15778],
                 zoom: 15.22,
@@ -262,9 +263,10 @@ var config = {
             id: 'autopark',
             alignment: 'full',
             hidden: false,
-            title: 'autopark',
+            title: 'Parkeren in de voortuin',
             image: 'images/autopark.svg',
-            description: '             ',
+            imageDescription: 'Selectie van auto’s geparkeerd in de voortuinen in het Soesterkwartier. ',
+            description: ' Door regelmatig door de wijk te flaneren en daarbij mijn zintuigen in te zetten verzamelde ik informatie die je niet via reguliere databronnen te weten kan komen. Wat bijvoorbeeld opvallend is in de bloemen- en bomenbuurt van het Soesterkwartier, is dat de voortuinen vaak volledig betegeld zijn. Waarbij het bovendien regelmatig voorkwam dat de auto erin geparkeerd stond.           ',
             location: {
                 center: [5.37171, 52.15778],
                 zoom: 15.22,
@@ -285,36 +287,6 @@ var config = {
                 {
                     layer: 'flaneuse3',
                     opacity: 1
-                    }
-            ]
-        },
-        {
-            id: 'auto',
-            alignment: 'right',
-            hidden: false,
-            title: 'Auto in de voortuin',
-            image: 'images/autotuin.png',
-            description: 'Door regelmatig door de wijk te flaneren en mijn zintuigen in te zetten levert informatie die je niet via reguliere databronnen te weten kan komen. Wat bijvoorbeeld opvallend is in de bloemen- en bomenbuurt in het Soesterkwartier de voortuinen vaak volledig betegeld zijn en bovendien staat regelmatig de auto erin geparkeerd. <br><br> Ik informeeerde bij de gemeente en woningbouwcorporaties….. ',
-            location: {
-                center: [5.37049, 52.15696],
-                zoom: 18.10,
-                pitch: 51.50,
-                bearing: 0.00
-            },
-            setMarker:true,
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'flaneuse3',
-                    opacity: 1,
-                    }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'flaneuse3',
-                    opacity: 0
                     }
             ]
         },
@@ -356,6 +328,7 @@ var config = {
                 pitch: 72.50,
                 bearing: 0.00       
             },
+            setMarker: true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
@@ -376,6 +349,7 @@ var config = {
                 pitch: 52.50,
                 bearing: -136.00
             },
+            setMarker: true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
@@ -396,6 +370,7 @@ var config = {
                 pitch: 52.00,
                 bearing: -80.80
             },
+            setMarker: true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
@@ -568,6 +543,7 @@ var config = {
                 //speed: 2, // make the flying slow
                 //curve: 1, // change the speed at which it zooms out
             },
+            setMarker: true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
@@ -610,6 +586,7 @@ var config = {
                 pitch: 55.50,
                 bearing: 0.00
             },
+            setMarker: true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
@@ -648,6 +625,7 @@ var config = {
                 pitch: 4.00,
                 bearing: 0.00
             },
+            setMarker: true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
@@ -705,6 +683,7 @@ var config = {
                 pitch: 32.00,
                 bearing: 99.20
             },
+            setMarker: true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
@@ -744,6 +723,7 @@ var config = {
                 pitch: 72.50,
                 bearing: 0.00 
             },
+            setMarker: true,
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
