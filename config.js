@@ -672,12 +672,13 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'sterk',
-            alignment: 'right',
+            id: 'straat',
+            alignment: 'left',
             hidden: false,
-            title: 'Soesterkwartier | Sterke vrouwen',
+            title: 'Methode | Achtergrond | Straatnamen',
             image: '',
-            description: 'Ik ontwikkelde het community borduurproject “sterke vrouwen” om eenmalig uit te voeren op internationale vrouwendag. Het doel was om samen sterke vrouwen te borduren uit het Soesterkwartier, Amersfoort, Nederland en Internationaal. Om aandacht te vragen voor de ongelijke genderverdeling van straatnamen. Rondom het Soesterkwartier zullen de komende jaren zo’n 5000 woningen en dus nieuwe <a href="#straat"> straten </a>  komen. <br><br>             Ik benaderde via mijn inmiddels opgebouwde netwerk in het Soesterkwartier en via de website van internationale vrouwendag met de volgende tekst: <br><br> “Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen sterke vrouw portretten meenemen”. <br><br>             Sommige borduurden de vrouwen die ik vooraf had geselecteerd, andere gaven de voorkeur aan eigen idolen zoals hardloopster Femke Bol of klimaatactivist Greta Thunberg. Daarnaast gaven een aantal aan juist haar eigen moeder of zus te willen eren. Mooi dat sterke vrouwen juist ook dichtbij kunnen zijn en niet per se iemand met een publieke functie. <br><br>             Rondom het tafelkleed kwamen zeventien vrouwen borduren van begin twintig tot achter in de zestig. Het werd een gezellige avond met veel ruimte voor ontmoetingen en verbinding over sterke vrouwen. Maar er was ook ruimte om de informatie op de conversation piece te delen. Zoals het verhaal van mevr Verheuvel en een open gesprek over de keuzes om kinderen wel of niet naar school in de wijk te laten gaan. <br><br>             Vele deelnemers vroegen om een vervolg tijdens de avond en ook in de berichtjes na de workshop bleek de behoefte om te verbinden met elkaar en de wijk aanstekelijk. Zodoende heb ik een subsidie aanvraag gedaan en gekregen om het project “Sterke Vrouwen” verder uit te rollen.               ',
+            imageDescription: 'Ik ben van de kaart',
+            description: 'In het Soesterkwartier is vijftien procent van de straatnamen naar een mens vernoemd. Niet één daarvan is vrouw. Eerder onderzoek in Amsterdam wees uit dat van de straten naar mensen gemiddeld 88 procent vernoemd is naar mannen en twaalf procent naar vrouwen. (Korte & Sprinkhuizen, 2018) In Groningen was het percentage vrouwen nog lager, slechts tien procent van het totaal mensen dat in straatnamen is vernoemd. (Bol, 2018) Rondom Het Soesterkwartier zullen de komende jaren vele nieuwe straten en pleinen komen. Daarom is het nu een uitgelezen kans om een begin te maken met een eerlijke verdeling.  <br><br>            Ik raakte geïnspireerd om me verder te verdiepen in gender ongelijkheid in de leefomgeving. Dit kwam door mijn eerste iteratie: <em>Ik ben van de kaart</em>. Ik nodigde vrienden uit mij een brief te schrijven, waar ze zich druk over maken in de maatschappij. In meerdere brieven kwam de ongelijkwaardige situatie voor vrouwen in de publieke ruimte naar voren. Hierop besloot ik mij hier verder in te verdiepen door het boek <em>Invisible women</em> van schrijfster C.C. Perez (2020)  te lezen en zo meer te weten te komen over de bias en hoe vrouwen worden buitengesloten. Ook in de stedelijke leefomgeving.  <br><br>            Vervolgens bezocht ik in september 2022 de <ahref="https://www.matrimonydays.be/nl/"> Matrimonium dagen </a> in Brussel. Hier had ik afgesproken met feministe en grafische designer Claire Allard van <a href="https://www.klar.graphics/en/homepage-en/"> Klär graphics</a>. Zij drukte samen met andere deelnemers ansichtkaarten van bekende <a href=" https://www.instagram.com/datadelles/"> Brusselse vrouwen </a> om aandacht te vragen voor een eerlijkere straatnamen verdeling voor vrouwen en genderminderheden. <br><br>            Onlangs bezocht ik Wenen met een aantal <a href="https://www.urbanistasrdam.nl/ "> urbanistas</a>. Dit is een netwerkgroep en platform voor vrouwxn die werken in stedelijke ontwikkeling. Wenen staat bekend om haar gendergelijkwaardig ruimtelijk beleid. Een prachtig voorbeeld is het bewust inzetten op een gender gelijkwaardige verdeling van straatnamen. Dit doen ze door alle straatnamen in nieuwbouwwijk Aspern Seestadt, zo groot als het centrum van Wenen zelf, alleen naar vrouwen te vernoemen.  <br><br>                        ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -691,12 +692,77 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'vrouw2',
+            alignment: 'full',
+            hidden: false,
+            title: 'Soesterkwartier | sterke vrouwen portret',
+            image: 'images/nel.svg',
+            description: '                  ',
+            location: {
+                center: [5.36207, 52.15940],
+                zoom: 12.00,
+                pitch: 13.00,
+                bearing: 0.00 
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+               
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'sterk',
+            alignment: 'right',
+            hidden: false,
+            title: 'Soesterkwartier | Sterke vrouwen',
+            image: '',
+            description: 'Om mijn <a href="#conver"> conversation piece</a> het geborduurde tafelkleed bij andere doelgroepen in te zetten, ontwikkelde ik het community borduurproject Sterke Vrouwen om eenmalig uit te voeren op Internationale Vrouwendag 2023. De bedoeling was om samen met de deelnemers een aantal sterke vrouwen uit het Soesterkwartier, Amersfoort, Nederland en Internationaal te borduren. Op deze manier wilde ik aandacht vragen voor de ongelijke genderverdeling van <a href="#straat"> straatnamen</a>. Rondom het Soesterkwartier zullen de komende jaren bijvoorbeeld zo’n 5000 woningen en dus nieuwe straten komen. De impact hiervan wilde ik met behulp van de conversation piece verdiepen. <br><br>             Ik benaderde via mijn inmiddels opgebouwde netwerk in het Soesterkwartier en via de website van Internationale Vrouwendag met de volgende tekst: <br><br> <em>Op 8 maart 2023 is het internationale vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen Sterke Vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen sterke vrouw portretten meenemen</em>. <br><br>             Expliciet had ik vermeld dat iedereen mee mocht doen. Dit betrof zowel het wel of niet hebben van ervaring, als gender, m/v/x iedereen was welkom. Er kwamen alleen vrouwen van begin twintig tot achter in de zestig.  <br><br>            Sommige deelnemers borduurden de vrouwen die ik vooraf had geselecteerd, anderen gaven de voorkeur aan eigen idolen zoals hardloopster Femke Bol of klimaatactivist Greta Thunberg. Daarnaast gaven een aantal aan juist hun eigen moeder of zus te willen eren. Een mooie aanvulling, wat laat zien dat een sterke vrouw niet per se iemand met een publieke functie hoeft te zijn. <br><br>             Rondom het tafelkleed kwamen zeventien vrouwen borduren. Het werd een gezellige avond met veel ruimte voor ontmoetingen en verbinding over sterke vrouwen en de ongelijke gender verdeling van straatnamen. Maar er was ook ruimte om de informatie op de conversation piece met elkaar te delen. Zoals het verhaal van mevrouw Verheuvel en een open gesprek over de keuzes om kinderen wel of niet naar school in de wijk te laten gaan. Het was mooi om te zien dat het verdiepen van de informatie door middel van de conversation piece werkte. <br><br>            Tijdens de avond vroegen veel deelnemers om een vervolg aan het project. Ook in de berichtjes na de workshop bleek de behoefte om met elkaar te verbinden in de wijk aanstekelijk. Daarop heb ik een subsidie aangevraagd en gekregen om het project <em>Sterke Vrouwen</em> verder uit te rollen.  <br><br>            Tijdens de zomerparade op 7 juli 2023 zal ik de portretten van de geborduurde sterke vrouwen exposeren. Het is de bedoeling dat ik dan ook de hierover samengestelde publicatie aan de wethouder van de gemeente Amersfoort zal overhandigen. Zo vragen we als community aandacht voor een gender gelijkwaardiger straatnamenbeleid in het Soesterkwartier en heel Amersfoort.                           ',
+            location: {
+                center: [5.36207, 52.15940],
+                zoom: 14.00,
+                pitch: 13.00,
+                bearing: 0.00 
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'vrouw3',
+            alignment: 'full',
+            hidden: false,
+            title: 'Soesterkwartier | sterke vrouwen portret',
+            image: 'images/nel.svg',
+            description: '                  ',
+            location: {
+                center: [5.36207, 52.15940],
+                zoom: 12.00,
+                pitch: 13.00,
+                bearing: 0.00 
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
+        {
             id: 'wijk',
             alignment: 'right',
             hidden: false,
             title: 'Soesterkwartier | Wijkmuseum',
             image: 'images/wijkmuseum.png',
-            imageDescription: 'Voor de locatie van het community borduurproject “Sterke vrouwen” heb ik bewust gekozen voor het Wijkmuseum. Het museum is gericht op het verleden van de wijk levend te houden en verbinding met de wijk tot stand te brengen. Het project Sterke Vrouwen stimuleert de onderlinge verbinding en de verbinding met de wijk. <br><br>            Tijdens één Walk&Talk interview sprak ik met Bets de voorzitter van het wijkmuseum Soesterkwartier. Zij heeft zich onder andere ook sterk gemaakt bij de gemeente voor de financiering voor de herinrichting van de Noordewierweg. <br><br>Onze wandeling eindigde in het Wijkmuseum. Bij de entree loop je een huis binnen zoals het honderd jaar geleden rook en eruitzag. Achterin is echter een moderne multifunctionele ruimte voor bijeenkomsten en wisselende exposities. Deze ruimte is wat mij betreft een prachtige plek om meer wijkactiviteiten te organiseren. De vrijwilligers van het wijkmuseum gaven aan hiervoor open te staan om meer bezoekers te trekken en het bestaansrecht te versterken.                            ',
+            imageDescription: 'Voor de locatie van het community borduurproject <a href=“#sterk”>Sterke Vrouwen</a> heb ik bewust gekozen voor het <a href=https://wijkmuseumsoesterkwartier.nl/>Wijkmuseum Soesterkwartier </a>. Het museum is erop gericht om het verleden van de wijk levend te houden en verbinding met de wijk tot stand te brengen. Het project <em>Sterke Vrouwen</em> stimuleert de onderlinge verbinding en de verbinding met de wijk, wat naadloos aansluit op de doelstelling van het museum. <br><br>            Tijdens één <a href="#walktalk"> Walk&Talk </a> interviews sprak ik met Bets, de voorzitter van het wijkmuseum Soesterkwartier. Zij heeft zich bij de gemeente onder andere sterk gemaakt voor de financiering voor de herinrichting van de<a href="#noord"> Noordewierweg </a>. <br><br>            Onze wandeling eindigde in het Wijkmuseum. Via de entree loop je een huis binnen zoals het er honderd jaar geleden rook en uitzag. Achterin het huis is echter een moderne, multifunctionele ruimte voor bijeenkomsten en wisselende exposities. Deze ruimte is wat mij betreft een prachtige en inspirerende plek om meer wijkactiviteiten te organiseren. De vrijwilligers van het wijkmuseum gaven aan hiervoor open te staan, om zo ook meer bezoekers te trekken en het bestaansrecht van het museum te versterken.                                       ',
             location: {
                 center: [5.37143, 52.15849],
                 zoom: 19.96,
@@ -711,32 +777,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'straat',
-            alignment: 'right',
-            hidden: false,
-            title: 'Soesterkwartier | Straatnamen',
-            image: '',
-            imageDescription: 'Ik ben van de kaart',
-            description: 'Niet één straat in het Soesterkwartier is naar een vrouw vernoemd. Gemiddeld in Nederlandse steden is het rond de vijftien procent. Rondom Het Soesterkwartier zullen de komende jaren vele nieuwe straten en pleinen komen. Daarom is het nu een uitgelezen kans om een begin te maken met een eerlijke verdeling. Dit is de reden om het community borduurproject Sterke Vrouwen op te zetten.  <br><br>            Ik raakte hiertoe geïnspireerd door de brieven die mensen mij schreven naar aanleiding van mijn eerste iteratie: “ik ben van de kaart”. In meerdere brieven kwam de ongelijkwaardige situatie voor vrouwen in de publieke ruimte naar voren. Hierop besloot ik me daar verder in te verdiepen door het boek invisible women van schrijfster C.C. Perez te lezen en meer te weten te komen over de bias en hoe vrouwen worden buitengesloten, ook in de stedelijke leefomgeving. <br><br>Vervolgens bezocht ik in september 2022 de ‘matrimonium dagen’ in Brussel. Hier had ik afgesproken met feministe en grafische designer C. Allard van Klär graphics. Zij drukte samen met andere deelnemers ansichtkaarten van bekende <a href=" https://www.instagram.com/datadelles/"> Brusselse vrouwen </a> om aandacht te vragen voor een eerlijkere straatnamen verdeling voor vrouwen en genderminderheden. <br><br>            Onlangs bezocht ik Wenen met een aantal <a href="https://www.urbanistasrdam.nl/ "> urbanistas </a>. Dit is een netwerkgroep en platform voor vrouwxn die werken in stedelijke ontwikkeling. Wenen staat bekend om haar gendergelijkwaardig ruimtelijk beleid. Een prachtig voorbeeld is het bewust inzetten op een gender gelijkwaardige verdeling van straatnamen. Dit doen ze door alle straatnamen in de nieuwbouw wijk Aspern Seestadt, zo groot als het centrum van Wenen zelf alleen naar vrouwen te vernoemen.  <br><br>            Tijdens de zomerparade op 7 juli 2023 exposeren we de sterke vrouwen op de Noordewierweg en overhandigen we een publicatie hierover aan de wethouder van de gemeente Amersfoort voor een gelijkwaardiger straatnamenbeleid in het Soesterkwartier  en heel Amersfoort.              ',
-            location: {
-                center: [5.36207, 52.15940],
-                zoom: 14.00,
-                pitch: 13.00,
-                bearing: 0.00 
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
             id: 'sterk2',
             alignment: 'right',
             hidden: false,
             title: 'Soesterkwartier | Nog meer sterke vrouwen',
             image: '',
-            description: 'Om ook doelgroepen die vaak onzichtbaar zijn te verbinden benaderde ik de King Arthur groep om de workshop Sterke Vrouwen met beginnende dementerende vrouwen te doen. We spraken af dat ik vier ochtenden met hen zou borduren. <br><br>             Het steeds voller rakende geborduurde tafelkleed ging weer mee. Daarop kwam de materialen en de kopjes koffie. Zo borduurden we samen met de begeleiding vier dinsdagochtenden. Sterke vrouwen borduren sterke vrouwen en samen werken we aan een collectief geheugen. Ondertussen deelden we verhalen over de buurt. <br><br>            Het community project sterke vrouwen verbindt buurtbewoners op verschillende plekken in de wijk. Zo is het dankzij de subsidie die ik aanvroeg mogelijk om een excursie naar het wijkmuseum te regelen voor borduursters van de King Arthur groep om daar met de andere vrouwen samen verder te werken aan het “sterke vrouwen project. Dit gaat begin september 2023 plaatsvinden.                  ',
+            description: 'Om ook doelgroepen die vaak onzichtbaar een stem te geven, benaderde ik de King Arthur groep met het voortel om het community borduurproject <a href="#sterk">  Sterke Vrouwen </a> ook met beginnende dementerende vrouwen te doen. We spraken af dat ik vier dinsdag ochtenden met hen zou borduren in het buurthuis <a href="#blauw">  de Sleutel </a>. <br><br>             Het steeds voller rakende geborduurde tafelkleed ging weer mee en kwam centraal op tafel te liggen. Daarop kwamen de materialen en de kopjes koffie. Zo borduurden we samen met de begeleiding. Voor mij was dit heel waardevol. Ik luisterde naar de levensverhalen van deze sterke vrouwen en hoe het vroeger in de wijk was. Terwijl we samen borduurden en zo ook samen werkten aan een collectief geheugen. <br><br>            Het community project <em>Sterke Vrouwen</em> verbindt buurtbewoners op verschillende plekken in de wijk. Zo is het dankzij de subsidie die ik aanvroeg mogelijk om een excursie naar het wijkmuseum te regelen voor de borduursters van de King Arthur groep. Om daar met de andere vrouwen uit de wijk samen verder te werken aan het project. Dit gaat begin september 2023 plaatsvinden.                     ',
             location: {
                 center: [5.35268, 52.16018],
                 zoom: 17.99,
@@ -756,7 +802,7 @@ var config = {
             hidden: false,
             title: 'Methode | Achtergrond | Slow research',
             image: '',
-            description: ' <a href="#methode">Slow Datavisualisatie</a> is een vorm van Slow research. Het gaat om betekenis geven aan het denken door verbinding, reflectie en het omarmen van complexiteit volgens Berg & Seeber in het boek The Slow Professor uit 2017. (p57) Bij Slow research gaat het om vertragen en gebruikt daarom embodied en/of analoge werkvormen tijdens het designproces om tot nieuwe inzichten te komen.  <br><br>           Het gaat wat mij betreft vooral om tijd en ruimte maken om te reflecteren en ten tweede om meer besef te krijgen in de complexiteit van mijn onderwerp en als laatste met dit onderzoek verbinding met de context tot stand te brengen. Met het streven om ongehoorde doelgroepen zichtbaar te maken en zo nieuwe inzichten voor het verbeteren van een gebied te vinden.             ',
+            description: ' <Slow Datavisualisatie is een vorm van Slow research. Het gaat om betekenis geven aan het denken door verbinding, reflectie en het omarmen van complexiteit volgens Berg & Seeber, zoals beschreven in hun boek <em>The Slow Professor </em>(2017). Bij Slow research gaat het om vertragen. Daarom gebruik ik embodied en/of analoge werkvormen, wandelen en borduren, tijdens het designproces om tot nieuwe inzichten te komen. <br><br>             Het gaat er wat mij betreft in mijn onderzoek vooral om, verbinding met de wijk en de <em>wijkmakers</em> onderling tot stand te brengen. Ten tweede pas ik het toe om tijd en ruimte te maken om te kunnen reflecteren en om meer besef te krijgen van de complexiteit van de dingen die spelen in het gebied.  Met daarbij het streven om ongehoorde doelgroepen zichtbaar te maken en zo nieuwe inzichten voor het verbeteren van een gebied te vinden.                         ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -774,7 +820,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Methode | Achtergrond | Slow design',
-            description: 'Slow datavisualisatie methode volgt de Slow Design principes. Deze zijn ontworpen door oprichter van SlowLab Amsterdam Carolyn F. Strauss en professor in Design Research Alastair Fuad-Luke. (2008). Zij noemen Slow Design zelf een vorm van creatief activisme en evaluatie tool die nieuwe waarden levert voor design in de verschuiving naar duurzaamheid door gebruik te maken van zowel kwantitatieve, kwalitatieve en intuïtieve beoordelingsmethodes. <br><br>De 6 principes zijn: onthullen (REVEAL), uitbreiden(EXPAND) reflecteren(REFLECT), verbinden(ENGAGE), participeren(PARTICIPATE) en ontwikkelen(EVOLVE). <br><br>             De Slow datavisualisatie methode past in de traditie van Slow Designers omdat het gericht is op het waarderen van kwalitatieve informatie en daar betekenis aan te geven. Met het doel om op die manier nieuwe inzichten te vergaren (onthullen) door te verbinden van betrokkenen met elkaar en de buurt, te participeren, reflecteren waardoor kennis zich steeds verder kan uitbreiden en ontwikkelen.                    ',
+            description: 'De Slow datavisualisatie methode volgt de Slow Design principes. Deze zijn ontworpen door oprichter van SlowLab Amsterdam Carolyn F. Strauss en professor in Design Research Alastair Fuad-Luke (2008). Zij noemen Slow Design zelf een vorm van creatief activisme en een evaluatie tool die nieuwe waarden levert voor design in de verschuiving naar duurzaamheid door gebruik te maken van zowel kwantitatieve, kwalitatieve en intuïtieve beoordelingsmethodes. De zes principes zijn: onthullen (REVEAL), uitbreiden (EXPAND), reflecteren (REFLECT), verbinden (ENGAGE), participeren (PARTICIPATE) en ontwikkelen (EVOLVE).  <br><br>            De Slow Datavisualisatie methode past in de traditie van Slow Design omdat het gericht is op het waarderen van kwalitatieve informatie en om daar betekenis aan te geven. Met het doel om op die manier nieuwe inzichten te vergaren (onthullen) door betrokkenen te verbinden met elkaar en de buurt, te participeren en te reflecteren waardoor kennis zich steeds verder kan uitbreiden en ontwikkelen.                              ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -793,7 +839,7 @@ var config = {
             hidden: false,
             title: 'Methode | Achtergrond | Creative placemaking',
             iframe:'https://www.youtube.com/embed/31PUM6cd8Fw',
-            description: 'Artists are as an antenna picking up weak signals of the future and bring it to the surface. (Sara Wookey)<br><br>            In 2006 zag ik de dans performance Love’s geography van Sara Wookey in de Melkweg Amsterdam. Gebaseerd op de gelijknamige tekst van Peggy Phelan. Deze voorstelling is me goed bijgebleven.<br><br>            Wookey is geïnspireerd door William H. Whyte. Hij was samen met Jane Jacobs ervan overtuigd dat je veel kunt leren door het observeren van mensen in de publieke ruimte. Zij waren de grondleggers van het ontwikkelen van steden voor mensen; placemaking. .<br><br>            Placemaking is zowel een filosofie en methode die wijkmakers betrekt bij de ontwikkeling van de leefomgeving. Het is gericht op observeren en te luisteren naar de gebruikers – de experts van die openbare ruimte. Met het doel om de kwaliteit van de openbare ruimte te verbeteren maar ook netwerkvorming, gevoel van eigenaarschap en verantwoordelijkheid over deze leefomgeving te bevorderen, ervaren dat de betrokken zelf invloed hebben op de kwaliteit ervan. (pps.org) .<br><br>            Slow datavisualisatie is een vorm van creatieve placemaking. Het zet creatieve en embodied werkvormen in om het observeren en het luisteren te versterken. Met het doel om op deze manier nieuwe inzichten over een buurt op te halen bij betrokkenen. Ik ontdekte dat door deze informatie ook zichtbaar te maken in iets tastbaars als een conversation piece andere betrokkenen deze informatie kunnen verdiepen en zich daarmee ook verbinden aan de verbeteringen van de leefomgeving.                          ',
+            description: 'In 2006 zag ik de dans performance <em>Love’s geography</em> van <a <a href="https://sarawookey.com/"> Sara Wookey</a> in de Melkweg Amsterdam. Deze voorstelling is mij altijd goed bijgebleven.<br><br>            Wookey is geïnspireerd door William H. Whyte (Wookey, 2020). Hij was er samen met Jane Jacobs van overtuigd dat je veel kunt leren door het observeren van mensen in de publieke ruimte. Zij waren de grondleggers van het ontwikkelen van steden voor mensen; placemaking. (pps.org, 2017)<br><br>            Placemaking is zowel een filosofie als methode, die <em>wijkmakers</em> betrekt bij de ontwikkeling van de leefomgeving. Het is gericht op het observeren van en te luisteren naar de gebruikers – de experts van die openbare ruimte. Met het doel om de kwaliteit van de openbare ruimte te verbeteren, maar ook om netwerkvorming, gevoel van eigenaarschap en verantwoordelijkheid over deze leefomgeving te bevorderen. Zo ervaren de betrokkenen dat ze zelf invloed hebben op de kwaliteit ervan. (pps.org, 2017) <br><br>            Slow datavisualisatie is wat mij betreft een vorm van creatieve placemaking. Het zet creatieve en embodied werkvormen in om het observeren en het luisteren te versterken. Met het doel om op deze manier nieuwe inzichten over een buurt op te halen bij betrokkenen. Ik ontdekte betrokkenen deze informatie kunnen verdiepen door de informatie ook zichtbaar te maken in iets tastbaars zoals een conversation piece. Op deze manier verbinden ook deze andere betrokkenen zich daarmee aan de verbeteringen van de leefomgeving. <br><br>                                ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -811,8 +857,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Methode | Achtergrond | Data feminisme',
-            image: 'images/autotuin.png',
-            description: 'Data is the new oil (quote)<br><br>            Data feminism is een doel en een proces om vanuit intersectioneel feminisme te werken naar meer rechtvaardigheid in het groeiende veld van data science. Het gelijknamige boek is geschreven door C. D’Ignazio,  urban planner op het MIT en L. Klein, research professor in digital humanities lab en data science op Emory University. Volgens de schrijfsters gaat het over meer dan alleen gender. Het gaat om wie de machtsposities hebben we wie niet en hoe dat veranderen kan. Ze werken met 7 principes om verandering in de wereld aan te jagen en aan te tonen dat data over mensen gaat. <br><br>            De principes van data feminsm zijn: examine power, challenge power, elevate emotion and embodiement, rehtink binaries and hierarchies, embrace pluralism, consider context. Mak labor visible. (datafeminism p. 8-10)<br><br>            Met name de principes over waarde toekennen aan emotie en embodiment, omarmen van pluralisme en het beschouwen van context zijn principes die je ook terug ziet in mijn werk. <br><br>            Data in welke vorm dan ook is niet neutraal of objectief. Het is altijd belangrijk na te gaan wie heeft data verzameld en tot welk doel. Het is een product van ongelijke sociale verhoudingen. Door dit in ogenschouw te nemen kan slow datavisualisatie bijdragen aan de gelijkwaardigere en rechtvaardigere wereld.              ',
+            image: '',
+            description: 'Data feminism is een doel en een proces om vanuit intersectioneel feminisme te werken naar meer rechtvaardigheid in het groeiende veld van data science. Het gelijknamige boek (2020) is geschreven door D’Ignazio, urban planner op het MIT en Klein, research professor in het digital humanities lab van de Emory University. Volgens de schrijfsters gaat het over meer dan alleen gender. Het gaat om wie de machtsposities hebben en wie niet en hoe dat te veranderen. Ze werken met zeven principes om verandering in de wereld aan te jagen en aan te tonen dat data over mensen gaat.            De principes van data feminsm zijn: examine power, challenge power, elevate emotion and embodiement, rethink binaries and hierarchies, embrace pluralism, consider context en Make labor visible. (D’Ignazio & Klein,p. 8-10)            Met name de principes over waarde toekennen aan emotie en embodiement, omarmen van pluralisme en het beschouwen van context zijn principes die je ook terugziet in mijn werk.             Data in welke vorm dan ook is niet neutraal of objectief. Het is altijd belangrijk om na te gaan wie de data heeft verzameld en met welk doel. Het is een product van ongelijke sociale verhoudingen. Door dit in ogenschouw te nemen kan slow datavisualisatie bijdragen aan een gelijkwaardigere en rechtvaardigere wereld                          ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
