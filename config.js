@@ -158,7 +158,8 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Methode | Verdiepen',
-            image: 'images/verdiepen.png',
+            image: 'images/verdiepimg.svg',
+            imageDescription:'Deelnemers van het community borduurproject <em>Sterke Vrouwen</em> in gesprek rondom de conversation piece; het geborduurde tafelkleed', 
             description: 'Het laatste onderdeel is het verdiepen van de opgehaalde kennis door samen met <em>wijkmakers</em> te borduren rondom de conversation piece. Voor mijn project heb ik gekozen voor een geborduurd tafelkleed. Dit maakt de informatie niet alleen tastbaar, maar ook meerdere malen inzetbaar. Een tafelkleed ligt letterlijk te midden van de groep en is steeds weer in te zetten bij andere doelgroepen. Op deze manier geeft het tafelkleed ruimte aan ieders stem om zo de slow datavisualisaties ook letterlijk te verrijken. Deze meerstemmigheid laat tegelijkertijd de complexiteit van de onderwerpen zien en geeft zo diepere betekenis. ',
             location: {
                 center: [5.36207, 52.15940],
@@ -197,7 +198,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Methode | Verdiepen | Conversation piece ',
-            image: '',
+            image: 'images/joke.jpg',
+            imageDescription:'Het geborduurde tafelkleed als Conversation piece, ingezet tijdens het community borduurproject <em>Sterke Vrouwen</em> ', 
             description: 'Naast de methode die ik ontwerpend ontwikkelde heb ik als resultaat een conversation piece  geborduurd. De conversation piece wordt in gezet om samen met <em>wijkmakers</em> de opgehaalde informatie te verdiepen. Dit is het voorlopige eindresultaat van de wandel en borduur iteraties die ik in de wijk deed. Deze conversation piece is als een topografie van dat gebied, de Amersfoortse wijk het <a href="#wijk">Soesterkwartier</a>. <br><br>            Deze conversation piece kan steeds weer ingezet worden om de informatie te delen en daarmee te verdiepen, als een multilayered storytelling tool. Het is daarom een goede vorm om de verhalen uit de wijk te tonen, omdat de wereld waarin we leven zich niet laat reduceren tot een ordelijk en simpel verhaal. <br><br>            Een multilayered storytelling tool is het inzetten van de slow datavisualisatie methode om ruimte te bieden aan verdere aanvullingen en nieuwe lagen van informatie. Waardoor het proces van verbinden,  reflectie en verdiepen van complexiteit zich herhaalt en daarmee de conversation piece een steeds rijkere gelaagdheid en meerstemmigheid van een wijk toont.                          ',
             location: {
                 center: [5.36207, 52.15940],
