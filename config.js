@@ -48,7 +48,7 @@ var config = {
             id: 'vrouw',
             alignment: 'full',
             hidden: false,
-            title: 'Soesterkwartier | sterke vrouwen portret',
+            title: 'Soesterkwartier | Sterke vrouw Nel',
             image: 'images/nel.svg',
             description: '                  ',
             location: {
@@ -78,7 +78,8 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Conclusie',
-            image: '',
+            image: 'images/conclusie.jpg',
+            imageDescription:'Detail van de geborduurde versie van de Slow datavisualisatie methode', 
             description: 'In dit onderzoek zocht ik naar het antwoord op de vraag: <em>Hoe draagt de slow datavisualisatie methode bij aan het zichtbaar maken van beleving en de betekenis van een wijk voor en met wijkmakers?</em> Hiervoor deed ik ontwerpend onderzoek en ontwikkelde zo de slow datavisualisatie methode in de Amersfoortse wijk het Soesterkwartier. Met deze methode zocht ik naar manieren om andere inzichten over het gebied zichtbaar maken, met als doel om zo bij te dragen aan een gelijkwaardigere leefomgeving.  <br><br>            Het resultaat is een conversation piece die dient als een multilayered storytelling tool.  Deze conversation piece is via de fases verkennen, verbeelden en verdiepen tot stand gekomen. Het zorgt voor verbinding van wijkmakers met de leefomgeving, het versterken van reflectie en omarmen van de complexiteit op de thema s die spelen in een wijk. <br><br>             Het <em>slow</em> uit slow datavisualisatie is terug te zien in de gebruikte werkvormen, zoals wandelen en het analoog verbeelden door te borduren. Activiteiten die bewust vertragen. Tijdens de verkenningsfase is wandelen op verschillende manieren ingezet met als doel om te observeren, zintuigen te gebruiken en langdurig aanwezig te kunnen zijn. Dit heeft inzichten opgeleverd die op andere manieren niet naar boven waren gekomen. <br><br>            Borduren is op drie manieren belangrijk geweest bij het vertragen in dit onderzoek. Ten eerste door mappings, anekdotes en datavisualisaties al bordurend uit te werken met de bedoeling om dieper te kunnen reflecteren op de context. Ten tweede heeft het samen borduren van dit community project bijgedragen aan het verbinden van participanten. Als laatste speelt borduren een rol in het tastbaar maken van de conversation piece. Dit heeft ruimte gemaakt om meerstemmigheid te faciliteren en de complexiteit van de onderwerpen te omarmen. Op deze manieren heeft het borduren bijgedragen aan het verdiepen van de context. <br><br>            De methode is in co-creatie ontwikkeld met wijkmakers uit de Amersfoortse wijk het Soesterkwartier. Wijkmakers zijn diegene die zich inzetten voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve, verbindende en tastbare manier. Dit betreft een breed spectrum van participanten: van betrokken burgers tot urban designers. <br><br>            Uit mijn onderzoek blijkt dat de slow datavisualisatie methode wel degelijk effectief bijdraagt aan gelaagde meerstemmige informatie en dat je door het toepassen van deze methode nieuwe inzichten kunt delen. Hieruit blijkt dat vertragen vermenigvuldigen is.           ', 
             location: {
                 center: [5.36207, 52.15940],
@@ -98,6 +99,7 @@ var config = {
             hidden: false,
             title: 'Methode | Slow Datavisualisatie',
             image: 'images/slowdata.svg',
+            imageDescription:'Schema Slow datavisualisatie ontwikkeld door Baukje Rienks',
             description: 'Slow datavisualisatie is een vorm van <a href="#slowr">slow research</a> gebruik makend van <a href="#slowd">slow design</a> principes. Slow datavisualisaties laten ruimte voor meerstemmigheid en geven ruimte om je eigen verhalen te destilleren en aan te vullen. Ik heb mijn Slow Datavisualisatie methode ontwerpend ontwikkeld om participatief wijkonderzoek te doen. Met deze methode kun je, door je langdurig aan een wijk en de wijkmakers te verbinden, verborgen informatie zichtbaar maken. Ik heb meerdere iteraties met diverse wijkmakers in het Soesterkwartier gedaan. Deze waren gericht op verbinding, reflectie en het omarmen van de complexiteit van de context van de wijk.   <br><br>             Het resultaat is een conversation piece. In dit geval een geborduurd tafelkleed, welke de waarde van die context toont met behulp van subjectieve data en anekdotes. Slow datavisualisaties laten ruimte voor meerstemmigheid en je eigen verhalen te destilleren en aan te vullen. <br><br>            Het slow datavisualisatie proces bestaat uit drie fases namelijk: <a href="#verkenimg">verkennen</a>, <a href="#verbeeldimg">verbeelden</a> en <a href="#verdiepimg">verdiepen</a>. In iedere fase staat een andere tool centraal. Namelijk: wandelen, borduren en de conversation piece             ',
             location: {
                 center: [5.36207, 52.15940],
@@ -116,8 +118,9 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Methode | Verkennen',
-            image: 'images/verkennen.png',
-            description: 'De methode start met het verkennen van het gebied. Ik heb mij voor langere tijd verbonden aan de wijk het Soesterkwartier en de wijkmakers die daar wonen en/of werken. Dit heb ik gedaan door alleen en met anderen daar te gaan wandelen, te observeren, te fotograferen en daarbij bewust de zintuigen in te zetten. Zo heb ik verassende en bijzondere inzichten over de wijk gekregen die ik op andere manieren niet had kunnen ervaren.',
+            image: 'images/verkenimg.svg',
+            imageDescription:'Geborduurde plattegrond van de Bloemenbuurt in Amersfoort', 
+            description: 'De methode start met het verkennen van het gebied. Ik heb mij voor langere tijd verbonden aan de wijk het Soesterkwartier en de wijkmakers die daar wonen en/of werken. Dit heb ik gedaan door alleen en met anderen daar te gaan wandelen, te observeren, te fotograferen en daarbij bewust de zintuigen in te zetten. Zo heb ik verrassende en bijzondere inzichten over de wijk gekregen die ik op andere manieren niet had kunnen ervaren.',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -135,7 +138,8 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Methode | Verbeelden',
-            image: 'images/verbeelden.png',
+            image: 'images/verbeeldimg.svg',
+            imageDescription: 'Leeftijdsopbouw in het Soesterkwartier, tastbaar geborduurd met kraaltjes en op Dahlia`s ',
             description: 'De tweede stap is het verbeelden van de vergaarde informatie en subjectieve data in mappings en slow datavisualisaties. Door het verbeelden bewust te vertragen door middel van borduren, ontstaat er meer ruimte voor reflectie. Dit is van belang om zodoende nieuwe inzichten over de beleving van de wijk te verkrijgen. Het borduren zette ik zowel individueel in als samen, in een community project met verschillende participanten, wijkmakers zoals bewoners, stedenbouwers of vrouwen met beginnende dementie. Dit laatste leidde tot bijzondere ontmoetingen, gesprekken en verhalen.   ',
             location: {
                 center: [5.36207, 52.15940],
