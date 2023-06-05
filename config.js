@@ -624,7 +624,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Soesterkwartier | Noordewierweg',
-            image: '',
+            image: 'images/noordew.jpg',
+            imageDescription: 'Borduursel van een deel van de Noordewierweg', 
             description: 'De Noordewierweg is de straat die de Bloemenbuurt met daarin vooral huurwoningen en de Rivierenbuurt met vooral koopwoningen scheidt. Het is een lange rechte weg die uitnodigt om hard te rijden. ’s Ochtends en ’s middags steken hier veel kinderen de straat over om naar de <a href="#school"> scholen </a> scholen in de rivierenwijk te gaan. Daar waar het kan fietsen vele jonge fietsers en ouders om, via de rustigere en groenere Dollardstraat. <br><br>            Zoals uit de bijnamen, opgehaald tijdens de <a href="#walktalk"> Walk&Talk </a> interviews blijkt, is deze Noordewierweg een barrière in de wijk. Met één uitzondering: de <em>kleine</em> Albert Heyn supermarkt in het midden van de straat. Op deze plek komen de bewoners van beide delen samen. In deze supermarkt kun je ook iets met het personeel regelen. Bijvoorbeeld dat je achteraf betaalt, zodat je demente moeder nog zelf een boodschapje kan gaan doen, zonder dat ze moet afrekenen. Dit vernam ik van de begeleidster van de King Arthur groep.                        ',
             location: {
                 center: [5.37331, 52.15863],
