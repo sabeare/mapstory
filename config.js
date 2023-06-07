@@ -488,7 +488,7 @@ var config = {
             hidden: false,
             title: 'Soesterkwartier | Gestapelde huizen',
             image: 'images/huisverheuvel.png',
-            imageDescription: 'geborduurde collage over een huisje waar al vier generaties dezelfde familite woont.', 
+            imageDescription: 'geborduurde collage over een huisje waar al vier generaties dezelfde familie woont.', 
             description: 'Tijdens veel walk&talk-interviews kwam naar voren dat er in het Soesterkwartier op veel plekken meerdere generaties na elkaar in hetzelfde huis wonen. Dat zegt voor mij iets over de verbondenheid die zij voelen met die plek. Al haar hele leven woont mevrouw Verheuvel, ruim negentig jaar oud, in dit huisje. Ze is de vierde generatie die in dit huis woont: ook haar ouders, grootouders en overgrootmoeder hebben hier gewoond. <br><br>            Ik hoorde dit verhaal tijdens de wandelingen door de buurt. Later sprak ik de zus van mevrouw Verheuvel hierover, tijdens mijn bezoek aan een dagbestedingsgroep van beginnende dementerenden. Zij vertelde mij dat haar overgrootmoeder weduwe werd en met haar kinderen dit huisje mocht betrekken in ruil voor het onderhoud van de naast gelegen Joodse begraafplaats. Door deze anekdote als slow datavisualisatie toe te voegen aan de conversation piece, heb ik dit verhaal zichtbaar gemaakt en kan ik het delen met andere <em>wijkmakers</em> in het Soesterkwartier.                             ',
             location: {
                 center: [5.37023, 52.15690],
