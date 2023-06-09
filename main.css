@@ -116,10 +116,6 @@ a, a:hover, a:visited {
 }
 
 /* Opening */
-#test {
-    background-color: red;
-}
-
 #openingsFoto {
     z-index: 1000;
     height: 100vh;
