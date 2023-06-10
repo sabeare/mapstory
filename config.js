@@ -49,7 +49,7 @@ var config = {
             id: 'vrouw',
             alignment: 'full',
             hidden: false,
-            title: 'Soesterkwartier | Sterke vrouw Nel',
+            title: 'Soesterkwartier | Sterke vrouwen Nel en Marjolein',
             image: 'images/nel.svg',
             description: '                  ',
             location: {
@@ -671,8 +671,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Methode | Verdiepen | Genderongelijkheid en straatnamen',
-            image: '',
-            imageDescription: '',
+            image: 'images/straatnaam.jpg',
+            imageDescription: 'Voorbeeld uit de Weense wijk Aspern Seestadt met alleen straatnamen vernoemd naar vrouwen.',
             description: 'Tijdens mijn onderzoek raakte ik geïnspireerd om me verder te verdiepen in gender ongelijkheid in de LEEFOMGEVING. Dit kwam door mijn eerste iteratie: <em>Ik ben van de kaart</em>. Ik nodigde vrienden uit om mij een brief te schrijven over waar ze zich druk over maakten in de maatschappij. In meerdere brieven kwam de ongelijkwaardige situatie van vrouwen in de publieke ruimte naar voren. Hierop besloot ik mij hier verder in te verdiepen door het boek <em>Invisible Women</em> van schrijfster Caroline Criado Perez (2020) te lezen en zo meer te weten te komen over de bias en hoe vrouwen, ook in de stedelijke leefomgeving worden buitengesloten.  <br><br>            Vervolgens bezocht ik in september 2022 de <ahref="https://www.matrimonydays.be/nl/"> Matrimonium dagen </a> in Brussel. Hier had ik afgesproken met feministe en grafische designer Claire Allard van <a href="https://www.klar.graphics/en/homepage-en/"> Klär graphics</a>. Zij drukte samen met andere deelnemers ansichtkaarten van bekende <a href=" https://www.instagram.com/datadelles/"> Brusselse vrouwen </a> om aandacht te vragen voor een eerlijkere straatnamen verdeling voor vrouwen en genderminderheden. <br><br>            Onlangs bezocht ik Wenen met een aantal <a href="https://www.urbanistasrdam.nl/ "> urbanistas</a>. Dit is een netwerkgroep en platform voor vrouwxn die werken in stedelijke ontwikkeling. Wenen staat bekend om haar gendergelijkwaardig ruimtelijk beleid. Zo zet de stad bewust in op een gender gelijkwaardige verdeling van straatnamen, door alle straatnamen in de nieuwbouwwijk Aspern Seestadt, zo groot als het centrum van Wenen zelf, alleen naar vrouwen te vernoemen.  <br><br>            In het Soesterkwartier is vijftien procent van de straten naar een persoon vernoemd. Niet één daarvan is vrouw. Eerder onderzoek in Amsterdam wees uit dat van de straten die naar mensen zijn vernoemd, gemiddeld 88 procent vernoemd is naar mannen en 12 procent naar vrouwen (Korte & Sprinkhuizen, 2018). In Groningen is het percentage vrouwen nog lager, slechts 10 procent van de personen die tot straatnamen zijn vernoemd is vrouw (Bol, 2018).  Rondom en in het Soesterkwartier zullen de komende jaren veel nieuwe straten en pleinen komen. Daarom is het nu een uitgelezen kans om een begin te maken met een gelijkwaardige verdeling.  <br><br>                                ',
             location: {
                 center: [5.36207, 52.15940],
@@ -690,8 +690,8 @@ var config = {
             id: 'vrouw2',
             alignment: 'full',
             hidden: false,
-            title: 'Soesterkwartier | Sterke vrouwen portret',
-            image: 'images/nel.svg',
+            title: 'Soesterkwartier | Sterke vrouwen Anne en Marta',
+            image: 'images/anne.svg',
             description: '                  ',
             location: {
                 center: [5.36207, 52.15940],
@@ -714,7 +714,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Soesterkwartier | Sterke vrouwen I',
-            image: '',
+            image: 'images/hedy.jpg',
+            imageDescription:'Hedy d`Ancona geborduurd door Edith.', 
             description: ' Om mijn <a href="#conver"> conversation piece</a> het geborduurde tafelkleed bij nieuwe doelgroepen in te zetten, ontwikkelde ik het community-borduurproject Sterke Vrouwen om eenmalig uit te voeren op Internationale Vrouwendag 2023. De bedoeling was om samen met de deelnemers een aantal sterke vrouwen uit het Soesterkwartier, Amersfoort, Nederland en het buitenland te borduren. Op deze manier wilde ik aandacht vragen voor de ongelijke genderverdeling van <a href="#straat"> straatnamen</a>. Rondom en in het Soesterkwartier zullen de komende jaren bijvoorbeeld ongeveer 5000 woningen en ook nieuwe straten komen. De impact hiervan wilde ik met behulp van de conversation piece verdiepen. <br><br>            Ik benaderde deelnemers via mijn inmiddels opgebouwde netwerk in het Soesterkwartier en via de website van Internationale Vrouwendag met de volgende tekst: <br><br> <em>Op 8 maart 2023 is het Internationale Vrouwendag. Dit is de start van de aanleg van een verzameling van straatnamen met alleen sterke vrouwen. We hebben er al een aantal uitgezocht die een link met Amersfoort hebben. Maar je mag ook je eigen sterke-vrouwen-portretten meenemen</em>. <br><br>            Expliciet had ik vermeld dat iedereen mee mocht doen, ongeacht ervaring en gender. M/v/x, iedereen was welkom. Er kwamen alleen vrouwen van begin twintig tot achter in de zestig.  <br><br>            Voor de locatie van het community borduurproject <a href=“#sterk”>Sterke Vrouwen</a> heb ik bewust gekozen voor het <a href=https://wijkmuseumsoesterkwartier.nl/>Wijkmuseum Soesterkwartier </a>. Het museum is erop gericht om het verleden van de wijk levend te houden en verbinding met de wijk tot stand te brengen. Het project <em>Sterke Vrouwen</em> stimuleert de onderlinge verbinding en de verbinding met de wijk, wat naadloos aansluit op de doelstelling van het museum. De vrijwilligers van het wijkmuseum gaven aan hiervoor open te staan, om zo ook meer bezoekers te trekken en het bestaansrecht van het museum te versterken.                                     ',
             location:{
                 center: [5.37143, 52.15849],
@@ -734,7 +735,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Soesterkwartier | Sterke vrouwen II',
-            image: '',
+            image: 'images/zus.jpg',
+            imageDescription:'Deelneemster Lotte eerde haar zus als sterke vrouw.', 
             description: 'Sommige deelnemers borduurden de vrouwen die ik vooraf had geselecteerd, anderen gaven de voorkeur aan eigen idolen zoals hardloopster Femke Bol of klimaatactivist Greta Thunberg. Daarnaast gaven een aantal aan juist hun eigen moeder of zus te willen eren. Een relevante aanvulling, die laat zien dat een sterke vrouw niet iemand met een publieke functie hoeft te zijn. <br><br>             Rondom het tafelkleed kwamen zeventien vrouwen borduren. Het werd een gezellige avond met veel ruimte voor ontmoetingen en verbinding over sterke vrouwen en de ongelijke gender-verdeling van straatnamen. Maar er was ook ruimte om de informatie, onder andere over de eerder besproken categorieën zoals jongeren, gentrificatie, democratie en vergroening, op de conversation piece met elkaar te delen. Zoals het verhaal van <a href=“#stapel”>mevrouw Verheuvel </a> en een open gesprek over de keuzes om kinderen wel of niet in de wijk naar school te laten gaan. Het was waardevol om te zien dat opgehaalde informatie aan de hand van de conversation piece kon worden verdiept. Hieruit blijkt dat mensen samen brengen rondom door mij geborduurde conversation en het samen borduren daadwerkelijk WIJKMAKERS in meerstemmigheid verbindt<br><br>             Tijdens de avond vroegen veel deelnemers om een vervolg aan het project. Ook uit de berichtjes na de workshop bleek dat de behoefte om op deze manier met elkaar te verbinden in de wijk groot was. Daarop heb ik een subsidie aangevraagd en gekregen om het project <em>Sterke Vrouwen</em> verder uit te rollen.  <br><br>            Tijdens de jaarlijkse Zomerparade in het Soesterkwartier op 7 juli 2023 zal ik de portretten van de geborduurde sterke vrouwen exposeren. Het is de bedoeling dat ik dan ook de hierover door mij samengestelde publicatie van geborduurde sterke vrouwen, aan de wethouder van de gemeente Amersfoort zal overhandigen. Zo vragen we als community aandacht voor een gender gelijkwaardiger straatnamenbeleid in het Soesterkwartier en heel Amersfoort.                                                ',
             location: {
                 center: [5.36207, 52.15940],
@@ -752,8 +754,8 @@ var config = {
             id: 'vrouw3',
             alignment: 'full',
             hidden: false,
-            title: 'Soesterkwartier | sterke vrouwen portret',
-            image: 'images/nel.svg',
+            title: 'Soesterkwartier | sterke vrouwen Coco en Kino',
+            image: 'images/coco.svg',
             description: '                  ',
             location: {
                 center: [5.36207, 52.15940],
@@ -871,7 +873,8 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Toekomst',
-            image: '',
+            image: 'images/explore.jpg',
+            imageDescription: 'Zen mindset waarmee Baukje ook na haar master Design mee door zal gaan.',
             description: 'In de nabije toekomst ga ik een workshop over mijn methode geven binnen het netwerk van Urbanista’s Rotterdam. Daarnaast ga ik in september 2023 een walking experience leiden op de conferentie Creatieve Methods in Manchester. <br><br>            Verder ga ik door met het communityborduurproject <a href=“#sterk”>Sterke Vrouwen</a>  in het Soesterkwartier. Ten eerste om de bibliotheek verder te vullen met geborduurde portretten om zo aandacht te genereren voor het belang van een meer gendergelijkwaardige LEEFOMGEVING. Hiervoor heb ik een subsidie gekregen van de gemeente Amersfoort. Daarnaast wil ik samenwerkingen zoeken zoals bijvoorbeeld met kennisinstituut voor emancipatie en vrouwengeschiedenis Atria. <br><br>            Ik denk dat ik op deze manier het project ook kan uitbreiden naar andere wijken. Ook hoop ik de zichtbaarheid van het project te versterken door een interactieve stratenkaart te ontwikkelen om de genderverschillen inzichtelijk te maken. Dit geeft me ook de mogelijkheid om het idee van een borduurboek SLOW DATAVISUALISATIE verder te ontwikkelen en borduurtafels te ontwerpen die als een pop-up sociaal terras overal ingezet kunnen worden. Al deze onderdelen hebben ten doel om verdieping te geven aan de beleving en betekenis van WIJKMAKERS met hun leefomgeving. <br><br>            Daarnaast wil ik gaan onderzoeken of de slow datavisualisatie methode ook werkt met een andere werkvorm dan borduren in de verdiepingsfase. Om andere verborgen doelgroepen die een drempel hebben om te borduren te kunnen bereiken. Deze werkvorm moet dan wel voldoen aan de voorwaarden die ik geïdentificeerd heb: vertragen, geschikt om geo- en andere data te visualiseren; gelaagdheid en samenwerken. Ik denk daarbij bijvoorbeeld aan het maken van murals. <br><br>       Ondertussen wil ik mijn slow urban design studio, Sabeare verder ontwikkelen en opdrachten en samenwerkingen aangaan vanuit mijn ontwikkelde methode. Om dit verder kracht bij te zetten ga ik in het najaar van 2023 een aanvraag doen bij het stimuleringsfonds.                                  ',
             location: {
                 center: [5.36207, 52.15940],
