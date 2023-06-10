@@ -161,6 +161,7 @@ var config = {
             title: 'Methode | Verdiepen | Tafelkleed als conversation piece',
             iframe: '',
             image: 'images/tafelkleed_quick.jpg',
+            imageDescription:'Converation piece in het beginstadium met een aantal geborduurde slow datavisualisaties.', 
             description: '',
             location: {
                 center: [5.36207, 52.15940],
