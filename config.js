@@ -871,33 +871,13 @@ var config = {
             onChapterExit: []
         },  
         {
-            id: 'toekomst',
-            alignment: 'center',
-            hidden: false,
-            title: 'Toekomst',
-            image: 'images/explore.jpg',
-            imageDescription: 'Zen-mindset, waar Baukje Rienks ook na haar master Design mee door zal gaan.',
-            description: 'In de nabije toekomst ga ik een workshop over mijn methode geven binnen het netwerk van Urbanista’s Rotterdam. Daarnaast ga ik in september 2023 een walking experience leiden op de conferentie Creatieve Methods in Manchester. <br><br>            Verder ga ik door met het communityborduurproject <a href=“#sterk”>Sterke Vrouwen</a>  in het Soesterkwartier. Ten eerste om de bibliotheek verder te vullen met geborduurde portretten om zo aandacht te genereren voor het belang van een meer gendergelijkwaardige LEEFOMGEVING. Hiervoor heb ik een subsidie gekregen van de gemeente Amersfoort. Daarnaast wil ik samenwerkingen zoeken zoals bijvoorbeeld met kennisinstituut voor emancipatie en vrouwengeschiedenis Atria. <br><br>            Ik denk dat ik op deze manier het project ook kan uitbreiden naar andere wijken. Ook hoop ik de zichtbaarheid van het project te versterken door een interactieve stratenkaart te ontwikkelen om de genderverschillen inzichtelijk te maken. Dit geeft me ook de mogelijkheid om het idee van een borduurboek SLOW DATAVISUALISATIE verder te ontwikkelen en borduurtafels te ontwerpen die als een pop-up sociaal terras overal ingezet kunnen worden. Al deze onderdelen hebben ten doel om verdieping te geven aan de beleving en betekenis van WIJKMAKERS met hun leefomgeving. <br><br>            Daarnaast wil ik gaan onderzoeken of de slow datavisualisatie methode ook werkt met een andere werkvorm dan borduren in de verdiepingsfase. Om andere verborgen doelgroepen die een drempel hebben om te borduren te kunnen bereiken. Deze werkvorm moet dan wel voldoen aan de voorwaarden die ik geïdentificeerd heb: vertragen, geschikt om geo- en andere data te visualiseren; gelaagdheid en samenwerken. Ik denk daarbij bijvoorbeeld aan het maken van murals. <br><br>       Ondertussen wil ik mijn slow urban design studio, Sabeare verder ontwikkelen en opdrachten en samenwerkingen aangaan vanuit mijn ontwikkelde methode. Om dit verder kracht bij te zetten ga ik in het najaar van 2023 een aanvraag doen bij het stimuleringsfonds.                                  ',
-            location: {
-                center: [5.36207, 52.15940],
-                zoom: 14.00,
-                pitch: 13.00,
-                bearing: 0.00 
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },   
-        {
             id: 'conclusie',
             alignment: 'center',
             hidden: false,
             title: 'Conclusie',
             image: 'images/conclusie.jpg',
             imageDescription:'Detail van de geborduurde versie van de slow datavisualisatie methode', 
-            description: 'In dit onderzoek zocht ik naar het antwoord op de vraag: <em>Hoe kan een SLOW DATAVISUALISATIE methode worden vormgegeven die bijdraagt aan het zichtbaar maken van de beleving en de betekenis van een wijk voor en met WIJKMAKERS</em> Hiervoor deed ik ontwerpend onderzoek en ontwikkelde zo de slow datavisualisatiemethode in de Amersfoortse wijk het Soesterkwartier. Met deze methode zocht ik naar manieren om andere inzichten over het gebied zichtbaar maken. Om zo bij te dragen aan een gelijkwaardige LEEFOMGEVING, een leefomgeving met gelijke kansen voor de bewoners. <br><br>            Een centraal onderdeel van de door mij ontwikkelde methode is een conversation piece die dient als een MULTILAYERED STORYTELLING TOOL.  Deze conversation piece is via de fases <em>verkennen, verbeelden</em> en <em>verdiepen</em> tot stand gekomen. Het zorgt voor verbinding van wijkmakers met de leefomgeving, het versterken van reflectie en het omarmen van de complexiteit van de thema’s die spelen in een wijk. <br><br>            Het <em>slow</em> uit slow datavisualisatie is terug te zien in de gebruikte werkvormen, zoals wandelen en het ANALOOG verbeelden door te borduren. Activiteiten die bewust vertragen. Tijdens de verkenningsfase is wandelen op verschillende manieren ingezet met als doel om te observeren, allerlei zintuigen te gebruiken en langdurig aanwezig te kunnen zijn. Dit heeft inzichten opgeleverd die op andere manieren niet naar boven waren gekomen. <br><br>            Borduren is op drie manieren belangrijk geweest bij het vertragen in dit onderzoek. Ten eerste door mappings, anekdotes en datavisualisaties al bordurend uit te werken met de bedoeling om dieper te kunnen reflecteren op de context. Ten tweede heeft het samen borduren tijdens een community project bijgedragen aan het verbinden van participanten. Als laatste speelt borduren een rol in het tastbaar maken van de conversation piece. Dit heeft ruimte gemaakt om meerstemmigheid te faciliteren en de complexiteit van de onderwerpen te omarmen. Op deze manieren heeft het borduren bijgedragen aan het verdiepen van de context. <br><br>            De methode is ontwikkeld met participatief onderzoek met wijkmakers uit de Amersfoortse wijk het Soesterkwartier. wijkmakers zijn diegenen die zich inzetten voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve, verbindende en tastbare manier. Dit betreft een breed spectrum van participanten: van betrokken burgers tot urban designers. <br><br>            Uit mijn onderzoek blijkt dat de slow datavisualisatiemethode effectief bijdraagt aan gelaagde meerstemmige informatie en dat je door het toepassen van deze methode nieuwe inzichten kunt verkrijgen en delen. Hieruit blijkt dat vertragen vermenigvuldigen is.  <br><br> <a href="#welkom">HOME</a>                   ', 
+            description: 'In dit onderzoek zocht ik naar het antwoord op de vraag: <em>Hoe kan een SLOW DATAVISUALISATIE methode worden vormgegeven die bijdraagt aan het zichtbaar maken van de beleving en de betekenis van een wijk voor en met WIJKMAKERS</em> Hiervoor deed ik ontwerpend onderzoek en ontwikkelde zo de slow datavisualisatiemethode in de Amersfoortse wijk het Soesterkwartier. Met deze methode zocht ik naar manieren om andere inzichten over het gebied zichtbaar maken. Om zo bij te dragen aan een gelijkwaardige LEEFOMGEVING, een leefomgeving met gelijke kansen voor de bewoners. <br><br>            Een centraal onderdeel van de door mij ontwikkelde methode is een conversation piece die dient als een MULTILAYERED STORYTELLING TOOL.  Deze conversation piece is via de fases <em>verkennen, verbeelden</em> en <em>verdiepen</em> tot stand gekomen. Het zorgt voor verbinding van wijkmakers met de leefomgeving, het versterken van reflectie en het omarmen van de complexiteit van de thema’s die spelen in een wijk. <br><br>            Het <em>slow</em> uit slow datavisualisatie is terug te zien in de gebruikte werkvormen, zoals wandelen en het ANALOOG verbeelden door te borduren. Activiteiten die bewust vertragen. Tijdens de verkenningsfase is wandelen op verschillende manieren ingezet met als doel om te observeren, allerlei zintuigen te gebruiken en langdurig aanwezig te kunnen zijn. Dit heeft inzichten opgeleverd die op andere manieren niet naar boven waren gekomen. <br><br>            Borduren is op drie manieren belangrijk geweest bij het vertragen in dit onderzoek. Ten eerste door mappings, anekdotes en datavisualisaties al bordurend uit te werken met de bedoeling om dieper te kunnen reflecteren op de context. Ten tweede heeft het samen borduren tijdens een community project bijgedragen aan het verbinden van participanten. Als laatste speelt borduren een rol in het tastbaar maken van de conversation piece. Dit heeft ruimte gemaakt om meerstemmigheid te faciliteren en de complexiteit van de onderwerpen te omarmen. Op deze manieren heeft het borduren bijgedragen aan het verdiepen van de context. <br><br>            De methode is ontwikkeld met participatief onderzoek met wijkmakers uit de Amersfoortse wijk het Soesterkwartier. wijkmakers zijn diegenen die zich inzetten voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve, verbindende en tastbare manier. Dit betreft een breed spectrum van participanten: van betrokken burgers tot urban designers. <br><br>            Uit mijn onderzoek blijkt dat de slow datavisualisatiemethode effectief bijdraagt aan gelaagde meerstemmige informatie en dat je door het toepassen van deze methode nieuwe inzichten kunt verkrijgen en delen. Hieruit blijkt dat vertragen vermenigvuldigen is.  ', 
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -918,6 +898,26 @@ var config = {
             image: 'images/slowdata.svg',
             imageDescription:'', 
             description: '                 ', 
+            location: {
+                center: [5.36207, 52.15940],
+                zoom: 14.00,
+                pitch: 13.00,
+                bearing: 0.00 
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },   
+        {
+            id: 'toekomst',
+            alignment: 'center',
+            hidden: false,
+            title: 'Toekomst',
+            image: 'images/explore.jpg',
+            imageDescription: 'Zen-mindset, waar Baukje Rienks ook na haar master Design mee door zal gaan.',
+            description: 'In de nabije toekomst ga ik een workshop over mijn methode geven binnen het netwerk van Urbanista’s Rotterdam. Daarnaast ga ik in september 2023 een walking experience leiden op de conferentie Creatieve Methods in Manchester. <br><br>            Verder ga ik door met het communityborduurproject <a href=“#sterk”>Sterke Vrouwen</a>  in het Soesterkwartier. Ten eerste om de bibliotheek verder te vullen met geborduurde portretten om zo aandacht te genereren voor het belang van een meer gendergelijkwaardige LEEFOMGEVING. Hiervoor heb ik een subsidie gekregen van de gemeente Amersfoort. Daarnaast wil ik samenwerkingen zoeken zoals bijvoorbeeld met kennisinstituut voor emancipatie en vrouwengeschiedenis Atria. <br><br>            Ik denk dat ik op deze manier het project ook kan uitbreiden naar andere wijken. Ook hoop ik de zichtbaarheid van het project te versterken door een interactieve stratenkaart te ontwikkelen om de genderverschillen inzichtelijk te maken. Dit geeft me ook de mogelijkheid om het idee van een borduurboek SLOW DATAVISUALISATIE verder te ontwikkelen en borduurtafels te ontwerpen die als een pop-up sociaal terras overal ingezet kunnen worden. Al deze onderdelen hebben ten doel om verdieping te geven aan de beleving en betekenis van WIJKMAKERS met hun leefomgeving. <br><br>            Daarnaast wil ik gaan onderzoeken of de slow datavisualisatie methode ook werkt met een andere werkvorm dan borduren in de verdiepingsfase. Om andere verborgen doelgroepen die een drempel hebben om te borduren te kunnen bereiken. Deze werkvorm moet dan wel voldoen aan de voorwaarden die ik geïdentificeerd heb: vertragen, geschikt om geo- en andere data te visualiseren; gelaagdheid en samenwerken. Ik denk daarbij bijvoorbeeld aan het maken van murals. <br><br>       Ondertussen wil ik mijn slow urban design studio, Sabeare verder ontwikkelen en opdrachten en samenwerkingen aangaan vanuit mijn ontwikkelde methode. Om dit verder kracht bij te zetten ga ik in het najaar van 2023 een aanvraag doen bij het stimuleringsfonds.  <br><br> <a href="#welkom">HOME</a>                                  ',
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
