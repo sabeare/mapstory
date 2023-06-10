@@ -136,7 +136,13 @@ a, a:hover, a:visited {
 
 /*  */
 #kleedimg>div {
-    background-color:rgb(85, 116, 94)
+    background-color:rgb(85, 116, 94);
+    color: white;
+}
+
+#autopark>div {
+    background-color:rgb(85, 116, 94);
+    color: white;
 }
 
 
