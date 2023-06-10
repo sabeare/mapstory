@@ -252,7 +252,7 @@ var config = {
             hidden: false,
             title: 'Soesterkwartier | Parkeren in de voortuin',
             image: 'images/autopark.svg',
-            imageDescription: 'Selectie van auto’s geparkeerd in de voortuinen in het Soesterkwartier. ',
+            imageDescription: 'Fotoselectie voor slow datavisualisatie van auto’s geparkeerd in de voortuinen in het Soesterkwartier. ',
             description: ' Door regelmatig door de wijk te flaneren en daarbij mijn zintuigen in te zetten verzamelde ik informatie die je niet via reguliere databronnen kunt vergaren. Wat mij bijvoorbeeld opviel in de Bloemen- en de Bomenbuurt van het Soesterkwartier, is dat de voortuinen vaak volledig betegeld zijn en regelmatig als parkeerplaats dienen.         ',
             location: {
                 center: [5.37171, 52.15778],
@@ -439,8 +439,9 @@ var config = {
             id: 'talk',
             alignment: 'right',
             hidden: false,
-            title: 'Soesterkwartier | Analyse walk&talk gesprekken',
+            title: 'Soesterkwartier | Analyse walk&talkinterviews',
             image: 'images/radarchart_walk&talk.png',
+            imageDescription: 'Grafiek n.a.v. analyse interviews, die als basis dient voor een slow datavisualisatie.', 
             description: 'Ik heb een analyse van de gevoerde walk&talk gesprekken gemaakt. Hiervoor gebruikte ik de <a href="#mental">MENTAL MAPS</a> die de deelnemers als samenvatting hadden gemaakt en de door mijzelf geschreven reflecties. Ik ordende de onderwerpen waarover gesproken was. Deze konden in vier categorieën worden ingedeeld: jongeren, gentrificatie, democratie en vergroening. Vervolgens maakte ik een score-indeling om deze onderwerpen in een grafiek te koppelen aan hoelang iemand in het Soesterkwartier woont. <br><br>            Je ziet dat degenen die het langst in het Soesterkwartier wonen het meest over jongeren en gentrificatie spreken. Zij ondervinden de veranderingen het sterkst. Ook is vergroening voor hen een belangrijk onderwerp. Dat is verklaarbaar, aangezien deze personen in de Bloemenbuurt wonen en hier weinig groen in de omgeving is. Degenen die het kortst in de wijk wonen, wonen in de Rivierenbuurt of de nieuwbouwwijk op de Wagenwerkplaats. Zij richten zich meer op gentrificatie en democratie en verbinding in de buurt.                               ',
             location: {
                 center: [5.36276, 52.16034],
@@ -895,7 +896,7 @@ var config = {
             title: 'Conclusie',
             image: 'images/conclusie.jpg',
             imageDescription:'Detail van de geborduurde versie van de slow datavisualisatie methode', 
-            description: 'In dit onderzoek zocht ik naar het antwoord op de vraag: <em>Hoe kan een SLOW DATAVISUALISATIE methode worden vormgegeven die bijdraagt aan het zichtbaar maken van de beleving en de betekenis van een wijk voor en met WIJKMAKERS</em> Hiervoor deed ik ontwerpend onderzoek en ontwikkelde zo de slow datavisualisatiemethode in de Amersfoortse wijk het Soesterkwartier. Met deze methode zocht ik naar manieren om andere inzichten over het gebied zichtbaar maken. Om zo bij te dragen aan een gelijkwaardige LEEFOMGEVING, een leefomgeving met gelijke kansen voor de bewoners. <br><br>            Een centraal onderdeel van de door mij ontwikkelde methode is een conversation piece die dient als een MULTILAYERED STORYTELLING TOOL.  Deze conversation piece is via de fases <em>verkennen, verbeelden</em> en <em>verdiepen</em> tot stand gekomen. Het zorgt voor verbinding van wijkmakers met de leefomgeving, het versterken van reflectie en het omarmen van de complexiteit van de thema’s die spelen in een wijk. <br><br>            Het <em>slow</em> uit slow datavisualisatie is terug te zien in de gebruikte werkvormen, zoals wandelen en het ANALOOG verbeelden door te borduren. Activiteiten die bewust vertragen. Tijdens de verkenningsfase is wandelen op verschillende manieren ingezet met als doel om te observeren, allerlei zintuigen te gebruiken en langdurig aanwezig te kunnen zijn. Dit heeft inzichten opgeleverd die op andere manieren niet naar boven waren gekomen. <br><br>            Borduren is op drie manieren belangrijk geweest bij het vertragen in dit onderzoek. Ten eerste door mappings, anekdotes en datavisualisaties al bordurend uit te werken met de bedoeling om dieper te kunnen reflecteren op de context. Ten tweede heeft het samen borduren tijdens een community project bijgedragen aan het verbinden van participanten. Als laatste speelt borduren een rol in het tastbaar maken van de conversation piece. Dit heeft ruimte gemaakt om meerstemmigheid te faciliteren en de complexiteit van de onderwerpen te omarmen. Op deze manieren heeft het borduren bijgedragen aan het verdiepen van de context. <br><br>            De methode is ontwikkeld met participatief onderzoek met wijkmakers uit de Amersfoortse wijk het Soesterkwartier. wijkmakers zijn diegenen die zich inzetten voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve, verbindende en tastbare manier. Dit betreft een breed spectrum van participanten: van betrokken burgers tot urban designers. <br><br>            Uit mijn onderzoek blijkt dat de slow datavisualisatiemethode effectief bijdraagt aan gelaagde meerstemmige informatie en dat je door het toepassen van deze methode nieuwe inzichten kunt verkrijgen en delen. Hieruit blijkt dat vertragen vermenigvuldigen is.                     ', 
+            description: 'In dit onderzoek zocht ik naar het antwoord op de vraag: <em>Hoe kan een SLOW DATAVISUALISATIE methode worden vormgegeven die bijdraagt aan het zichtbaar maken van de beleving en de betekenis van een wijk voor en met WIJKMAKERS</em> Hiervoor deed ik ontwerpend onderzoek en ontwikkelde zo de slow datavisualisatiemethode in de Amersfoortse wijk het Soesterkwartier. Met deze methode zocht ik naar manieren om andere inzichten over het gebied zichtbaar maken. Om zo bij te dragen aan een gelijkwaardige LEEFOMGEVING, een leefomgeving met gelijke kansen voor de bewoners. <br><br>            Een centraal onderdeel van de door mij ontwikkelde methode is een conversation piece die dient als een MULTILAYERED STORYTELLING TOOL.  Deze conversation piece is via de fases <em>verkennen, verbeelden</em> en <em>verdiepen</em> tot stand gekomen. Het zorgt voor verbinding van wijkmakers met de leefomgeving, het versterken van reflectie en het omarmen van de complexiteit van de thema’s die spelen in een wijk. <br><br>            Het <em>slow</em> uit slow datavisualisatie is terug te zien in de gebruikte werkvormen, zoals wandelen en het ANALOOG verbeelden door te borduren. Activiteiten die bewust vertragen. Tijdens de verkenningsfase is wandelen op verschillende manieren ingezet met als doel om te observeren, allerlei zintuigen te gebruiken en langdurig aanwezig te kunnen zijn. Dit heeft inzichten opgeleverd die op andere manieren niet naar boven waren gekomen. <br><br>            Borduren is op drie manieren belangrijk geweest bij het vertragen in dit onderzoek. Ten eerste door mappings, anekdotes en datavisualisaties al bordurend uit te werken met de bedoeling om dieper te kunnen reflecteren op de context. Ten tweede heeft het samen borduren tijdens een community project bijgedragen aan het verbinden van participanten. Als laatste speelt borduren een rol in het tastbaar maken van de conversation piece. Dit heeft ruimte gemaakt om meerstemmigheid te faciliteren en de complexiteit van de onderwerpen te omarmen. Op deze manieren heeft het borduren bijgedragen aan het verdiepen van de context. <br><br>            De methode is ontwikkeld met participatief onderzoek met wijkmakers uit de Amersfoortse wijk het Soesterkwartier. wijkmakers zijn diegenen die zich inzetten voor het gelijkwaardiger maken en verbeteren van de leefomgeving op een creatieve, verbindende en tastbare manier. Dit betreft een breed spectrum van participanten: van betrokken burgers tot urban designers. <br><br>            Uit mijn onderzoek blijkt dat de slow datavisualisatiemethode effectief bijdraagt aan gelaagde meerstemmige informatie en dat je door het toepassen van deze methode nieuwe inzichten kunt verkrijgen en delen. Hieruit blijkt dat vertragen vermenigvuldigen is.  <br><br> <a href="#welkom">HOME</a>                   ', 
             location: {
                 center: [5.36207, 52.15940],
                 zoom: 14.00,
@@ -907,6 +908,26 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },           
+        },
+        {
+            id: 'slowd',
+            alignment: 'center',
+            hidden: false,
+            title: 'Schema slow datavisualisatiemethode',
+            image: 'images/slowdata.svg',
+            imageDescription:'', 
+            description: '                 ', 
+            location: {
+                center: [5.36207, 52.15940],
+                zoom: 14.00,
+                pitch: 13.00,
+                bearing: 0.00 
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },            
     ]
 };
