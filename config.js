@@ -181,7 +181,7 @@ var config = {
             hidden: false,
             title: 'Methode | Verdiepen | Tafelkleed als conversation piece II',
             image: 'images/joke.jpg',
-            imageDescription:'Als onderdeel van de methode, borduurde ik samen met anderen een tafelkleed. Deze conversation piece heb ik ingezet om verbinding in de wijk tot stand te brengen. ', 
+            imageDescription:'Borduren tijdens het community borduurproject Sterke Vrouwen rondom de conversation piece.', 
             description: 'Als onderdeel van de methode die ik ontwerpend ontwikkelde heb ik een conversation piece geborduurd. De conversation piece wordt ingezet om samen met WIJKMAKERS de opgehaalde informatie van de <a href="#vertraag">vertragende</a> wandel- en borduuriteraties die ik in de wijk deed te verdiepen. Deze conversation piece is als een topografie van dat gebied, de Amersfoortse wijk het <a href="#wijk">Soesterkwartier</a>. <br><br>            Uit mijn onderzoek is gebleken dat deze conversation piece die in eerste instantie bedoeld was om te verdiepen ook gebruikt kan worden om onderwerpen opnieuw te verkennen en te verbeelden. Dit maakt de conversation piece een MULTILAYERED STORYTELLING TOOL. Het is daarom een goede vorm om (verborgen) verhalen uit de wijk te delen, omdat de wereld waarin we leven complex is en zich niet laat reduceren tot een ordelijk en simpel verhaal. <br><br>                                    ',
             location: {
                 center: [5.36207, 52.15940],
