@@ -894,7 +894,7 @@ var config = {
             id: 'slowd',
             alignment: 'center',
             hidden: false,
-            title: 'Schema slow datavisualisatiemethode',
+            title: 'Methode | Schema slow datavisualisatie',
             image: 'images/slowdata.svg',
             imageDescription:'', 
             description: '                 ', 
